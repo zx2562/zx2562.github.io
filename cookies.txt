@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.gyazo.com	TRUE	/	FALSE	1999999999	__cfduid	db03cff1f42195c1323ddca12eaff2f491593643844
+i.gyazo.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+

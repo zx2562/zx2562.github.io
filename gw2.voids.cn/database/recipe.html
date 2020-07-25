@@ -1,0 +1,1592 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<!-- Mirrored from gw2.voids.cn/database/recipe by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Jul 2020 22:07:04 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <script data-ad-client="ca-pub-2787907297523705" async src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="泰瑞亚探险家协会，是激战2游戏资料平台，拥有全面的激战2数据库，激战2游戏指南，攻略内容已涵盖全新版本烈焰征途、冰巢传说">
+    <meta name="author" content="Thanatos.">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/logo-mid-black.png">
+    <title>配方数据库 | 激战2 泰瑞亚探险家协会 | 职业BD | 数据库 | 游戏资料</title>
+    
+    <!-- Bootstrap Core CSS -->
+<!-- <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"> -->
+<link href="../static/material-pro/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!--alerts CSS -->
+<link href="../static/material-pro/assets/plugins/sweetalert/sweetalert.css" rel="stylesheet" type="text/css">
+
+<!-- Viewer CSS -->
+<link href="../static/Viewer/viewer.min.css" rel="stylesheet">
+
+<link href="../static/material-pro/assets/plugins/wizard/steps.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="../static/material-pro/dark-frontend/css/stylef543.css?v=2020.05.28" rel="stylesheet">
+
+<!-- Swiper 5.3.8 -->
+<link rel="stylesheet" href="../static/swiper-5.3.8/package/css/swiper.min.css">
+
+<!-- You can change the theme colors from here -->
+
+<link href="../static/material-pro/dark-frontend/css/colors/default-dark.css" id="theme" rel="stylesheet">
+
+<!-- DIY Style -->
+<link rel="stylesheet" href="../css/frontend-style133b.css?v=2020.06.24">
+<link rel="stylesheet" href="../css/background-imagesf214.css?v=2020.06.28">
+<link rel="stylesheet" href="../css/index133b.css?v=2020.06.24">
+<link rel="stylesheet" href="../css/ad8c38.css?v=2020.06.29">
+<link rel="stylesheet" href="../css/gw2stylef214.css?v=2020.06.28">
+<link rel="stylesheet" href="../css/tooltip0fe9.css?v=2020.06.14">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+    <!-- ============================================================== -->
+    <!-- <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script> -->
+    <script src="../static/material-pro/assets/plugins/jquery/jquery.min.js"></script>
+    <!-- vue -->
+    <!-- <script src="https://cdn.bootcss.com/vue/2.6.10/vue.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+    <script src="../js/vue.min.js"></script>
+    <!-- <script src="https://cdn.staticfile.org/vue-resource/1.5.1/vue-resource.min.js"></script> -->
+    <!-- <script src="/js/vue-resource.min.js"></script> -->
+    <script src="../js/axios.min.js"></script>
+</head>
+
+<body class="fix-header fix-sidebar card-no-border">
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar">
+    <nav class="navbar top-navbar navbar-expand-md navbar-light">
+        <!-- ============================================================== -->
+        <!-- Logo -->
+        <!-- ============================================================== -->
+        <div class="navbar-header">
+            <a class="navbar-brand pjax-link" href="../index.html">
+                <!-- Logo icon --><b>
+                    <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                    <!-- Dark Logo icon -->
+                    <img src="../images/logo-icon.png" width="38" height="36" alt="homepage" class="dark-logo" />
+                </b>
+                <!--End Logo icon -->
+                <!-- Logo text -->
+                <span>
+                    <img src="../images/logo-text.jpg" alt="泰瑞亚探险家协会" title="泰瑞亚探险家协会">
+                </span>
+            </a>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Logo -->
+        <!-- ============================================================== -->
+        <div class="navbar-collapse">
+            <!-- ============================================================== -->
+            <!-- toggle and nav items -->
+            <!-- ============================================================== -->
+            <ul class="navbar-nav mr-auto mt-md-0">
+                <!-- This is  -->
+                <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up text-muted waves-effect waves-dark" href="javascript:void(0)"><i class="mdi mdi-menu"></i></a> </li>
+                <li class="nav-item"> <a class="nav-link sidebartoggler hidden-sm-down text-muted waves-effect waves-dark" href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
+                <!-- ============================================================== -->
+                <!-- Search -->
+                <!-- ============================================================== -->
+                <!-- <li class="nav-item hidden-sm-down search-box"> <a class="nav-link hidden-sm-down text-muted waves-effect waves-dark" href="javascript:void(0)"><i class="ti-search"></i></a>
+                    <form class="app-search">
+                        <input type="text" class="form-control" placeholder="输入关键词 / 回车"> <a class="srh-btn"><i class="ti-close"></i></a> </form>
+                </li> -->
+                <!-- ============================================================== -->
+                <!-- Messages -->
+                <!-- ============================================================== -->
+                
+                <!-- ============================================================== -->
+                <!-- End Messages -->
+                <!-- ============================================================== -->
+            </ul>
+            <!-- ============================================================== -->
+            <!-- User profile and search -->
+            <!-- ============================================================== -->
+            <ul class="navbar-nav my-lg-0">
+                <!-- ============================================================== -->
+                <!-- Comment -->
+                <!-- ============================================================== -->
+                <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-muted text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-message"></i>
+                        <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
+                    </a>
+                    
+                </li> -->
+                <!-- ============================================================== -->
+                <!-- End Comment -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Messages -->
+                <!-- ============================================================== -->
+                <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="" id="2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-email"></i>
+                        <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
+                    </a>
+                    
+                </li> -->
+                <!-- ============================================================== -->
+                <!-- End Messages -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Profile -->
+                <!-- ============================================================== -->
+                <li class="nav-item dropdown user-avatar-box" id="user-avatar-box"></li>
+                <!-- ============================================================== -->
+                <!-- Language -->
+                <!-- ============================================================== -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="flag-icon flag-icon-cn"></i></a>
+                    
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+<!-- Left Sidebar - style you can find in sidebar.scss  -->
+<!-- ============================================================== -->
+<aside class="left-sidebar">
+    <!-- Sidebar scroll-->
+    <div class="scroll-sidebar">
+        <!-- Sidebar navigation-->
+        <nav class="sidebar-nav">
+            <ul id="sidebarnav">
+                <li class="nav-small-cap">配置 / Builds</li>
+                <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-hexagon-multiple"></i><span class="hide-menu">职业配置</span></a>
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="../build/elementalist.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-profession icon-Elementalist"></i>元素使</a></li>
+                        <li><a href="../build/warrior.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-profession icon-Warrior"></i>战&nbsp;&nbsp;&nbsp;士</a></li>
+                        <li><a href="../build/ranger.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-profession icon-Ranger"></i>游&nbsp;&nbsp;&nbsp;侠</a></li>
+                        <li><a href="../build/necromancer.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-profession icon-Necromancer"></i>唤灵师</a></li>
+                        <li><a href="../build/guardian.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-profession icon-Guardian"></i>守护者</a></li>
+                        <li><a href="../build/thief.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-profession icon-Thief"></i>潜行者</a></li>
+                        <li><a href="../build/engineer.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-profession icon-Engineer"></i>工程师</a></li>
+                        <li><a href="../build/mesmer.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-profession icon-Mesmer"></i>幻术师</a></li>
+                        <li><a href="../build/revenant.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-profession icon-Revenant"></i>魂武者</a></li>
+                    </ul>
+                </li>
+                <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-flash"></i><span class="hide-menu">副本DPS测试</span></a>
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="../benchmarks.html" class="pjax-link">测试列表 - 2020.02.28</a></li>
+                        <li><a href="../benchmarks/buffs.html" class="pjax-link">BUFF使用说明</a></li>
+                    </ul>
+                </li>
+                <!-- <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-hexagon-multiple"></i><span class="hide-menu">配置模拟器</span></a>
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="/buildeditor/pve">PVE</a></li>
+                        <li><a href="/buildeditor/pvp">PVP</a></li>
+                        <li><a href="/buildeditor/wvw">WVW</a></li>
+                    </ul>
+                </li> -->
+                <li class="nav-devider"></li>
+
+                <li class="nav-small-cap">工具 / Tools</li>
+                <li> <a class="waves-effect waves-dark pjax-link" href="../timer.html" aria-expanded="false"><i class="mdi mdi-theme-light-dark"></i><span class="hide-menu">事件计时器</span></a></li>
+                <li> <a class="waves-effect waves-dark pjax-link" href="../npc.html" aria-expanded="false"><i class="mdi mdi-apple-safari"></i><span class="hide-menu">常用NPC位置</span></a></li>
+                <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-database"></i><span class="hide-menu">数据库</span></a>
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="item.html" class="pjax-link">物品 - Items</a></li>
+                        <li><a href="recipe.html" class="pjax-link">配方 - Recipes</a></li>
+                        <!-- <li><a href="/database/itemstat" class="pjax-link">属性 - Itemstats（开发中）</a></li> -->
+                        <li><a href="equipment.html" class="pjax-link">装备 - Equipments</a></li>
+                        <li><a href="skin.html" class="pjax-link">皮肤 - Skins</a></li>
+                        <!-- <li><a href="/database/food" class="pjax-link">食物 - Food</a></li>
+                        <li><a href="/database/utility" class="pjax-link">通用效果 - Utility</a></li> -->
+                        <!-- <li><a href="/database/color" class="pjax-link">染料 - Colors（开发中）</a></li> -->
+                        <li><a href="dye_kit.html" class="pjax-link">染料包 - Dye Kits</a></li>
+                        <li><a href="glyph.html" class="pjax-link">采集雕文 - Glyphs</a></li>
+                        <li><a href="../doc/database/bonus.html" class="pjax-link">加成效果 - Bonus</a></li>
+                    </ul>
+                </li>
+                <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-elevation-decline"></i><span class="hide-menu">副职业动态升级</span></a>
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="../doc/crafting/guide.html" class="pjax-link">副职业 升级前必读</a></li>
+                        <li><a href="../doc/crafting/chef.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-crafting icon-chef"></i>厨师</a></li>
+                        <li><a href="../crafting/weaponsmith.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-crafting icon-weaponsmith"></i>武器锻造师</a></li>
+                        <li><a href="../crafting/armorsmith.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-crafting icon-armorsmith"></i>盔甲锻造师</a></li>
+                        <li><a href="../crafting/artificer.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-crafting icon-artificer"></i>工艺制作师</a></li>
+                        <li><a href="../crafting/tailor.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-crafting icon-tailor"></i>裁缝</a></li>
+                        <li><a href="../crafting/huntsman.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-crafting icon-huntsman"></i>猎手</a></li>
+                        <li><a href="../crafting/leatherworker.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-crafting icon-leatherworker"></i>皮革匠</a></li>
+                        <li><a href="../crafting/jeweler.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-crafting icon-jeweler"></i>珠宝匠</a></li>
+                        
+                    </ul> 
+                </li>
+                <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-map"></i><span class="hide-menu">离线地图</span></a>
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="http://gw2timer.com/?enu_Language=zh" target="_blank" rel="nofollow noopener noreferrer">Gw2timer离线地图</a></li>
+                        <li><a href="http://gw2timer.com/?page=Map&amp;section=Resource&amp;enu_Language=zh" target="_blank" rel="nofollow noopener noreferrer">Gw2timer富采集点</a></li>
+                        <li><a href="https://gw2sy.top/gw2/" target="_blank" rel="nofollow noopener noreferrer">神油离线地图</a></li>
+                    </ul>
+                </li>
+            
+
+                <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-calendar-range"></i><span class="hide-menu">公会任务</span></a> 
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="../guild_mission/guild_bounty.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-guild-bounty"></i>公会任务：赏金</a></li>
+                        <li><a href="../guild_mission/guild_trek.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-guild-trek"></i>公会任务：跋涉</a></li>
+                        <li><a href="../guild_mission/guild_race.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-guild-race"></i>公会任务：竞速</a></li>
+                        <!-- <li><a href="/guild_mission/guild_challenge" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-guild-challenge"></i>公会任务：挑战</a></li>
+                        <li><a href="/guild_mission/guild_puzzle" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-guild-puzzle"></i>公会任务：解谜</a></li> -->
+                    </ul> 
+                </li>
+
+                <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-puzzle"></i><span class="hide-menu">游戏插件</span></a> 
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="https://gw2sy.top/" target="_blank" rel="nofollow noopener noreferrer">神油插件合辑</a></li>
+                        <li><a href="../doc/plugins/Arcdps.html" class="pjax-link">Arcdps - 团队DPS监控</a></li>
+                        <li><a href="../doc/plugins/YoloMouse.html" class="pjax-link">YoloMouse - 光标替换</a></li>
+                        <li><a href="../doc/plugins/ReShade.html" class="pjax-link">ReShade - 滤镜</a></li>
+                        <li><a href="../doc/plugins/D912pxy.html" class="pjax-link">D912pxy - 提帧工具</a></li>
+                    </ul> 
+                </li>
+                
+                
+                <li class="nav-devider"></li>
+                <li class="nav-small-cap">文档 / Documents</li>
+                <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-routes"></i><span class="hide-menu">入门指引</span></a> 
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="../doc/walkthrough/guild.html" class="pjax-link">入门指引</a></li>
+                        <li><a href="../doc/walkthrough/basic_guide.html" class="pjax-link">基础游戏机制</a></li>
+                        <li><a href="../doc/walkthrough/world_vs_world.html" class="pjax-link">世界之战</a></li>
+                        <li><a href="../doc/walkthrough/home_instance.html" class="pjax-link">家园副本</a></li>
+                        <li><a href="../doc/walkthrough/pets.html" class="pjax-link">游侠宠物捕捉点</a></li>
+                        <li><a href="../doc/walkthrough/treasure_mushroom.html" class="pjax-link">宝藏菇位置</a></li>
+                        <li><a href="https://www.bilibili.com/video/BV1DD4y1D7sj" target="_blank" rel="nofollow noopener noreferrer">【川川禾】萌新常识 1</a></li>
+                        <li><a href="https://www.bilibili.com/video/BV1Sz411i7Td" target="_blank" rel="nofollow noopener noreferrer">【川川禾】萌新常识 2</a></li>
+                    </ul> 
+                </li>
+                <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-gnome"></i><span class="hide-menu">坐骑获取</span></a> 
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="../doc/mounts/mounts.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-mount icon-raptor"></i>基础坐骑</a></li>
+                        <li><a href="../doc/mounts/griffon.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-mount icon-griffon"></i>狮&nbsp;鹫</a></li>
+                        <li><a href="../doc/mounts/roller_beetle.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-mount icon-roller-beetle"></i>翻滚甲虫</a></li>
+                        <li><a href="../doc/mounts/warclaw.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-mount icon-warclaw"></i>战&nbsp;爪</a></li>
+                        <li><a href="../doc/mounts/skyscale.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-mount icon-skyscale"></i>飞天鳞龙</a></li>
+                    </ul> 
+                </li>
+                <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-airballoon"></i><span class="hide-menu">升华装备</span></a> 
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="../doc/ascended_items/ascended_equipment.html" class="pjax-link">升华装备 和 获取</a></li>
+                        <li><a href="../doc/ascended_items/infusion_enrichment.html" class="pjax-link">灌注 和 富集</a></li>
+                        <li><a href="../doc/ascended_items/infusion_slot.html" class="pjax-link">灌注槽配方</a></li>
+                        <li><a href="../doc/ascended_items/equipment_stats.html" class="pjax-link">属性 和 转换</a></li>
+                        <li><a href="../doc/ascended_items/sigil.html" class="pjax-link">常用法印获取</a></li>
+                        <li><a href="../doc/ascended_items/rune.html" class="pjax-link">常用符文获取</a></li>
+                        <hr>
+                        <li><a href="../doc/ascended_items/icebrood_saga_trinket.html" class="pjax-link">冰巢传说首饰</a></li>
+                        <li><a href="../doc/ascended_items/ruriks_engagement_ring.html" class="pjax-link">卢瑞克的订婚戒指</a></li>
+                        <li><a href="../doc/ascended_items/vial_of_salt.html" class="pjax-link">盐瓶（升华项链）</a></li>
+                        <li><a href="../doc/ascended_items/old_back.html" class="pjax-link">万千箭袋（升华背部）</a></li>
+                    </ul> 
+                </li>
+
+                <li> <a class="waves-effect waves-dark pjax-link" href="../legendary_equipment.html" aria-expanded="false"><i class="mdi mdi-shield"></i><span class="hide-menu">传奇装备</span></a>
+                </li>
+                <li> <a class="waves-effect waves-dark pjax-link" href="../collection.html" aria-expanded="false"><i class="mdi mdi-terrain"></i><span class="hide-menu">收藏攻略</span></a>
+                </li>
+                <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-sword"></i><span class="hide-menu">副本攻略</span></a> 
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="../fractal.html" class="pjax-link">迷雾碎层</a></li>
+                        <li><a href="../raid.html" class="pjax-link">大型地下城</a></li>
+                        <li><a href="../strike_mission.html" class="pjax-link">进攻任务</a></li>
+                    </ul> 
+                </li>
+                <!-- <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-book-multiple-variant"></i><span class="hide-menu">成就合集</span></a> 
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="/achievements/jumping_puzzles" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-achievement icon-jumping-puzzle"></i>跳跳乐</a></li>
+                        <li><a href="/achievements/explorer" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-achievement icon-explorer"></i>探险家</a></li>
+                    </ul> 
+                </li> -->
+
+            </ul>
+            
+        </nav>
+        <!-- End Sidebar navigation -->
+    </div>
+    <!-- End Sidebar scroll-->
+    <!-- Bottom points-->
+    <div class="sidebar-footer">
+        <a href="../about.html" class="link pjax-link" data-toggle="tooltip" title="关于我们"><i class="mdi mdi-bank"></i></a>
+        <a href="../donate.html" class="link pjax-link" data-toggle="tooltip" title="友情赞助"><i class="mdi mdi-arrow-up-bold-hexagon-outline"></i></a>
+        <a href="http://shang.qq.com/wpa/qunwpa?idkey=5617b2581f8ba428c02ced1122ba959bb802b45f471595ed2dce3ab351974921" target="_blank" class="link" data-toggle="tooltip" title="联系我们"><i class="mdi mdi-qqchat"></i></a>
+    </div>
+    <!-- End Bottom points-->
+</aside>
+<!-- ============================================================== -->
+<!-- End Left Sidebar - style you can find in sidebar.scss  -->
+<!-- ============================================================== -->
+
+
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper" id="page-wrapper">
+        <!-- ============================================================== -->
+
+			<!-- Container fluid  -->
+    		<!-- ============================================================== -->
+
+            <div class="preloader" style="display:none">
+                <svg class="circular" viewBox="25 25 50 50">
+                    <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+            </div>
+            <div id="container-fluid">
+                <div class="header-bg header-bg-database-recipes">
+                    <div class="header-bg-shadow"></div>
+                </div>
+                <div class="container-fluid">
+    
+                    <script>
+$(document).ready(function(){
+
+	$('.select2-container').remove();
+
+	$('.bootstrap-switch .bootstrap-switch-container input').each(function(index){
+		var s = $(this);
+	    s.parents('.bootstrap-switch').replaceWith(s);
+	});
+
+	$('.floating-labels .form-control').on('focus blur', function (e) {
+        $(this).parents('.form-group').toggleClass('focused', (e.type === 'focus' || this.value.length > 0));
+    }).trigger('blur');
+	
+	$('.show-sidebar').removeClass('show-sidebar');
+	$('.gw2-tooltip').gw2tooltip('#tooltip-info');
+	$('.gw2-info').gw2info();
+
+
+	//登录用户信息更新 ========================================
+	
+	/* new Vue({
+		el: '#user-avatar-box',
+		data:{
+			user_username: '',
+			user_nickname: '',
+			user_guild_name: '',
+			user_avatar: '',
+			user_state: ''
+        },
+        created: function(){
+            this.$http.post('/frontend/user.login/usercookielogin',{
+                frontend_user_id: window.localStorage.getItem('frontend_user_id'),
+                frontend_user_token: window.localStorage.getItem('frontend_user_token')
+            },{emulateJSON:true}).then(
+            function(res){
+                console.log(res.data.msg);
+                if( res.data.type == 'success' && !this.user_state ){
+                    this.user_state = '1';
+                    this.user_username = res.data.data.frontend_user_username;
+                    this.user_nickname = res.data.data.frontend_user_nickname;
+                    this.user_guild_name = res.data.data.frontend_user_guild_name;
+                    this.user_avatar = res.data.data.frontend_user_avatar ? res.data.data.frontend_user_avatar : '/images/avatar-user-default.jpg';
+                }
+                else if( res.data.type == 'error' ){
+                    this.user_state = '0';
+					this.user_username = '';
+					this.user_nickname = '';
+					this.user_guild_name = '';
+					this.user_avatar = '/images/avatar-default.jpg';
+                }
+            },function(res){
+                console.log('链接错误！');
+            });
+        },
+        methods:{
+			//登录获取来路页面
+			login:function(){
+				window.localStorage.setItem('login_from_page',window.location.pathname);
+			},
+			//退出登录
+            logout:function(){
+				this.$http.post('/user/login/logout',{},{emulateJSON:true}).then(
+				function(res){
+					console.log(res.data.msg);
+					if( res.data.type == 'success' ){
+						window.localStorage.removeItem('frontend_user_id');
+						window.localStorage.removeItem('frontend_user_token');
+						window.localStorage.setItem('login_state','0');
+						this.user_state = '0';
+						this.user_username = '';
+						this.user_nickname = '';
+						this.user_guild_name = '';
+						this.user_avatar = '/images/avatar-default.jpg';
+
+						swal({
+							title: "退出登录成功!",
+							text: "指挥官！期待您再次光临！",
+							type: "success",
+							timer: 1500,
+							showConfirmButton: false 
+						},function(){
+							$(".sweet-overlay,.sweet-alert").hide();
+							$('body').append(`<a href="` + window.location.pathname + `" class="logout-link pjax-link" style="display:none"></a>`);
+							$(".logout-link").trigger("click");
+						});
+					}
+				},function(res){
+					console.log('链接错误！');
+				});
+			}
+        },
+        template: `
+        <li class="nav-item dropdown" id="user-avatar-box">
+            <template v-if="user_state == '1'">
+                <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img :src="user_avatar" :alt="user_nickname" class="profile-pic" />
+                </a>
+                <div class="dropdown-menu dropdown-menu-right scale-up">
+                    <ul class="dropdown-user">
+                        <li>
+                            <div class="dw-user-box">
+                                <div class="u-img"><img :src="user_avatar" :alt="user_nickname"></div>
+                                <div class="u-text">
+                                    <h4>{{ user_nickname }}</h4>
+                                    <p class="text-muted">{{ user_username }}</p>
+                                    <template v-if="user_guild_name">
+                                        <button href="profile.html" class="btn btn-rounded btn-danger btn-sm">{{ user_guild_name }}</button>
+                                    </template>
+                                </div>
+                            </div>
+                        </li>
+                        <li rolegroup="separator" class="divider"></li>
+                        <li><a href="/user/settings/index"><i class="ti-settings"></i> 账号设置</a></li>
+                        <li rolegroup="separator" class="divider"></li>
+                        <li><a href="javascript:;" id="logout-button" @click="logout()"><i class="fa fa-power-off"></i> 退出登录</a></li>
+                    </ul>
+                </div>
+            </template>
+            <template v-if="user_state == '0'">
+                <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img :src="user_avatar" :alt="user_nickname" class="profile-pic" />
+				</a>
+				<div class="dropdown-menu dropdown-menu-right scale-up">
+					<ul class="dropdown-user">
+						<li><a href="/user/login" @click="login()" class="pjax-link login-link"><i class="mdi mdi-account-circle"></i>&nbsp; 登录</a></li>
+						<li><a href="/user/register" class="pjax-link login-link"><i class="mdi mdi-account-card-details"></i>&nbsp; 注册</a></li>
+					</ul>
+				</div>
+            </template>
+        </li>
+		`
+	}); */
+
+	//手机端点击信息框隐藏
+	$('.tooltip-info').click(function(){
+		$(this).hide();
+	});
+
+	//统计
+	$('#tongji_box').append(`<iframe src="/t?url=` + window.location.pathname + `" frameborder="0"></iframe>`);
+});
+</script>
+<div style="display: none" id="tongji_box"></div>
+    
+                    <div class="row page-titles bg-lg bg-lg-database-recipes m-b-0 p-b-0">
+    <div class="page-titles-content col-md-5 col-12 align-self-center">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html" class="color-database"><i class="fa fa-home"></i></a></li>
+            <li class="breadcrumb-item active">工具</li>
+            <li class="breadcrumb-item active">数据库</li>
+            <li class="breadcrumb-item active"><a href="recipe.html" class="color-database">配方数据库</a></li>
+        </ol>
+        <h1 class="page-title color-write-linear-gradient">
+            配方数据库
+        </h1>
+    </div>
+    <div class="page-titles-description col-md-12 m-t-30">
+        <div class="card">
+            <div class="card-body collapse show p-t-10 p-b-10 p-l-20 p-r-20">
+                <div class="row">
+                    <div class="col-md-12 col-12 text-content m-t-5 page-titles-description-small">
+                        <p>本数据库基于 Guild Wars 2 API Version 2 开发，支持中英文搜索。详情请参阅 <a href="https://wiki.guildwars2.com/wiki/API:Main" target="_blank" rel="nofollow noopener noreferrer">Guild Wars 2 API Version 2</a></p>
+<p>本数据库使用说明请参考：<a href="../doc/page/recipe_database_guide.html" target="_blank">配方数据库 - 使用说明</a></p>
+                        <p>参考成本 全部按照国服拍卖行原材料一口价计算获取。</p>
+<p>物价表最后更新时间：2020.06.17</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-lg-shadow"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 main-content">
+
+        <div class="card card-body m-t-30">
+    <div class="row">
+        <ins class="adsbygoogle"
+            style="display:inline-block;width:1200px;height:120px;margin-left:15px;"
+            data-ad-client="ca-pub-2787907297523705"
+            data-ad-slot="4696396204"></ins>
+       <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+       </script>
+    </div>
+</div>
+
+        <div class="card card-outline-inverse card-box-shadow overflow-hidden m-t-30 m-b-0">
+            <div class="bg-light-gray card-body collapse show">
+                <div class="content-database-search">
+                    <form id="form">
+                        <dl class="search-name">
+                            <dt>成品名称：</dt>
+                            <dd><input type="search" name="name" id="name" class="form-control" autocomplete="off"></dd>
+                        </dl>
+                        <dl class="content-database-search-type-main">
+                            <dt>过滤选项：</dt>
+                            <dd class="content-database-checkbox-warp" >
+                                <div class="content-database-checkbox content-database-checkbox-white active-all active">
+                                    不限
+                                    <input type="checkbox" name="" value="">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        原材料成本非空
+                                    <input type="checkbox" name="filter[]" value="PriceNotZero">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        业力花费为零
+                                    <input type="checkbox" name="filter[]" value="KarmaZero">
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl class="content-database-search-type-main">
+                            <dt>副职类型：</dt>
+                            <dd class="content-database-checkbox-warp" >
+                                <div class="content-database-checkbox content-database-checkbox-white active-all active">
+                                    不限
+                                    <input type="checkbox" name="" value="">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    厨师
+                                    <input type="checkbox" name="disciplines[]" value="Chef">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    武器锻造师
+                                    <input type="checkbox" name="disciplines[]" value="Weaponsmith">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    盔甲锻造师
+                                    <input type="checkbox" name="disciplines[]" value="Armorsmith">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    工艺制作师
+                                    <input type="checkbox" name="disciplines[]" value="Artificer">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        裁缝
+                                    <input type="checkbox" name="disciplines[]" value="Tailor">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        猎手
+                                    <input type="checkbox" name="disciplines[]" value="Huntsman">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        皮革匠
+                                    <input type="checkbox" name="disciplines[]" value="Leatherworker">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        珠宝匠
+                                    <input type="checkbox" name="disciplines[]" value="Jeweler">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        抄写员
+                                    <input type="checkbox" name="disciplines[]" value="Scribe">
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl class="content-database-search-type-main">
+                            <dt>配方等级：</dt>
+                            <dd class="content-database-checkbox-warp" >
+                                <div class="content-database-checkbox content-database-checkbox-white active-all active">
+                                    不限
+                                    <input type="checkbox" name="" value="">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        0
+                                    <input type="checkbox" name="min_rating[]" value="0">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        25
+                                    <input type="checkbox" name="min_rating[]" value="25">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        50
+                                    <input type="checkbox" name="min_rating[]" value="50">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        75
+                                    <input type="checkbox" name="min_rating[]" value="75">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        100
+                                    <input type="checkbox" name="min_rating[]" value="100">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        125
+                                    <input type="checkbox" name="min_rating[]" value="125">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        150
+                                    <input type="checkbox" name="min_rating[]" value="150">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        175
+                                    <input type="checkbox" name="min_rating[]" value="175">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        200
+                                    <input type="checkbox" name="min_rating[]" value="200">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        225
+                                    <input type="checkbox" name="min_rating[]" value="225">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        250
+                                    <input type="checkbox" name="min_rating[]" value="250">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        275
+                                    <input type="checkbox" name="min_rating[]" value="275">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        300
+                                    <input type="checkbox" name="min_rating[]" value="300">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        325
+                                    <input type="checkbox" name="min_rating[]" value="325">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        350
+                                    <input type="checkbox" name="min_rating[]" value="350">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        375
+                                    <input type="checkbox" name="min_rating[]" value="375">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        400
+                                    <input type="checkbox" name="min_rating[]" value="400">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        425
+                                    <input type="checkbox" name="min_rating[]" value="425">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        450
+                                    <input type="checkbox" name="min_rating[]" value="450">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        475
+                                    <input type="checkbox" name="min_rating[]" value="475">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        500
+                                    <input type="checkbox" name="min_rating[]" value="500">
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl class="content-database-search-type-main">
+                            <dt>解锁方式：</dt>
+                            <dd class="content-database-checkbox-warp" >
+                                <div class="content-database-checkbox content-database-checkbox-white active-all active">
+                                    不限
+                                    <input type="checkbox" name="" value="">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        自动解锁
+                                    <input type="checkbox" name="flags[]" value="AutoLearned">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        探索解锁
+                                    <input type="checkbox" name="flags[]" value="Discovering">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                        图纸解锁
+                                    <input type="checkbox" name="flags[]" value="LearnedFromItem">
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>配方分类：</dt>
+                            <dd class="content-database-checkbox-warp content-database-search-type">
+                                <div class="content-database-checkbox content-database-checkbox-white active-all active">
+                                    不限
+                                    <input type="checkbox" name="" value="">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white" content-database-search-type-1-id="Weapon">
+                                    武器
+                                    <input type="checkbox" name="type[]" value="Weapon">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white" content-database-search-type-1-id="Armor">
+                                    护甲
+                                    <input type="checkbox" name="type[]" value="Armor">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    背部
+                                    <input type="checkbox" name="details_type[]" value="Backpack">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white" content-database-search-type-1-id="Trinket">
+                                    首饰
+                                    <input type="checkbox" name="type[]" value="Trinket">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white" content-database-search-type-1-id="UpgradeComponent">
+                                    升级组件
+                                    <input type="checkbox" name="details_type[]" value="UpgradeComponent">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white" content-database-search-type-1-id="Component">
+                                    制作组件
+                                    <input type="checkbox" name="type[]" value="Component">
+                                </div>                                  
+                                <div class="content-database-checkbox content-database-checkbox-white" content-database-search-type-1-id="Food">
+                                    食物
+                                    <input type="checkbox" name="type[]" value="Food">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white" content-database-search-type-1-id="Dye">
+                                    染料
+                                    <input type="checkbox" name="details_type[]" value="Dye">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white" content-database-search-type-1-id="Refinement">
+                                    原材料加工
+                                    <input type="checkbox" name="type[]" value="Refinement">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white" content-database-search-type-1-id="Guild">
+                                    公会物品
+                                    <input type="checkbox" name="type[]" value="Guild">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white" content-database-search-type-1-id="Other">
+                                    其他
+                                    <input type="checkbox" name="type[]" value="Other">
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl class="content-database-search-type-1 content-database-search-type-1-id-Armor">
+                            <dt>护甲部位：</dt>
+                            <dd class="content-database-checkbox-warp">
+                                <div class="content-database-checkbox content-database-checkbox-white active-all active">
+                                    不限
+                                    <input type="checkbox" name="" value="">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    胸部
+                                    <input type="checkbox" name="details_type[]" value="Coat">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    腿部
+                                    <input type="checkbox" name="details_type[]" value="Leggings">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    手部
+                                    <input type="checkbox" name="details_type[]" value="Gloves">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    头部
+                                    <input type="checkbox" name="details_type[]" value="Helm">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    足部
+                                    <input type="checkbox" name="details_type[]" value="Boots">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    肩部
+                                    <input type="checkbox" name="details_type[]" value="Shoulders">
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl class="content-database-search-type-1 content-database-search-type-1-id-Weapon">
+                            <dt>双手武器：</dt>
+                            <dd class="content-database-checkbox-warp">
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    巨剑
+                                    <input type="checkbox" name="details_type[]" value="Greatsword">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    法杖
+                                    <input type="checkbox" name="details_type[]" value="Staff">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    长弓
+                                    <input type="checkbox" name="details_type[]" value="LongBow">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    短弓
+                                    <input type="checkbox" name="details_type[]" value="ShortBow">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    巨锤
+                                    <input type="checkbox" name="details_type[]" value="Hammer">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    步枪
+                                    <input type="checkbox" name="details_type[]" value="Rifle">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white active-all">
+                                    不限
+                                    <input type="checkbox" name="" value="">
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl class="content-database-search-type-1 content-database-search-type-1-id-Weapon">
+                            <dt>单手武器：</dt>
+                            <dd class="content-database-checkbox-warp">
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    单手剑
+                                    <input type="checkbox" name="details_type[]" value="Sword">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    斧
+                                    <input type="checkbox" name="details_type[]" value="Axe">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    匕首
+                                    <input type="checkbox" name="details_type[]" value="Dagger">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    钉锤
+                                    <input type="checkbox" name="details_type[]" value="Mace">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    手枪
+                                    <input type="checkbox" name="details_type[]" value="Pistol">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    节杖
+                                    <input type="checkbox" name="details_type[]" value="Scepter">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white active-all">
+                                    不限
+                                    <input type="checkbox" name="" value="">
+                                </div>
+                            </dd>
+                        </dl>       
+                        <dl class="content-database-search-type-1 content-database-search-type-1-id-Weapon">
+                            <dt>副手武器：</dt>
+                            <dd class="content-database-checkbox-warp">
+                                
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    聚能器
+                                    <input type="checkbox" name="details_type[]" value="Focus">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    火炬
+                                    <input type="checkbox" name="details_type[]" value="Torch">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    战号
+                                    <input type="checkbox" name="details_type[]" value="Warhorn">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    盾牌
+                                    <input type="checkbox" name="details_type[]" value="Shield">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white active-all">
+                                    不限
+                                    <input type="checkbox" name="" value="">
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl class="content-database-search-type-1 content-database-search-type-1-id-Weapon">
+                            <dt>水下武器：</dt>
+                            <dd class="content-database-checkbox-warp">
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    长矛
+                                    <input type="checkbox" name="details_type[]" value="Harpoon">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    鱼叉枪
+                                    <input type="checkbox" name="details_type[]" value="Speargun">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    三叉戟
+                                    <input type="checkbox" name="details_type[]" value="Trident">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white active-all">
+                                    不限
+                                    <input type="checkbox" name="" value="">
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl class="content-database-search-type-1 content-database-search-type-1-id-Trinket">
+                            <dt>首饰分类：</dt>
+                            <dd class="content-database-checkbox-warp">
+                                <div class="content-database-checkbox content-database-checkbox-white active-all active">
+                                    不限
+                                    <input type="checkbox" name="" value="">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    饰品
+                                    <input type="checkbox" name="details_type[]" value="Accessory">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    戒指
+                                    <input type="checkbox" name="details_type[]" value="Ring">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    项链
+                                    <input type="checkbox" name="details_type[]" value="Amulet">
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl class="content-database-search-type-1 content-database-search-type-1-id-Component">
+                            <dt>组件分类：</dt>
+                            <dd class="content-database-checkbox-warp">
+                                <div class="content-database-checkbox content-database-checkbox-white active-all active">
+                                    不限
+                                    <input type="checkbox" name="" value="">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    制作组件
+                                    <input type="checkbox" name="details_type[]" value="Component">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    铭文
+                                    <input type="checkbox" name="details_type[]" value="Inscription">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    徽章
+                                    <input type="checkbox" name="details_type[]" value="Insignia">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    传奇组件
+                                    <input type="checkbox" name="details_type[]" value="LegendaryComponent">
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl class="content-database-search-type-1 content-database-search-type-1-id-Food">
+                            <dt>食物分类：</dt>
+                            <dd class="content-database-checkbox-warp">
+                                <div class="content-database-checkbox content-database-checkbox-white active-all active">
+                                    不限
+                                    <input type="checkbox" name="" value="">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    大餐
+                                    <input type="checkbox" name="details_type[]" value="Feast">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    食品
+                                    <input type="checkbox" name="details_type[]" value="Meal">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    甜品
+                                    <input type="checkbox" name="details_type[]" value="Dessert">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    点心
+                                    <input type="checkbox" name="details_type[]" value="Snack">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    汤
+                                    <input type="checkbox" name="details_type[]" value="Soup">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    食材
+                                    <input type="checkbox" name="details_type[]" value="IngredientCooking">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    佐料
+                                    <input type="checkbox" name="details_type[]" value="Seasoning">
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl class="content-database-search-type-1 content-database-search-type-1-id-Refinement">
+                            <dt>材料加工：</dt>
+                            <dd class="content-database-checkbox-warp">
+                                <div class="content-database-checkbox content-database-checkbox-white active-all active">
+                                    不限
+                                    <input type="checkbox" name="" value="">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    普通材料加工
+                                    <input type="checkbox" name="details_type[]" value="Refinement">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    升华材料加工
+                                    <input type="checkbox" name="details_type[]" value="RefinementEctoplasm">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    黑曜石加工
+                                    <input type="checkbox" name="details_type[]" value="RefinementObsidian">
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl class="content-database-search-type-1 content-database-search-type-1-id-Guild">
+                            <dt>公会制作：</dt>
+                            <dd class="content-database-checkbox-warp">
+                                <div class="content-database-checkbox content-database-checkbox-white active-all active">
+                                    不限
+                                    <input type="checkbox" name="" value="">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    公会消耗品
+                                    <input type="checkbox" name="details_type[]" value="GuildConsumable">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    公会装饰
+                                    <input type="checkbox" name="details_type[]" value="GuildDecoration">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    世界之战宣夺
+                                    <input type="checkbox" name="details_type[]" value="GuildConsumableWvw">
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl class="content-database-search-type-1 content-database-search-type-1-id-Other">
+                            <dt>其他分类：</dt>
+                            <dd class="content-database-checkbox-warp">
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    背包
+                                    <input type="checkbox" name="details_type[]" value="Bag">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    包裹
+                                    <input type="checkbox" name="details_type[]" value="Bulk">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    消耗品
+                                    <input type="checkbox" name="details_type[]" value="Consumable">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-white">
+                                    药剂合剂
+                                    <input type="checkbox" name="details_type[]" value="Potion">
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>成品品质：</dt>
+                            <dd class="content-database-checkbox-warp content-database-search-rarity">
+                                <!-- <div class="content-database-checkbox content-database-checkbox-white active-all">
+                                    全部 All
+                                    <input type="checkbox" value="">
+                                </div> -->
+                                <div class="content-database-checkbox content-database-checkbox-purple">
+                                    传奇 Legendary
+                                    <input type="checkbox" name="rarity[]" value="Legendary">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-pink">
+                                    升华 Ascended
+                                    <input type="checkbox" name="rarity[]" value="Ascended">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-orange">
+                                    特异 Exotic
+                                    <input type="checkbox" name="rarity[]" value="Exotic">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-yellow">
+                                    稀有 Rare
+                                    <input type="checkbox" name="rarity[]" value="Rare">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-green">
+                                    精制 Masterwork
+                                    <input type="checkbox" name="rarity[]" value="Masterwork">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-blue">
+                                    优质 Fine
+                                    <input type="checkbox" name="rarity[]" value="Fine">
+                                </div>
+                                <div class="content-database-checkbox content-database-checkbox-gray">
+                                    普通 Basic
+                                    <input type="checkbox" name="rarity[]" value="Basic">
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl class="content-database-form-submit">
+                            <dt>&nbsp;</dt>
+                            <dd class="content-database-checkbox-warp">
+                                <div id="submit" class="content-database-checkbox"> 提 交 查 询 </div>
+                            </dd>
+                        </dl>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 main-content">
+        <div class="card card-outline-inverse card-box-shadow overflow-hidden m-t-30">
+            <div class="bg-light-gray card-body collapse show">
+                <div class="database-list" id="list"></div>  
+            </div>  
+        </div>
+    </div>        
+</div>
+
+<script>
+$(document).ready(function(){
+
+function PrefixInteger(num, length) {
+    return ( "0000000000000000" + num ).substr( -length );
+}
+
+var dataSource = []
+
+function drawTable( data, get_tooltip ){
+    //初始化数据
+    for(var i in data){
+        if( data[i].name_en != '' ){
+            data[i].wiki = `<a href="https://wiki.guildwars2.com/wiki/?search=` + data[i].name_en + `" target="_blank" rel="nofollow noopener noreferrer">访问wiki</a>`;
+        }
+        else
+            data[i].wiki = '';
+
+        data[i].name = `
+        <div class="ingredient">
+            <div class="item-ingredient">
+                <div class="gw2-tooltip gw2-info" gw2-type="items" gw2-ids="` + data[i].output_item_id + `"></div>
+            </div>
+            <div class="item-ingredient-operator-text color-` + data[i].rarity + `">` + data[i].name + `</div>` + 
+            ( data[i].output_item_count != 1 ? `<div class="item-ingredient-operator"> × ` + data[i].output_item_count + `</div>` : `` ) +
+        `</div>
+        `;
+
+        //配方
+        data[i].ingredient = '';
+        for(var j in data[i].ingredients){
+            data[i].ingredient += `
+            <div class="ingredient">
+                <div class="item-ingredient">
+                    <div class="gw2-tooltip gw2-info" gw2-type="items" gw2-ids="` + data[i].ingredients[j].item_id + `"></div>
+                </div>
+                <div class="item-ingredient-operator-text color-` + data[i].ingredients[j].rarity + `">` + data[i].ingredients[j].name + `</div>` +
+                ( data[i].ingredients[j].count ? `<div class="item-ingredient-operator"> × ` + data[i].ingredients[j].count + `</div>` : `` ) +
+            `</div>
+            `;
+        }
+
+        //副职业
+        data[i].discipline = '';
+        for(var k in data[i].disciplines){
+            switch( data[i].disciplines[k] ){
+                case 'Armorsmith': data[i].discipline += `盔甲锻造师<br>`;break;
+                case 'Artificer': data[i].discipline += `工艺制作师<br>`;break;
+                case 'Chef': data[i].discipline += `厨师<br>`;break;
+                case 'Huntsman': data[i].discipline += `猎手<br>`;break;
+                case 'Jeweler': data[i].discipline += `珠宝匠<br>`;break;
+                case 'Leatherworker': data[i].discipline += `皮革匠<br>`;break;
+                case 'Scribe': data[i].discipline += `抄写员<br>`;break;
+                case 'Tailor': data[i].discipline += `裁缝<br>`;break;
+                case 'Weaponsmith': data[i].discipline += `武器锻造师<br>`;break;
+            }
+        }
+
+        //解锁方式
+        if( data[i].flags == '' ){
+            data[i].flag = `探索解锁`;
+        }
+        else{
+            data[i].flag = '';
+            for(var k in data[i].flags){
+                switch( data[i].flags[k] ){
+                    case 'AutoLearned': data[i].flag = `自动解锁`;break;
+                    case 'LearnedFromItem': data[i].flag = `图纸解锁`;break;
+                }
+            }
+        }
+
+        //参考价格
+        data[i].price_gold = parseInt( data[i].price / 10000 );
+        data[i].price_silver = parseInt( ( data[i].price / 100 ) % 100 );
+        data[i].price_copper = parseInt( data[i].price % 100 );
+
+        var price = data[i].price;
+        data[i].price = '';
+
+        data[i].price += ( data[i].price_gold != 0 ) ? data[i].price_gold + `<span class="mini-currencies"><i class="icon-coin icon-gold"></i></span>` : '';
+        data[i].price += ( data[i].price_silver != 0 ) ? data[i].price_silver + `<span class="mini-currencies"><i class="icon-coin icon-silver"></i></span>` : '';
+        data[i].price += ( data[i].price_copper != 0 ) ? data[i].price_copper + `<span class="mini-currencies"><i class="icon-coin icon-copper"></i></span>` : '';
+        data[i].price += `<br>` + (( data[i].karma != 0 && data[i].karma != null ) ? data[i].karma + `<span class="mini-currencies"><i class="icon-coin icon-karma"></i></span>` : '' );
+        
+        data[i].price_order = ( price ? price : '' );
+    }
+
+    //清空表框
+    $('#list').empty();
+    $('#list').html(`
+    <table class="database-list-table" id="database-list-table">
+        <thead>
+            <tr>
+                <th width="80">ID</th>
+                <th width="200">成品</th>
+                <th width="200">材料</th>
+                <th width="150">原材料成本</th>
+                <th width="100">成本排序</th>
+                <th width="100">副职业</th>
+                <th width="100">解锁方式</th>
+                <th width="100">配方等级</th>
+                <th width="100">聊天代码</th>
+                <th width="100">wiki</th>
+            </tr>
+        </thead>
+    </table>`);
+
+    //排序
+    $.fn.dataTable.ext.order['dom-text-numeric'] = function( settings, col ){
+        return this.api().column( col, {order:'index'} ).nodes().map( function ( td, i ) {
+            return $('input.price_num').val() * 1;
+        });
+    }
+    //"orderDataType": "dom-text-numeric",
+
+    //绘制表
+    var tooltip = get_tooltip;
+    $('#database-list-table').DataTable( {
+        "lengthChange": false,
+        "pageLength": 5,
+        "searching": false,
+        "data": data,
+        "order": [[ 4, 'asc' ]],
+        "columns": [
+            { "data" : "id", class: "d-none d-xl-table-cell"},
+            { "data" : "name", class: "recipe-table-td"},
+            { "data" : "ingredient", "orderable": false, class: "recipe-table-td" },
+            { "data" : "price", "orderable": false},
+            { "data" : "price_order"},
+            { "data" : "discipline", "orderable": false, class: "d-none d-md-table-cell recipe-table-text-td"},
+            { "data" : "flag", class: "d-none d-md-table-cell"},
+            { "data" : "min_rating"},
+            { "data" : "chat_link", "orderable": false, class: "d-none d-xl-table-cell"},
+            { "data" : "wiki" , "orderable": false}
+        ],
+        "deferRender": true,
+        "pageLength": 10,
+        "drawCallback": function(settings, json) {
+            $(document).ready(function(){
+                if( tooltip != 0 ){
+                    $('.gw2-info').empty();
+                    $('.gw2-tooltip').gw2tooltip('#tooltip-info');
+                    $('.gw2-info').gw2info();
+                }
+                tooltip = 1;
+            });
+       }
+   });
+}
+drawTable(dataSource,1);
+
+    //配方有级分类
+    $('.content-database-search-type .content-database-checkbox').click(function(){
+        if( $(this).hasClass('active') ){
+            //取消按钮
+            $(this).removeClass('active');
+            $(this).children('input:checkbox').prop('checked',false);
+            $('.content-database-search-type-1').hide();
+            $('.content-database-search-type-1 .content-database-checkbox').children('input:checkbox').prop('checked',false);
+       }
+        else{
+            //点击按钮
+            $('.content-database-search-type .content-database-checkbox').removeClass('active');
+            $('.content-database-search-type .content-database-checkbox').children('input:checkbox').prop('checked',false);
+            $('.content-database-search-type-1 .content-database-checkbox').removeClass('active');
+            $('.content-database-search-type-1 .content-database-checkbox').children('input:checkbox').prop('checked',false);
+            $('.content-database-search-type-1 .active-all').addClass('active');
+            $('.content-database-search-type-1 .active-all').children('input:checkbox').prop('checked',true);
+
+            $(this).addClass('active');
+            $(this).children('input:checkbox').prop('checked',true);
+            $('.content-database-search-type-1').hide();
+            $('.content-database-search-type-1-id-'+$(this).attr('content-database-search-type-1-id')).show();
+       }
+    });
+
+    //配方一级分类
+    $('.content-database-search-type-1 .content-database-checkbox').click(function(){
+        if( $(this).hasClass('active') ){
+            if( $(this).hasClass("active-all") ){
+                //取消不限按钮
+                $('.content-database-search-type-1 .content-database-checkbox').removeClass('active');
+                $('.content-database-search-type-1 .content-database-checkbox').children('input:checkbox').prop('checked',false);
+           }
+            else{
+                //取消按钮
+                $(this).removeClass('active');
+                $(this).children('input:checkbox').prop('checked',false);
+           }
+       }
+        else{           
+            if( $(this).hasClass("active-all") ){
+                //点击不限按钮
+                $(this).siblings('.content-database-checkbox').removeClass('active');
+                $(this).siblings('.content-database-checkbox').children('input:checkbox').prop('checked',false);
+                $(this).addClass('active');
+                $(this).children('input:checkbox').prop('checked',true);
+           }
+            else{
+                //点击按钮
+                $(this).siblings('.active-all').removeClass('active');
+                $(this).siblings('.active-all').children('input:checkbox').prop('checked',false);
+                $(this).addClass('active');
+                $(this).children('input:checkbox').prop('checked',true);
+           }
+       }
+    });
+
+    //配方无级分类
+    $('.content-database-search-type-main .content-database-checkbox').click(function(){
+        if( $(this).hasClass('active') ){
+            if( $(this).hasClass("active-all") ){
+                //取消不限按钮
+                $('.content-database-search-type-1 .content-database-checkbox').removeClass('active');
+                $('.content-database-search-type-1 .content-database-checkbox').children('input:checkbox').prop('checked',false);
+           }
+            else{
+                //取消按钮
+                $(this).removeClass('active');
+                $(this).children('input:checkbox').prop('checked',false);
+           }
+        }
+        else{           
+            if( $(this).hasClass("active-all") ){
+                //点击不限按钮
+                $(this).siblings('.content-database-checkbox').removeClass('active');
+                $(this).siblings('.content-database-checkbox').children('input:checkbox').prop('checked',false);
+                $(this).addClass('active');
+                $(this).children('input:checkbox').prop('checked',true);
+           }
+            else{
+                //点击按钮
+                $(this).siblings('.active-all').removeClass('active');
+                $(this).siblings('.active-all').children('input:checkbox').prop('checked',false);
+                $(this).addClass('active');
+                $(this).children('input:checkbox').prop('checked',true);
+           }
+        }
+    });
+
+    //配方品质
+    $('.content-database-search-rarity .content-database-checkbox').click(function(){
+        if( $(this).hasClass('active') ){
+            $(this).removeClass('active');
+            $(this).children('input:checkbox').prop('checked',false);
+            if( $(this).hasClass("active-all") ){
+                $('.content-database-search-rarity .content-database-checkbox').removeClass('active');
+                $('.content-database-search-rarity .content-database-checkbox').children('input:checkbox').prop('checked',false);
+           }
+       }
+        else{
+            $(this).addClass('active');
+            $(this).children('input:checkbox').prop('checked',true);
+            if( $(this).hasClass("active-all") ){
+                $('.content-database-search-rarity .content-database-checkbox').addClass('active');
+                $('.content-database-search-rarity .content-database-checkbox').children('input:checkbox').prop('checked',true);
+           }
+       }
+    });
+
+    //表单提交
+    function submit_from(){
+        $.ajax({ 
+            type: 'POST',
+            url: "/frontend/database.recipes/search", 
+            data: $('#form').serialize(),
+            success: function(data){
+                if( data.type == 'error' ){
+                    console.log(data.msg);
+                }
+                else if( data.type == 'success' ){
+                    drawTable(data.data,1);
+                }
+            }
+        });
+    }
+
+    document.onkeydown = function(event){
+        switch(event.keyCode){
+            case 13: submit_from(); return false; 
+        }
+    };
+
+    $('#submit').click(function(){
+        submit_from();
+    });                 
+});
+</script>
+                    
+                </div>
+            </div>
+
+	        <!-- ============================================================== -->
+	        <!-- End Container fluid  -->
+	        <!-- ============================================================== -->
+
+	        <!-- ============================================================== -->
+	        <!-- footer -->
+	        <!-- ============================================================== -->
+	        <footer class="footer">
+    <div class="footer-anet-logo"><a href="https://www.arena.net/" target="_blank" rel="nofollow noopener noreferrer">&nbsp;</a></div>
+    <p>本站所使用的 ArenaNet, NCsoft, Guild Wars, Guild Wars 2, Heart of Thorns, Guild Wars 2:Path of Fire 相关商标及设计均属于 NCsoft 公司商标或注册商标。所有其他商标均是各自所有者的财产。</p>
+    <p class="copyright">© 2017-2020 <a href="../index.html">gw2data.cn</a> 版权所有 &nbsp;&nbsp; <a href="www.beian.miit.gov.html" target="_blank">京ICP备17000791号- 3</a></p>
+</footer>
+	        <!-- ============================================================== -->
+	        <!-- End footer -->
+        <!-- ============================================================== -->
+	    </div>
+	    <!-- ============================================================== -->
+	    <!-- End Page wrapper -->
+    <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <a href="#" id="turn-link" style="display: none;"></a>
+    <div class="tooltip-info" id="tooltip-info">
+        <div id="app-info"></div>
+    </div>
+    <!-- Bootstrap tether Core JavaScript -->
+<!-- <script src="https://cdn.bootcss.com/popper.js/1.8.1/popper.min.js"></script> -->
+<script src="../static/material-pro/assets/plugins/bootstrap/js/popper.min.js"></script>
+<!-- <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
+<script src="../static/material-pro/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- slimscrollbar scrollbar JavaScript -->
+<script src="../static/material-pro/material-frontend/js/jquery.slimscroll.js"></script>
+<!--Wave Effects -->
+<script src="../static/material-pro/material-frontend/js/waves.js"></script>
+<!--Menu sidebar -->
+<script src="../static/material-pro/material-frontend/js/sidebarmenu.js"></script>
+<script src="../js/sidebarmenuitem.js"></script>
+<!--stickey kit -->
+<script src="../static/material-pro/assets/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
+
+<!-- <script src="https://cdn.bootcss.com/jquery-sparklines/2.1.2/jquery.sparkline.min.js"></script> -->
+<script src="../static/material-pro/assets/plugins/sparkline/jquery.sparkline.min.js"></script>
+
+<!--Custom JavaScript -->
+<script src="../static/material-pro/material-frontend/js/custom.js"></script>
+<!-- <script src="/js/custom.js"></script> -->
+<!-- ============================================================== -->
+<!-- Sweet-Alert  -->
+<script src="../static/material-pro/assets/plugins/sweetalert/sweetalert.min.js"></script>
+<script src="../static/material-pro/assets/plugins/sweetalert/jquery.sweet-alert.custom.js"></script>
+
+<script src="../static/material-pro/assets/plugins/datatables/jquery.dataTables.min.js"></script>
+
+<!-- Tooltip -->
+<script src="../js/jquery.gw2tooltip.min3860.js?v=1"></script>
+<script src="../js/jquery.gw2info.minf183.js?v=2020.05.10"></script>
+
+<!-- chartist chart -->
+<!-- <script src="/static/material-pro/assets/plugins/chartist-js/dist/chartist.min.js"></script> -->
+<!-- <script src="/static/material-pro/assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js"></script> -->
+
+<!-- Chart JS -->
+<!-- <script src="/static/material-pro/material-frontend/js/dashboard1.js"></script> -->
+<!-- ============================================================== -->
+<!-- Style switcher -->
+<!-- ============================================================== -->
+<script src="../static/material-pro/assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+
+<!-- lazyload -->
+<script src="../js/jquery.lazyload.min.js"></script>
+
+<!-- viewer -->
+<script src="../static/Viewer/viewer.min.js"></script>
+
+<!-- clipboard -->
+<script src="../js/clipboard.min.js"></script>
+
+<!-- Layer 3.1.1 Alert-->
+<script src="../static/Layer-3.1.1/layer.js"></script>
+
+<!-- Swiper 5.3.8 -->
+<script src="../static/swiper-5.3.8/package/js/swiper.min.js"></script>
+
+<!-- isotope -->
+<script src="../js/isotope.pkgd.min.js"></script>
+
+<!-- pjax -->
+<!-- <script src="https://cdn.bootcss.com/jquery.pjax/2.0.1/jquery.pjax.min.js"></script> -->
+<script src="../js/jquery.pjax.min.js"></script>
+<script>
+$(document).ready(function() {
+    //dropdown-menu
+    $('.mega-dropdown-menu a').click(function(){
+        $('.mega-dropdown').removeClass('show');
+        $('.dropdown-menu').removeClass('show');
+    });
+
+    //pjax
+    $(document).pjax('a.pjax-link', '#container-fluid', {fragment:'#container-fluid', timeout:3000});
+
+    $(document).on('pjax:start', function() {
+        //other
+        window.scrollTo(0, 0); 
+        $('body').addClass('stop-scrolling');
+        $('#page-wrapper .preloader').show();
+    });
+    
+    $(document).on('pjax:end', function() { 
+        $('body').removeClass('stop-scrolling');
+        $('#page-wrapper .preloader').fadeOut(500);
+
+        //重新引导左侧菜单
+        $("#sidebarnav a:not(a[class='has-arrow waves-effect waves-dark'],a[class='has-arrow'])").click(function(){
+            
+            $("#sidebarnav>li.active").removeClass('active');
+            $("#sidebarnav a.active:not(a[class='has-arrow waves-effect waves-dark'],a[class='has-arrow'])").removeClass('active');
+            $(this).addClass('active');
+            $(this).parents('li').addClass('active');
+        });
+    });
+
+    //重新引导左侧菜单
+    $("#sidebarnav a:not(a[class='has-arrow waves-effect waves-dark'],a[class='has-arrow'])").click(function(){
+        
+        $("#sidebarnav>li.active").removeClass('active');
+        $("#sidebarnav a.active:not(a[class='has-arrow waves-effect waves-dark'],a[class='has-arrow'])").removeClass('active');
+        $(this).addClass('active');
+        $(this).parents('li').addClass('active');
+    });
+
+    //console.log("%c朋友，泰瑞亚需要我们继续守护，如果有兴趣一起搞点事情，欢迎加入【泰瑞亚探险家协会】官方QQ群：，暗号：GW2 Console","color:red;");
+})
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168154605-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-168154605-1');
+</script>
+</body>
+
+
+<!-- Mirrored from gw2.voids.cn/database/recipe by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Jul 2020 22:07:04 GMT -->
+</html>

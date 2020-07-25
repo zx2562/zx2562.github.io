@@ -1,0 +1,317 @@
+/* bg */
+.bg-lg{
+	position: relative;
+}
+
+.bg-lg-shadow{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(to right,rgba(10,10,12,0.9) 5%,rgba(10,10,12,.5) 50%,rgba(10,10,12,0.9) 95%);
+	z-index: 1;
+}
+
+.header-bg-build-Elementalist::before{
+	background-image: url(../../images.gw2.voids.cn/elementalist_bg.jpg_%3b%20filename_%3dutf-8%27%27elementalist_bg.jpg);
+	background-position: center -10px;
+}
+.bg-lg-Elementalist{
+	background-image: url(../../images.gw2.voids.cn/elementalist_bg.jpg_%3b%20filename_%3dutf-8%27%27elementalist_bg.jpg);
+	background-position: center -110px;
+}
+.header-bg-build-Warrior::before{
+	background-image: url(../../images.gw2.voids.cn/warrior_bg.jpg_%3b%20filename_%3dutf-8%27%27warrior_bg.jpg);
+	background-position: left 30px top -330px;
+}
+.bg-lg-Warrior{
+	background-image: url(../../images.gw2.voids.cn/warrior_bg.jpg_%3b%20filename_%3dutf-8%27%27warrior_bg.jpg);
+	background-position: left 0 top -430px;
+}
+.header-bg-build-Ranger::before{
+	background-image: url(../../images.gw2.voids.cn/ranger_bg.jpg_%3b%20filename_%3dutf-8%27%27ranger_bg.jpg);
+	background-position: right 30px top -50px;
+}
+.bg-lg-Ranger{
+	background-image: url(../../images.gw2.voids.cn/ranger_bg.jpg_%3b%20filename_%3dutf-8%27%27ranger_bg.jpg);
+	background-position: right 0 top -150px;
+}
+.header-bg-build-Necromancer::before{
+	background-image: url(../../images.gw2.voids.cn/necromancer_bg.jpg_%3b%20filename_%3dutf-8%27%27necromancer_bg.jpg);
+	background-position: right -70px top 30px;
+}
+.bg-lg-Necromancer{
+	background-image: url(../../images.gw2.voids.cn/necromancer_bg.jpg_%3b%20filename_%3dutf-8%27%27necromancer_bg.jpg);
+	background-position: right -100px top -70px;
+}
+.header-bg-build-Guardian::before{
+	background-image: url(../../images.gw2.voids.cn/guardian_bg.jpg_%3b%20filename_%3dutf-8%27%27guardian_bg.jpg);
+	background-position: right 30px top 30px;
+}
+.bg-lg-Guardian{
+	background-image: url(../../images.gw2.voids.cn/guardian_bg.jpg_%3b%20filename_%3dutf-8%27%27guardian_bg.jpg);
+	background-position: right 0 top -70px;
+}
+.header-bg-build-Thief::before{
+	background-image: url(../../images.gw2.voids.cn/thief_bg.jpg_%3b%20filename_%3dutf-8%27%27thief_bg.jpg);
+	background-position: center 30px;
+}
+.bg-lg-Thief{
+	background-image: url(../../images.gw2.voids.cn/thief_bg.jpg_%3b%20filename_%3dutf-8%27%27thief_bg.jpg);
+	background-position: center -70px;
+}
+.header-bg-build-Engineer::before{
+	background-image: url(../../images.gw2.voids.cn/engineer_bg.jpg_%3b%20filename_%3dutf-8%27%27engineer_bg.jpg);
+	background-position: center -180px;
+}
+.bg-lg-Engineer{
+	background-image: url(../../images.gw2.voids.cn/engineer_bg.jpg_%3b%20filename_%3dutf-8%27%27engineer_bg.jpg);
+	background-position: center -280px;
+}
+.header-bg-build-Mesmer::before{
+	background-image: url(../../images.gw2.voids.cn/mesmer_bg.jpg_%3b%20filename_%3dutf-8%27%27mesmer_bg.jpg);
+	background-position: right 30px top 0;
+}
+.bg-lg-Mesmer{
+	background-image: url(../../images.gw2.voids.cn/mesmer_bg.jpg_%3b%20filename_%3dutf-8%27%27mesmer_bg.jpg);
+	background-position: right 0 top -100px;
+}
+.header-bg-build-Revenant::before{
+	background-image: url(../../images.gw2.voids.cn/revenant_bg.jpg_%3b%20filename_%3dutf-8%27%27revenant_bg.jpg);
+	background-position: center -170px;
+}
+.bg-lg-Revenant{
+	background-image: url(../../images.gw2.voids.cn/revenant_bg.jpg_%3b%20filename_%3dutf-8%27%27revenant_bg.jpg);
+	background-position: center -270px;
+}
+
+
+.header-bg-home::before{
+	background-image: url(../../images.gw2.voids.cn/HomepageBanner-1600-743.jpg_%3b%20filename_%3dutf-8%27%27HomepageBanner-1600-743.jpg);
+	background-position: center -80px;
+}
+.bg-lg-home{
+	background-image: url(../../images.gw2.voids.cn/HomepageBanner-1600-743.jpg_%3b%20filename_%3dutf-8%27%27HomepageBanner-1600-743.jpg);
+    background-position: center -180px;
+    height: 370px;
+}
+
+
+.header-bg-benchmarks::before{
+	background-image: url(../../images.gw2.voids.cn/1501270941-POF_Wallpaper_1920x1200_5-1920x1080.jpg_%3b%20filename_%3dutf-8%27%271501270941-POF_Wallpaper_1920x1200_5-1920x1080.jpg);
+	background-position: center -30px;
+}
+.bg-lg-benchmarks{
+	background-image: url(../../images.gw2.voids.cn/1501270941-POF_Wallpaper_1920x1200_5-1920x1080.jpg_%3b%20filename_%3dutf-8%27%271501270941-POF_Wallpaper_1920x1200_5-1920x1080.jpg);
+    background-position: center -130px;
+}
+.bg-lg-fixed{
+	position: fixed;
+    top: 70px;
+    left: 240px;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+}
+.mini-sidebar .bg-lg-fixed{
+    left: 50px;
+}
+@media (max-width: 768px){
+	.mini-sidebar .bg-lg-fixed{
+		left: 0;
+	}
+}
+
+/* database */
+.bg-database-search{
+	background-image: url(../images/ui/database_search_bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+/* database-items */
+.header-bg-database-items::before{
+	background-image: url(../../images.gw2.voids.cn/POF_Wallpaper_1920x1200_2.jpg_%3b%20filename_%3dutf-8%27%27POF_Wallpaper_1920x1200_2.jpg);
+	background-position: center top -200px;
+}
+.bg-lg-database-items{
+	background-image: url(../../images.gw2.voids.cn/POF_Wallpaper_1920x1200_2.jpg_%3b%20filename_%3dutf-8%27%27POF_Wallpaper_1920x1200_2.jpg);
+	background-position: center top -300px;
+}
+
+/* database-skins */
+.header-bg-database-skins::before{
+	background-image: url(../../doc.gw2.voids.cn/d86f4b1d7f02-1920x1200.jpg_%3b%20filename_%3dutf-8%27%27d86f4b1d7f02-1920x1200.jpg);
+	background-position: center top -200px;
+}
+.bg-lg-database-skins{
+	background-image: url(../../doc.gw2.voids.cn/d86f4b1d7f02-1920x1200.jpg_%3b%20filename_%3dutf-8%27%27d86f4b1d7f02-1920x1200.jpg);
+	background-position: center top -300px;
+}
+
+/* database-equipments */
+.header-bg-database-equipments::before{
+	background-image: url(../../doc.gw2.voids.cn/d86f4b1d7f02-1920x1200.jpg_%3b%20filename_%3dutf-8%27%27d86f4b1d7f02-1920x1200.jpg);
+	background-position: center top -200px;
+}
+.bg-lg-database-equipments{
+	background-image: url(../../doc.gw2.voids.cn/d86f4b1d7f02-1920x1200.jpg_%3b%20filename_%3dutf-8%27%27d86f4b1d7f02-1920x1200.jpg);
+	background-position: center top -300px;
+}
+
+/* database-glyphs */
+.header-bg-database-glyphs::before{
+	background-image: url(../../doc.gw2.voids.cn/d86f4b1d7f02-1920x1200.jpg_%3b%20filename_%3dutf-8%27%27d86f4b1d7f02-1920x1200.jpg);
+	background-position: center top -200px;
+}
+.bg-lg-database-glyphs{
+	background-image: url(../../doc.gw2.voids.cn/d86f4b1d7f02-1920x1200.jpg_%3b%20filename_%3dutf-8%27%27d86f4b1d7f02-1920x1200.jpg);
+	background-position: center top -300px;
+}
+
+/* database-dye_kits */
+.header-bg-database-dye_kits::before{
+	background-image: url(../../doc.gw2.voids.cn/d86f4b1d7f02-1920x1200.jpg_%3b%20filename_%3dutf-8%27%27d86f4b1d7f02-1920x1200.jpg);
+	background-position: center top -200px;
+}
+.bg-lg-database-dye_kits{
+	background-image: url(../../doc.gw2.voids.cn/d86f4b1d7f02-1920x1200.jpg_%3b%20filename_%3dutf-8%27%27d86f4b1d7f02-1920x1200.jpg);
+	background-position: center top -300px;
+}
+
+/* database-recipes */
+.header-bg-database-recipes::before{
+	background-image: url(../../doc.gw2.voids.cn/themes/gw2/assets/images/bg/document/crafting_bg.jpg_%3b%20filename_%3dutf-8%27%27crafting_bg.jpg);
+	background-position: center top -200px;
+}
+.bg-lg-database-recipes{
+	background-image: url(../../doc.gw2.voids.cn/themes/gw2/assets/images/bg/document/crafting_bg.jpg_%3b%20filename_%3dutf-8%27%27crafting_bg.jpg);
+	background-position: center top -300px;
+}
+
+/* service */
+.header-bg-service::before{
+	background-image: url(../../images.gw2.voids.cn/timer_bg.jpg_%3b%20filename_%3dutf-8%27%27timer_bg.jpg);
+	background-position: center top -200px;
+}
+.bg-lg-service{
+	background-image: url(../../images.gw2.voids.cn/timer_bg.jpg_%3b%20filename_%3dutf-8%27%27timer_bg.jpg);
+	background-position: center top -300px;
+}
+
+
+/* user */
+.header-bg-user-login::before{
+	background-image: url(../../images.gw2.voids.cn/POF_Wallpaper_1920x1200_1_Login.jpg_%3b%20filename_%3dutf-8%27%27POF_Wallpaper_1920x1200_1_Login.jpg);
+	background-position: left 20px top -30px;
+}
+.bg-lg-user-login{
+	background-image: url(../../images.gw2.voids.cn/POF_Wallpaper_1920x1200_1_Login.jpg_%3b%20filename_%3dutf-8%27%27POF_Wallpaper_1920x1200_1_Login.jpg);
+    background-position: left 0 top -130px;
+}
+
+/* crafting */
+.header-bg-crafting::before{
+	background-image: url(../../doc.gw2.voids.cn/themes/gw2/assets/images/bg/document/crafting_bg.jpg_%3b%20filename_%3dutf-8%27%27crafting_bg.jpg);
+    background-position: center -50px;
+}
+.bg-lg-crafting{
+	background-image: url(../../doc.gw2.voids.cn/themes/gw2/assets/images/bg/document/crafting_bg.jpg_%3b%20filename_%3dutf-8%27%27crafting_bg.jpg);
+    background-position: center -150px;
+}
+
+/* legendary_equipment */
+.header-bg-legendary_equipment::before{
+	background-image: url(../../doc.gw2.voids.cn/d86f4b1d7f02-1920x1200.jpg_%3b%20filename_%3dutf-8%27%27d86f4b1d7f02-1920x1200.jpg);
+    background-position: center top -200px;
+}
+.bg-lg-legendary_equipment{
+	background-image: url(../../doc.gw2.voids.cn/d86f4b1d7f02-1920x1200.jpg_%3b%20filename_%3dutf-8%27%27d86f4b1d7f02-1920x1200.jpg);
+    background-position: center top -300px;
+}
+
+/* fractal */
+.header-bg-fractal::before{
+	background-image: url(../../doc.gw2.voids.cn/fractal_loading.jpg_%3b%20filename_%3dutf-8%27%27fractal_loading.jpg);
+    background-position: center -250px;
+}
+.bg-lg-fractal{
+	background-image: url(../../doc.gw2.voids.cn/fractal_loading.jpg_%3b%20filename_%3dutf-8%27%27fractal_loading.jpg);
+    background-position: center -350px;
+}
+
+/* raid */
+.header-bg-raid::before{
+	background-image: url(../../doc.gw2.voids.cn/raid_bg-1920x1200.jpg_%3b%20filename_%3dutf-8%27%27raid_bg-1920x1200.jpg);
+    background-position: center -450px;
+}
+.bg-lg-raid{
+	background-image: url(../../doc.gw2.voids.cn/raid_bg-1920x1200.jpg_%3b%20filename_%3dutf-8%27%27raid_bg-1920x1200.jpg);
+    background-position: center -550px;
+}
+
+/* strike_mission */
+.header-bg-strike_mission::before{
+	background-image: url(../../doc.gw2.voids.cn/strike_mission_header-bg-1920x1200.jpg_%3b%20filename_%3dutf-8%27%27strike_mission_header-bg-1920x1200.jpg);
+    background-position: center -450px;
+}
+.bg-lg-strike_mission{
+	background-image: url(../../doc.gw2.voids.cn/strike_mission_header-bg-1920x1200.jpg_%3b%20filename_%3dutf-8%27%27strike_mission_header-bg-1920x1200.jpg);
+    background-position: center -550px;
+}
+
+
+
+
+/* achievement */
+.header-bg-jumping_puzzles::before{
+	background-image: url(../../doc.gw2.voids.cn/Sylvari-01-1920x1200.jpg_%3b%20filename_%3dutf-8%27%27Sylvari-01-1920x1200.jpg);
+    background-position: center -350px;
+}
+.bg-lg-jumping_puzzles{
+	background-image: url(../../doc.gw2.voids.cn/Sylvari-01-1920x1200.jpg_%3b%20filename_%3dutf-8%27%27Sylvari-01-1920x1200.jpg);
+    background-position: center -450px;
+}
+.header-bg-explorer::before{
+	background-image: url(../../doc.gw2.voids.cn/Sylvari-01-1920x1200.jpg_%3b%20filename_%3dutf-8%27%27Sylvari-01-1920x1200.jpg);
+    background-position: center -350px;
+}
+.bg-lg-explorer{
+	background-image: url(../../doc.gw2.voids.cn/Sylvari-01-1920x1200.jpg_%3b%20filename_%3dutf-8%27%27Sylvari-01-1920x1200.jpg);
+    background-position: center -450px;
+}
+
+
+/* guild */
+.header-bg-guild_mission::before{
+	background-image: url(../../doc.gw2.voids.cn/bf5d703-04_BfLA-1920x1200.jpg_%3b%20filename_%3dutf-8%27%27bf5d703-04_BfLA-1920x1200.jpg);
+    background-position: center -450px;
+}
+.bg-lg-guild_mission{
+	background-image: url(../../doc.gw2.voids.cn/bf5d703-04_BfLA-1920x1200.jpg_%3b%20filename_%3dutf-8%27%27bf5d703-04_BfLA-1920x1200.jpg);
+    background-position: center -550px;
+}
+
+
+/* collection */
+.header-bg-collection::before{
+	background-image: url(../../images.gw2.voids.cn/af6953a10506-1920x1200.jpg_%3b%20filename_%3dutf-8%27%27af6953a10506-1920x1200.jpg);
+    background-position: center -150px;
+}
+.bg-lg-collection{
+	background-image: url(../../images.gw2.voids.cn/af6953a10506-1920x1200.jpg_%3b%20filename_%3dutf-8%27%27af6953a10506-1920x1200.jpg);
+    background-position: center -250px;
+}
+
+
+/* living world */
+.header-bg-no-quarter::before{
+	background-image: url(../../images.gw2.voids.cn/06a83200501-GW2-No-Quarter-ReleaseHub.jpg_%3b%20filename_%3dutf-8%27%2706a83200501-GW2-No-Quarter-ReleaseHub.jpg);
+    background-position: center -50px;
+}
+.bg-lg-no-quarter{
+	background-image: url(../../images.gw2.voids.cn/06a83200501-40-GW2-No-Quarter-ReleaseHub.jpg_%3b%20filename_%3dutf-8%27%2706a83200501-40-GW2-No-Quarter-ReleaseHub.jpg);
+    background-position: center -150px;
+}

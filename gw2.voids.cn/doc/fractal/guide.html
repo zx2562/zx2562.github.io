@@ -1,0 +1,2633 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<!-- Mirrored from gw2.voids.cn/doc/fractal/guide by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Jul 2020 00:22:37 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <script data-ad-client="ca-pub-2787907297523705" async src="../../../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="泰瑞亚探险家协会，是激战2游戏资料平台，拥有全面的激战2数据库，激战2游戏指南，攻略内容已涵盖全新版本烈焰征途、冰巢传说">
+    <meta name="author" content="Thanatos.">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../../images/logo-mid-black.png">
+    <title>迷雾碎层入门指引 | 迷雾碎层 | 激战2 泰瑞亚探险家协会 | 职业BD | 数据库 | 游戏资料</title>
+    
+    <!-- Bootstrap Core CSS -->
+<!-- <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"> -->
+<link href="../../static/material-pro/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!--alerts CSS -->
+<link href="../../static/material-pro/assets/plugins/sweetalert/sweetalert.css" rel="stylesheet" type="text/css">
+
+<!-- Viewer CSS -->
+<link href="../../static/Viewer/viewer.min.css" rel="stylesheet">
+
+<link href="../../static/material-pro/assets/plugins/wizard/steps.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="../../static/material-pro/dark-frontend/css/stylef543.css?v=2020.05.28" rel="stylesheet">
+
+<!-- Swiper 5.3.8 -->
+<link rel="stylesheet" href="../../static/swiper-5.3.8/package/css/swiper.min.css">
+
+<!-- You can change the theme colors from here -->
+
+<link href="../../static/material-pro/dark-frontend/css/colors/default-dark.css" id="theme" rel="stylesheet">
+
+<!-- DIY Style -->
+<link rel="stylesheet" href="../../css/frontend-style133b.css?v=2020.06.24">
+<link rel="stylesheet" href="../../css/background-imagesf214.css?v=2020.06.28">
+<link rel="stylesheet" href="../../css/index133b.css?v=2020.06.24">
+<link rel="stylesheet" href="../../css/ad8c38.css?v=2020.06.29">
+<link rel="stylesheet" href="../../css/gw2stylef214.css?v=2020.06.28">
+<link rel="stylesheet" href="../../css/tooltip0fe9.css?v=2020.06.14">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+    <!-- ============================================================== -->
+    <!-- <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script> -->
+    <script src="../../static/material-pro/assets/plugins/jquery/jquery.min.js"></script>
+    <!-- vue -->
+    <!-- <script src="https://cdn.bootcss.com/vue/2.6.10/vue.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+    <script src="../../js/vue.min.js"></script>
+    <!-- <script src="https://cdn.staticfile.org/vue-resource/1.5.1/vue-resource.min.js"></script> -->
+    <!-- <script src="/js/vue-resource.min.js"></script> -->
+    <script src="../../js/axios.min.js"></script>
+</head>
+
+<body class="fix-header fix-sidebar card-no-border">
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar">
+    <nav class="navbar top-navbar navbar-expand-md navbar-light">
+        <!-- ============================================================== -->
+        <!-- Logo -->
+        <!-- ============================================================== -->
+        <div class="navbar-header">
+            <a class="navbar-brand pjax-link" href="../../index.html">
+                <!-- Logo icon --><b>
+                    <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                    <!-- Dark Logo icon -->
+                    <img src="../../images/logo-icon.png" width="38" height="36" alt="homepage" class="dark-logo" />
+                </b>
+                <!--End Logo icon -->
+                <!-- Logo text -->
+                <span>
+                    <img src="../../images/logo-text.jpg" alt="泰瑞亚探险家协会" title="泰瑞亚探险家协会">
+                </span>
+            </a>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Logo -->
+        <!-- ============================================================== -->
+        <div class="navbar-collapse">
+            <!-- ============================================================== -->
+            <!-- toggle and nav items -->
+            <!-- ============================================================== -->
+            <ul class="navbar-nav mr-auto mt-md-0">
+                <!-- This is  -->
+                <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up text-muted waves-effect waves-dark" href="javascript:void(0)"><i class="mdi mdi-menu"></i></a> </li>
+                <li class="nav-item"> <a class="nav-link sidebartoggler hidden-sm-down text-muted waves-effect waves-dark" href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
+                <!-- ============================================================== -->
+                <!-- Search -->
+                <!-- ============================================================== -->
+                <!-- <li class="nav-item hidden-sm-down search-box"> <a class="nav-link hidden-sm-down text-muted waves-effect waves-dark" href="javascript:void(0)"><i class="ti-search"></i></a>
+                    <form class="app-search">
+                        <input type="text" class="form-control" placeholder="输入关键词 / 回车"> <a class="srh-btn"><i class="ti-close"></i></a> </form>
+                </li> -->
+                <!-- ============================================================== -->
+                <!-- Messages -->
+                <!-- ============================================================== -->
+                
+                <!-- ============================================================== -->
+                <!-- End Messages -->
+                <!-- ============================================================== -->
+            </ul>
+            <!-- ============================================================== -->
+            <!-- User profile and search -->
+            <!-- ============================================================== -->
+            <ul class="navbar-nav my-lg-0">
+                <!-- ============================================================== -->
+                <!-- Comment -->
+                <!-- ============================================================== -->
+                <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-muted text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-message"></i>
+                        <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
+                    </a>
+                    
+                </li> -->
+                <!-- ============================================================== -->
+                <!-- End Comment -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Messages -->
+                <!-- ============================================================== -->
+                <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="" id="2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-email"></i>
+                        <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
+                    </a>
+                    
+                </li> -->
+                <!-- ============================================================== -->
+                <!-- End Messages -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Profile -->
+                <!-- ============================================================== -->
+                <li class="nav-item dropdown user-avatar-box" id="user-avatar-box"></li>
+                <!-- ============================================================== -->
+                <!-- Language -->
+                <!-- ============================================================== -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="flag-icon flag-icon-cn"></i></a>
+                    
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+<!-- Left Sidebar - style you can find in sidebar.scss  -->
+<!-- ============================================================== -->
+<aside class="left-sidebar">
+    <!-- Sidebar scroll-->
+    <div class="scroll-sidebar">
+        <!-- Sidebar navigation-->
+        <nav class="sidebar-nav">
+            <ul id="sidebarnav">
+                <li class="nav-small-cap">配置 / Builds</li>
+                <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-hexagon-multiple"></i><span class="hide-menu">职业配置</span></a>
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="../../build/elementalist.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-profession icon-Elementalist"></i>元素使</a></li>
+                        <li><a href="../../build/warrior.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-profession icon-Warrior"></i>战&nbsp;&nbsp;&nbsp;士</a></li>
+                        <li><a href="../../build/ranger.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-profession icon-Ranger"></i>游&nbsp;&nbsp;&nbsp;侠</a></li>
+                        <li><a href="../../build/necromancer.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-profession icon-Necromancer"></i>唤灵师</a></li>
+                        <li><a href="../../build/guardian.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-profession icon-Guardian"></i>守护者</a></li>
+                        <li><a href="../../build/thief.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-profession icon-Thief"></i>潜行者</a></li>
+                        <li><a href="../../build/engineer.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-profession icon-Engineer"></i>工程师</a></li>
+                        <li><a href="../../build/mesmer.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-profession icon-Mesmer"></i>幻术师</a></li>
+                        <li><a href="../../build/revenant.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-profession icon-Revenant"></i>魂武者</a></li>
+                    </ul>
+                </li>
+                <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-flash"></i><span class="hide-menu">副本DPS测试</span></a>
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="../../benchmarks.html" class="pjax-link">测试列表 - 2020.02.28</a></li>
+                        <li><a href="../../benchmarks/buffs.html" class="pjax-link">BUFF使用说明</a></li>
+                    </ul>
+                </li>
+                <!-- <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-hexagon-multiple"></i><span class="hide-menu">配置模拟器</span></a>
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="/buildeditor/pve">PVE</a></li>
+                        <li><a href="/buildeditor/pvp">PVP</a></li>
+                        <li><a href="/buildeditor/wvw">WVW</a></li>
+                    </ul>
+                </li> -->
+                <li class="nav-devider"></li>
+
+                <li class="nav-small-cap">工具 / Tools</li>
+                <li> <a class="waves-effect waves-dark pjax-link" href="../../timer.html" aria-expanded="false"><i class="mdi mdi-theme-light-dark"></i><span class="hide-menu">事件计时器</span></a></li>
+                <li> <a class="waves-effect waves-dark pjax-link" href="../../npc.html" aria-expanded="false"><i class="mdi mdi-apple-safari"></i><span class="hide-menu">常用NPC位置</span></a></li>
+                <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-database"></i><span class="hide-menu">数据库</span></a>
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="../../database/item.html" class="pjax-link">物品 - Items</a></li>
+                        <li><a href="../../database/recipe.html" class="pjax-link">配方 - Recipes</a></li>
+                        <!-- <li><a href="/database/itemstat" class="pjax-link">属性 - Itemstats（开发中）</a></li> -->
+                        <li><a href="../../database/equipment.html" class="pjax-link">装备 - Equipments</a></li>
+                        <li><a href="../../database/skin.html" class="pjax-link">皮肤 - Skins</a></li>
+                        <!-- <li><a href="/database/food" class="pjax-link">食物 - Food</a></li>
+                        <li><a href="/database/utility" class="pjax-link">通用效果 - Utility</a></li> -->
+                        <!-- <li><a href="/database/color" class="pjax-link">染料 - Colors（开发中）</a></li> -->
+                        <li><a href="../../database/dye_kit.html" class="pjax-link">染料包 - Dye Kits</a></li>
+                        <li><a href="../../database/glyph.html" class="pjax-link">采集雕文 - Glyphs</a></li>
+                        <li><a href="../database/bonus.html" class="pjax-link">加成效果 - Bonus</a></li>
+                    </ul>
+                </li>
+                <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-elevation-decline"></i><span class="hide-menu">副职业动态升级</span></a>
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="../crafting/guide.html" class="pjax-link">副职业 升级前必读</a></li>
+                        <li><a href="../crafting/chef.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-crafting icon-chef"></i>厨师</a></li>
+                        <li><a href="../../crafting/weaponsmith.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-crafting icon-weaponsmith"></i>武器锻造师</a></li>
+                        <li><a href="../../crafting/armorsmith.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-crafting icon-armorsmith"></i>盔甲锻造师</a></li>
+                        <li><a href="../../crafting/artificer.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-crafting icon-artificer"></i>工艺制作师</a></li>
+                        <li><a href="../../crafting/tailor.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-crafting icon-tailor"></i>裁缝</a></li>
+                        <li><a href="../../crafting/huntsman.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-crafting icon-huntsman"></i>猎手</a></li>
+                        <li><a href="../../crafting/leatherworker.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-crafting icon-leatherworker"></i>皮革匠</a></li>
+                        <li><a href="../../crafting/jeweler.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-crafting icon-jeweler"></i>珠宝匠</a></li>
+                        
+                    </ul> 
+                </li>
+                <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-map"></i><span class="hide-menu">离线地图</span></a>
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="http://gw2timer.com/?enu_Language=zh" target="_blank" rel="nofollow noopener noreferrer">Gw2timer离线地图</a></li>
+                        <li><a href="http://gw2timer.com/?page=Map&amp;section=Resource&amp;enu_Language=zh" target="_blank" rel="nofollow noopener noreferrer">Gw2timer富采集点</a></li>
+                        <li><a href="https://gw2sy.top/gw2/" target="_blank" rel="nofollow noopener noreferrer">神油离线地图</a></li>
+                    </ul>
+                </li>
+            
+
+                <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-calendar-range"></i><span class="hide-menu">公会任务</span></a> 
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="../../guild_mission/guild_bounty.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-guild-bounty"></i>公会任务：赏金</a></li>
+                        <li><a href="../../guild_mission/guild_trek.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-guild-trek"></i>公会任务：跋涉</a></li>
+                        <li><a href="../../guild_mission/guild_race.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-guild-race"></i>公会任务：竞速</a></li>
+                        <!-- <li><a href="/guild_mission/guild_challenge" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-guild-challenge"></i>公会任务：挑战</a></li>
+                        <li><a href="/guild_mission/guild_puzzle" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-guild-puzzle"></i>公会任务：解谜</a></li> -->
+                    </ul> 
+                </li>
+
+                <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-puzzle"></i><span class="hide-menu">游戏插件</span></a> 
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="https://gw2sy.top/" target="_blank" rel="nofollow noopener noreferrer">神油插件合辑</a></li>
+                        <li><a href="../plugins/Arcdps.html" class="pjax-link">Arcdps - 团队DPS监控</a></li>
+                        <li><a href="../plugins/YoloMouse.html" class="pjax-link">YoloMouse - 光标替换</a></li>
+                        <li><a href="../plugins/ReShade.html" class="pjax-link">ReShade - 滤镜</a></li>
+                        <li><a href="../plugins/D912pxy.html" class="pjax-link">D912pxy - 提帧工具</a></li>
+                    </ul> 
+                </li>
+                
+                
+                <li class="nav-devider"></li>
+                <li class="nav-small-cap">文档 / Documents</li>
+                <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-routes"></i><span class="hide-menu">入门指引</span></a> 
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="../walkthrough/guild.html" class="pjax-link">入门指引</a></li>
+                        <li><a href="../walkthrough/basic_guide.html" class="pjax-link">基础游戏机制</a></li>
+                        <li><a href="../walkthrough/world_vs_world.html" class="pjax-link">世界之战</a></li>
+                        <li><a href="../walkthrough/home_instance.html" class="pjax-link">家园副本</a></li>
+                        <li><a href="../walkthrough/pets.html" class="pjax-link">游侠宠物捕捉点</a></li>
+                        <li><a href="../walkthrough/treasure_mushroom.html" class="pjax-link">宝藏菇位置</a></li>
+                        <li><a href="https://www.bilibili.com/video/BV1DD4y1D7sj" target="_blank" rel="nofollow noopener noreferrer">【川川禾】萌新常识 1</a></li>
+                        <li><a href="https://www.bilibili.com/video/BV1Sz411i7Td" target="_blank" rel="nofollow noopener noreferrer">【川川禾】萌新常识 2</a></li>
+                    </ul> 
+                </li>
+                <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-gnome"></i><span class="hide-menu">坐骑获取</span></a> 
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="../mounts/mounts.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-mount icon-raptor"></i>基础坐骑</a></li>
+                        <li><a href="../mounts/griffon.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-mount icon-griffon"></i>狮&nbsp;鹫</a></li>
+                        <li><a href="../mounts/roller_beetle.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-mount icon-roller-beetle"></i>翻滚甲虫</a></li>
+                        <li><a href="../mounts/warclaw.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-mount icon-warclaw"></i>战&nbsp;爪</a></li>
+                        <li><a href="../mounts/skyscale.html" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-mount icon-skyscale"></i>飞天鳞龙</a></li>
+                    </ul> 
+                </li>
+                <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-airballoon"></i><span class="hide-menu">升华装备</span></a> 
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="../ascended_items/ascended_equipment.html" class="pjax-link">升华装备 和 获取</a></li>
+                        <li><a href="../ascended_items/infusion_enrichment.html" class="pjax-link">灌注 和 富集</a></li>
+                        <li><a href="../ascended_items/infusion_slot.html" class="pjax-link">灌注槽配方</a></li>
+                        <li><a href="../ascended_items/equipment_stats.html" class="pjax-link">属性 和 转换</a></li>
+                        <li><a href="../ascended_items/sigil.html" class="pjax-link">常用法印获取</a></li>
+                        <li><a href="../ascended_items/rune.html" class="pjax-link">常用符文获取</a></li>
+                        <hr>
+                        <li><a href="../ascended_items/icebrood_saga_trinket.html" class="pjax-link">冰巢传说首饰</a></li>
+                        <li><a href="../ascended_items/ruriks_engagement_ring.html" class="pjax-link">卢瑞克的订婚戒指</a></li>
+                        <li><a href="../ascended_items/vial_of_salt.html" class="pjax-link">盐瓶（升华项链）</a></li>
+                        <li><a href="../ascended_items/old_back.html" class="pjax-link">万千箭袋（升华背部）</a></li>
+                    </ul> 
+                </li>
+
+                <li> <a class="waves-effect waves-dark pjax-link" href="../../legendary_equipment.html" aria-expanded="false"><i class="mdi mdi-shield"></i><span class="hide-menu">传奇装备</span></a>
+                </li>
+                <li> <a class="waves-effect waves-dark pjax-link" href="../../collection.html" aria-expanded="false"><i class="mdi mdi-terrain"></i><span class="hide-menu">收藏攻略</span></a>
+                </li>
+                <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-sword"></i><span class="hide-menu">副本攻略</span></a> 
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="../../fractal.html" class="pjax-link">迷雾碎层</a></li>
+                        <li><a href="../../raid.html" class="pjax-link">大型地下城</a></li>
+                        <li><a href="../../strike_mission.html" class="pjax-link">进攻任务</a></li>
+                    </ul> 
+                </li>
+                <!-- <li> <a class="has-arrow waves-effect waves-dark" href="javascript:;" aria-expanded="false"><i class="mdi mdi-book-multiple-variant"></i><span class="hide-menu">成就合集</span></a> 
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a href="/achievements/jumping_puzzles" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-achievement icon-jumping-puzzle"></i>跳跳乐</a></li>
+                        <li><a href="/achievements/explorer" class="sidebar-icon-link pjax-link"><i class="sidebar-icon icon-achievement icon-explorer"></i>探险家</a></li>
+                    </ul> 
+                </li> -->
+
+            </ul>
+            
+        </nav>
+        <!-- End Sidebar navigation -->
+    </div>
+    <!-- End Sidebar scroll-->
+    <!-- Bottom points-->
+    <div class="sidebar-footer">
+        <a href="../../about.html" class="link pjax-link" data-toggle="tooltip" title="关于我们"><i class="mdi mdi-bank"></i></a>
+        <a href="../../donate.html" class="link pjax-link" data-toggle="tooltip" title="友情赞助"><i class="mdi mdi-arrow-up-bold-hexagon-outline"></i></a>
+        <a href="http://shang.qq.com/wpa/qunwpa?idkey=5617b2581f8ba428c02ced1122ba959bb802b45f471595ed2dce3ab351974921" target="_blank" class="link" data-toggle="tooltip" title="联系我们"><i class="mdi mdi-qqchat"></i></a>
+    </div>
+    <!-- End Bottom points-->
+</aside>
+<!-- ============================================================== -->
+<!-- End Left Sidebar - style you can find in sidebar.scss  -->
+<!-- ============================================================== -->
+
+
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper" id="page-wrapper">
+        <!-- ============================================================== -->
+
+			<!-- Container fluid  -->
+    		<!-- ============================================================== -->
+
+            <div class="preloader" style="display:none">
+                <svg class="circular" viewBox="25 25 50 50">
+                    <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+            </div>
+            <div id="container-fluid">
+                <div class="header-bg ">
+                    <div class="header-bg-shadow"></div>
+                </div>
+                <div class="container-fluid">
+    
+                    <script>
+$(document).ready(function(){
+
+	$('.select2-container').remove();
+
+	$('.bootstrap-switch .bootstrap-switch-container input').each(function(index){
+		var s = $(this);
+	    s.parents('.bootstrap-switch').replaceWith(s);
+	});
+
+	$('.floating-labels .form-control').on('focus blur', function (e) {
+        $(this).parents('.form-group').toggleClass('focused', (e.type === 'focus' || this.value.length > 0));
+    }).trigger('blur');
+	
+	$('.show-sidebar').removeClass('show-sidebar');
+	$('.gw2-tooltip').gw2tooltip('#tooltip-info');
+	$('.gw2-info').gw2info();
+
+
+	//登录用户信息更新 ========================================
+	
+	/* new Vue({
+		el: '#user-avatar-box',
+		data:{
+			user_username: '',
+			user_nickname: '',
+			user_guild_name: '',
+			user_avatar: '',
+			user_state: ''
+        },
+        created: function(){
+            this.$http.post('/frontend/user.login/usercookielogin',{
+                frontend_user_id: window.localStorage.getItem('frontend_user_id'),
+                frontend_user_token: window.localStorage.getItem('frontend_user_token')
+            },{emulateJSON:true}).then(
+            function(res){
+                console.log(res.data.msg);
+                if( res.data.type == 'success' && !this.user_state ){
+                    this.user_state = '1';
+                    this.user_username = res.data.data.frontend_user_username;
+                    this.user_nickname = res.data.data.frontend_user_nickname;
+                    this.user_guild_name = res.data.data.frontend_user_guild_name;
+                    this.user_avatar = res.data.data.frontend_user_avatar ? res.data.data.frontend_user_avatar : '/images/avatar-user-default.jpg';
+                }
+                else if( res.data.type == 'error' ){
+                    this.user_state = '0';
+					this.user_username = '';
+					this.user_nickname = '';
+					this.user_guild_name = '';
+					this.user_avatar = '/images/avatar-default.jpg';
+                }
+            },function(res){
+                console.log('链接错误！');
+            });
+        },
+        methods:{
+			//登录获取来路页面
+			login:function(){
+				window.localStorage.setItem('login_from_page',window.location.pathname);
+			},
+			//退出登录
+            logout:function(){
+				this.$http.post('/user/login/logout',{},{emulateJSON:true}).then(
+				function(res){
+					console.log(res.data.msg);
+					if( res.data.type == 'success' ){
+						window.localStorage.removeItem('frontend_user_id');
+						window.localStorage.removeItem('frontend_user_token');
+						window.localStorage.setItem('login_state','0');
+						this.user_state = '0';
+						this.user_username = '';
+						this.user_nickname = '';
+						this.user_guild_name = '';
+						this.user_avatar = '/images/avatar-default.jpg';
+
+						swal({
+							title: "退出登录成功!",
+							text: "指挥官！期待您再次光临！",
+							type: "success",
+							timer: 1500,
+							showConfirmButton: false 
+						},function(){
+							$(".sweet-overlay,.sweet-alert").hide();
+							$('body').append(`<a href="` + window.location.pathname + `" class="logout-link pjax-link" style="display:none"></a>`);
+							$(".logout-link").trigger("click");
+						});
+					}
+				},function(res){
+					console.log('链接错误！');
+				});
+			}
+        },
+        template: `
+        <li class="nav-item dropdown" id="user-avatar-box">
+            <template v-if="user_state == '1'">
+                <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img :src="user_avatar" :alt="user_nickname" class="profile-pic" />
+                </a>
+                <div class="dropdown-menu dropdown-menu-right scale-up">
+                    <ul class="dropdown-user">
+                        <li>
+                            <div class="dw-user-box">
+                                <div class="u-img"><img :src="user_avatar" :alt="user_nickname"></div>
+                                <div class="u-text">
+                                    <h4>{{ user_nickname }}</h4>
+                                    <p class="text-muted">{{ user_username }}</p>
+                                    <template v-if="user_guild_name">
+                                        <button href="profile.html" class="btn btn-rounded btn-danger btn-sm">{{ user_guild_name }}</button>
+                                    </template>
+                                </div>
+                            </div>
+                        </li>
+                        <li rolegroup="separator" class="divider"></li>
+                        <li><a href="/user/settings/index"><i class="ti-settings"></i> 账号设置</a></li>
+                        <li rolegroup="separator" class="divider"></li>
+                        <li><a href="javascript:;" id="logout-button" @click="logout()"><i class="fa fa-power-off"></i> 退出登录</a></li>
+                    </ul>
+                </div>
+            </template>
+            <template v-if="user_state == '0'">
+                <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img :src="user_avatar" :alt="user_nickname" class="profile-pic" />
+				</a>
+				<div class="dropdown-menu dropdown-menu-right scale-up">
+					<ul class="dropdown-user">
+						<li><a href="/user/login" @click="login()" class="pjax-link login-link"><i class="mdi mdi-account-circle"></i>&nbsp; 登录</a></li>
+						<li><a href="/user/register" class="pjax-link login-link"><i class="mdi mdi-account-card-details"></i>&nbsp; 注册</a></li>
+					</ul>
+				</div>
+            </template>
+        </li>
+		`
+	}); */
+
+	//手机端点击信息框隐藏
+	$('.tooltip-info').click(function(){
+		$(this).hide();
+	});
+
+	//统计
+	$('#tongji_box').append(`<iframe src="/t?url=` + window.location.pathname + `" frameborder="0"></iframe>`);
+});
+</script>
+<div style="display: none" id="tongji_box"></div>
+    
+                    <style type="text/css">
+.header-bg:before{
+    background-image: url(../../../doc.gw2data.cn/fractal_loading.jpg);
+    background-position: center -50px;
+}
+.page-titles{
+    background-image: url(../../../doc.gw2data.cn/fractal_loading.jpg);
+    background-position: center -150px;
+}
+.article-font-color{
+    color: #6093be !important;
+}
+.article-button-color.active{
+    background-color: #40739e !important;
+}
+.article-content{
+    position: relative;
+}
+.article-content img {
+    height: 200px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.article-content table img {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.article-content img.original-size {
+    height: auto;
+    margin: 0;
+}
+
+
+@media(max-width: 576px){
+    .article-content img {
+        width: 100%;
+        height: auto;
+    }
+    .article-content table img {
+        width: auto;
+        height: auto;
+    }
+}
+
+.article-content h1{
+    margin: 6rem 0 10px;
+    padding-bottom: 0.7rem;
+    font-size: 1.8rem !important;
+    font-family: STXihei;
+    color: #6093be !important;
+    border-bottom: 1px solid rgba(236,236,236,.11);
+}
+.article-content h2{
+    margin: 5rem 0 10px;
+    padding-bottom: 0.7rem;
+    font-size: 1.5rem !important;
+    font-family: STXihei;
+    color: #6093be !important;
+    border-bottom: 1px solid rgba(236,236,236,.11);
+}
+.article-content h1:before, .article-content h2:before, .article-content h3:before{
+    content: "# ";
+}
+.article-content h1:first-child, .article-content h2:first-child, .article-content h3:first-child{
+    margin-top: 0;
+}
+.article-content strong{
+    background-color: #252525;
+    padding: 4px 6px;
+    border-radius: 4px;
+    color: #6093be !important;
+}
+
+.article-content blockquote{
+    border-left: 5px solid #40739e !important;
+    background-color: #252525;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.article-content blockquote h1, .article-content blockquote h2, .article-content blockquote h3{
+    border: 0;
+    margin-bottom: 0;
+}
+.article-content blockquote h1:before, .article-content blockquote h2:before, .article-content blockquote h3:before{
+    content: "";
+}
+.article-content table{
+    margin-bottom: 20px;
+}
+</style>
+
+
+<div class="row page-titles bg-lg m-b-0 p-b-0">
+    <div class="page-titles-content col-md-5 col-12 align-self-center">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../../index.html" class="article-font-color pjax-link"><i class="fa fa-home"></i></a></li>
+            <li class="breadcrumb-item active">文档</li>
+            <li class="breadcrumb-item active"><span class="article-font-color pjax-link">迷雾碎层</span></li>
+            <li class="breadcrumb-item active"><span class="article-font-color">迷雾碎层入门指引<span></li>
+        </ol>
+    </div>
+    <div class="page-titles-head col-md-12 m-t-30 p-b-20">
+        <h1 class="page-titles-title article-font-color m-t-30 m-b-30">
+            迷雾碎层入门指引        </h1>
+        <div class="page-titles-details">
+                        <div class="view" title="原创作者"><i class="mdi mdi-feather"></i>&nbsp;&nbsp;暴君之刃</div>
+                        <div class="updatetime" title="发布时间"><i class="mdi mdi-clock"></i>&nbsp;&nbsp;2019.11.15</div>
+                    </div>
+    </div>
+    <div class="bg-lg-shadow"></div>
+</div>
+
+
+<div class="row">
+    <div class="col-md-12 main-content">
+        
+        <div class="card card-body m-t-30">
+    <div class="row">
+        <ins class="adsbygoogle"
+            style="display:block; width:1200px; margin-left:15px;"
+            data-ad-layout="in-article"
+            data-ad-format="fluid"
+            data-ad-client="ca-pub-2787907297523705"
+            data-ad-slot="7841719707"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+</div>
+
+        <div class="card card-box-shadow overflow-hidden m-t-30">
+            <div class="bg-gray card-body">
+                <h3 class="card-title">简介</h3>
+                <hr>
+                <div class="build-info-content article-content">
+                    <!-- <div class="ad-article-description-left">
+                            <iframe src="/ad/article_description" frameborder="0" width="100%" height="100%"></iframe>
+                    </div> -->
+                    <!-- <div class="ad-article-description-right"> -->
+                        <ul>
+<li><strong>迷雾碎层</strong> 是一种特殊的 5人地下城模式，每一层都有独立的 副本剧情和场景。</li>
+<li><strong>迷雾碎层</strong> 是提升装备的重要方式，并能提供 <strong>灌注升级</strong> 以及 <strong>灌注槽材料</strong>。</li>
+</ul>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+
+        <div id="article-content" class="card card-box-shadow overflow-hidden m-t-30">
+            <div class="bg-gray card-body p-b-0">
+                                <ul class="nav nav-pills m-b-20">
+                                        <li class="nav-item m-r-10"> <a href="#content-1" class="nav-link article-button-color active" data-toggle="tab" aria-expanded="true">进入碎层</a> </li>
+                                        <li class="nav-item m-r-10"> <a href="#content-2" class="nav-link article-button-color " data-toggle="tab" aria-expanded="false">难度层级变化</a> </li>
+                                        <li class="nav-item m-r-10"> <a href="#content-3" class="nav-link article-button-color " data-toggle="tab" aria-expanded="false">雾锁奇点</a> </li>
+                                        <li class="nav-item m-r-10"> <a href="#content-4" class="nav-link article-button-color " data-toggle="tab" aria-expanded="false">雾锁异变</a> </li>
+                                        <li class="nav-item m-r-10"> <a href="#content-5" class="nav-link article-button-color " data-toggle="tab" aria-expanded="false">碎层列表</a> </li>
+                                        <li class="nav-item m-r-10"> <a href="#content-6" class="nav-link article-button-color " data-toggle="tab" aria-expanded="false">痛苦</a> </li>
+                                        <li class="nav-item m-r-10"> <a href="#content-7" class="nav-link article-button-color " data-toggle="tab" aria-expanded="false">痛苦抗性</a> </li>
+                                        <li class="nav-item m-r-10"> <a href="#content-8" class="nav-link article-button-color " data-toggle="tab" aria-expanded="false">迷雾药剂</a> </li>
+                                        <li class="nav-item m-r-10"> <a href="#content-9" class="nav-link article-button-color " data-toggle="tab" aria-expanded="false">账号强化</a> </li>
+                                        <li class="nav-item m-r-10"> <a href="#content-10" class="nav-link article-button-color " data-toggle="tab" aria-expanded="false">小道具</a> </li>
+                                        <li class="nav-item m-r-10"> <a href="#content-11" class="nav-link article-button-color " data-toggle="tab" aria-expanded="false">常用术语</a> </li>
+                                    </ul>
+                                <div class="tab-content br-n pn">
+                                        <div id="content-1" class="tab-pane build-info-content article-content active" aria-expanded="true">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card m-b-20">
+                                    <div class="card-body">
+                                        <h2 id="-">进入碎层</h2>
+<p>碎层入口：</p>
+<ul>
+<li><strong>狮子拱门 - 马里纳堡垒传送点</strong> [&amp;BDAEAAA=]，南边。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="http://doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20191115102844.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="http://doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20191115102844.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+<ul>
+<li><strong>雾锁庇护所</strong> 东侧，需要 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="81664"></span><span>雾锁庇护所通行钥匙</span>
+                        </span> 或 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="81912"></span><span>雾锁庇护所通行钥匙（2周）</span>
+                        </span> 才能进入。</li>
+<li>当小队成员在 <strong>狮子拱门</strong> 或 <strong>雾锁庇护所</strong> 时，同地图的任意一名玩家进入 <strong>迷雾碎层</strong> 都会提示其他玩家是否进入。</li>
+<li>进入 <strong>碎层入口传送门</strong> 时，会直接提示触碰的玩家选择碎层难度。</li>
+</ul>
+<h2 id="-">雾锁观测台（碎层大厅）</h2>
+<ul>
+<li>进入 <strong>迷雾碎层</strong> 后，左边能看到 <strong>难度设定排序器</strong>，可以使用它调整碎层难度。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="http://doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20191115112557.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="http://doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20191115112557.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+<ul>
+<li>当碎层难度设定完毕后，一名玩家跳入入口前方的传送盘内，就会提示其他进入 <strong>迷雾碎层</strong> 的小队成员 <strong>是否准备好继续了？</strong>。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="http://doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20191115112828.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="http://doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20191115112828.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+<ul>
+<li>碎层入口处有一个 <strong>FIX-0255型</strong> 修理NPC，每完成一层碎层后，可以访问它出售垃圾道具，并维修装备。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="http://doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20191115115150.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="http://doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20191115115150.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+<ul>
+<li>可以使用小型蓝色传送盘在大厅内的三个浮岛间快速穿梭。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="http://doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20191115113256.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="http://doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20191115113256.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+<hr>
+<p>碎层内有各种商人：</p>
+<ul>
+<li><strong>灌注魔像5959</strong> 出售各种与灌注相关的物品。</li>
+<li><strong>BUY-2046 PFR型</strong> 出售粉色升华戒指 以及 迷雾首饰。</li>
+<li><strong>BUY-4373型</strong> 出售收藏物品 和 升华拆解工具、呼吸器图纸、<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="70438"></span><span>碎层解密钥匙</span>
+                        </span>。</li>
+<li><strong>黛萨的炼金师</strong> 出售或回收迷雾药剂。</li>
+<li><strong>BLING-9009</strong> 出售无尽迷雾药剂 和 升华装备 图纸、皮肤、<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="81783"></span><span>天界灌注（红色）</span>
+                        </span>。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="http://doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20191115113544.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="http://doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20191115113544.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+<h2 id="-">与普通五人地下城区别</h2>
+<ul>
+<li>任何从迷雾碎层大厅外进入 <strong>碎层关卡副本</strong> 的玩家都会阵亡。</li>
+<li>80级以下玩家进入副本会进行等级缩放，允许低等级的玩家参与战斗，但从装备中获得的属性不会缩放提高，并且副本中的怪物会优先攻击低等级玩家。</li>
+</ul>
+                                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div id="content-2" class="tab-pane build-info-content article-content " aria-expanded="false">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card m-b-20">
+                                    <div class="card-body">
+                                        <h2 id="-">难度层级</h2>
+<ul>
+<li>与普通 5人地下城不同，<strong>迷雾碎层</strong> 采用难度层级模式。</li>
+<li>每当你完成 <strong>难度层级</strong> 等于 或 高于 <strong>个人难度层级</strong>的碎层时，你的 <strong>个人难度层级</strong> 会提升一级，直到满级 100级为止。</li>
+<li>在迷雾碎层大厅中，可以通过 <strong>难度设定排序器</strong> 变更当前要加入的碎层层数。</li>
+<li>碎层的战利品丰厚程度与当前加入的 <strong>难度层级</strong> 有关，即使你的个人难度层级较低，加入高难度也会获得对应等级的奖励。</li>
+<li><strong>碎层设置</strong> 面板列出四个大段难度等级，未满 80级的角色将不能选择难度，80级时会解锁 <strong>等级:1</strong> 的25层，只有个人层级等级接近每个大段的最高级时，才能解锁下一个大段。</li>
+<li><strong>个人难度层级</strong> 全角色通用。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="http://doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20191115104829.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="http://doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20191115104829.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+<h2 id="-">更高难度层级的变化</h2>
+<ul>
+<li>同一地图的高层版本，敌人产生的数量更多，等级也更高，并且敌人的生命值也增多，伤害能力也加强。</li>
+<li>个别的精英怪 和 首领会获得新技能。</li>
+</ul>
+<hr>
+<ul>
+<li>在 25、50、75层后将逐步出现更多机制变化。</li>
+<li>从 20层开始，<strong>痛苦伤害</strong> 被加入到小怪 和 BOSS的攻击中，并且碎层层级越高需要的痛苦抗性就越多。</li>
+<li>从 26层开始，为副本添加一种 <strong>雾锁异变</strong> 状态，在 51级时添加两种，76级时添加三种。</li>
+<li>从 71层开始，玩家被打入倒地状态，<strong>碎层复仇者</strong> 会出现并试图终结倒地玩家。</li>
+<li><strong>碎层复仇者</strong> 在终结时被打断或杀死，就会消失。倒地玩家利用 隐身 或 闪烁 位移到足够远的距离，也能摆脱 <strong>碎层复仇者</strong>。</li>
+<li>如果遇到 <strong>雾锁异变:碎层捍卫者</strong>，<strong>碎层复仇者</strong> 就会被替换为 <strong>碎层捍卫者</strong>，它会持续攻击玩家直到被杀死为止。</li>
+<li>当一名倒地玩家对应的 <strong>碎层捍卫者</strong> 未被击杀时，该玩家连续倒地不会刷出新的 <strong>碎层捍卫者</strong>。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="http://doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20191115114806.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="http://doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20191115114806.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+                                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div id="content-3" class="tab-pane build-info-content article-content " aria-expanded="false">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card m-b-20">
+                                    <div class="card-body">
+                                        <h2 id="-">雾锁奇点</h2>
+<ul>
+<li>碎层副本中途没有 <strong>传送点</strong>，取而代之的是使用 <strong>雾锁奇点</strong> 作为进度存档点，如果一名小队成员阵亡，必须等待其他玩家都脱离战斗后才能从 <strong>雾锁奇点</strong> 存档点位置处复活。</li>
+<li>如果队伍中有一名玩家提前跑到了下一个 <strong>雾锁奇点</strong> 位置处，其他玩家可以输入命令 <strong>/gg</strong> 快速自杀后，即可直接复活到新的 <strong>雾锁奇点</strong> 存档点位置处，以便节省跑路时间。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="http://doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200210123001.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="http://doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200210123001.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+<ul>
+<li>在拥有 <span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="54"></span><span>碎层协调：雾锁奇点</span>
+                        </span> 专精后，你才能使用以下能力：</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="http://doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200210123217.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="http://doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200210123217.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+<ul>
+<li>与 <strong>雾锁奇点</strong>  互动可以增加 5点 <strong>痛苦抗性</strong>。</li>
+<li>与 <strong>雾锁奇点</strong>  互动可以刷新技能冷却，一般情况下，辅助职业可以在与 BOSS 交战前，先为队友刷满增益，随后使用 <strong>雾锁奇点</strong> 刷新技能，再开启战斗。</li>
+<li>碎层副本中途没有 <strong>修理点</strong>，如果玩家掌握 <span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="54"></span><span>碎层协调：雾锁奇点</span>
+                        </span> 专精，可以与 <strong>雾锁奇点</strong> 互动来修理装备。</li>
+<li>掌握 <span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="54"></span><span>碎层协调：雾锁奇点</span>
+                        </span> 专精，与 <strong>雾锁奇点</strong> 交流会获得一层特殊的护盾，在受到致命伤害后，会将护盾消耗并获得约 0.5秒的无敌，并将生命值恢复为 25%的最大生命值。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="http://doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200210123036.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="http://doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200210123036.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+<ul>
+<li>玩家未脱战时，无法与 <strong>雾锁奇点</strong> 交流。</li>
+<li><strong>雾锁奇点</strong> 被交流后，只有队伍中的所有玩家都阵亡后，<strong>雾锁奇点</strong> 才会重置为可交流状态。</li>
+</ul>
+                                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div id="content-4" class="tab-pane build-info-content article-content " aria-expanded="false">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card m-b-20">
+                                    <div class="card-body">
+                                        <h2 id="-">雾锁异变</h2>
+<ul>
+<li><strong>雾锁异变</strong> 是一类特殊状态，它会在副本过程中对玩家产生特殊影响。</li>
+<li>从 2级碎层开始（26层）开始，副本中会开始添加一种 <strong>雾锁异变</strong>，3级（51层）开始添加两种，4级（76层）开始添加三种，<strong>雾锁异变</strong> 每层每天都是随机分配的。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">图标</th>
+<th style="text-align:center">名称</th>
+<th style="text-align:left">影响</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Adrenaline_Rush.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Adrenaline_Rushd41d.png?" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Adrenaline_Rush.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Adrenaline_Rushd41d.png?"
+                         compress="0" class="original-size"></td>
+<td style="text-align:center">怒气迸发</td>
+<td style="text-align:left">敌人被激怒并且生命值较低时，造成的伤害增加150%。未激怒时伤害减少20%。</td>
+</tr>
+<tr>
+<td style="text-align:center"><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Afflicted.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Afflictedd41d.png?" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Afflicted.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Afflictedd41d.png?"
+                         compress="0" class="original-size"></td>
+<td style="text-align:center">恶疾缠身</td>
+<td style="text-align:left">输出的抗性持续时间增加50%。敌人施加随机症状。</td>
+</tr>
+<tr>
+<td style="text-align:center"><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Boon_Overload.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Boon_Overloadd41d.png?" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Boon_Overload.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Boon_Overloadd41d.png?"
+                         compress="0" class="original-size"></td>
+<td style="text-align:center">增益过载</td>
+<td style="text-align:left">每个增益让伤害增加5%。施加的增益持续时间增加20%。</td>
+</tr>
+<tr>
+<td style="text-align:center"><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Flux_Bomb.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Flux_Bombd41d.png?" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Flux_Bomb.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Flux_Bombd41d.png?"
+                         compress="0" class="original-size"></td>
+<td style="text-align:center">流体炸弹</td>
+<td style="text-align:left">你周期性的受到异常体流体炸弹的影响。流体炸弹对敌人和盟友都有效。</td>
+</tr>
+<tr>
+<td style="text-align:center"><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Fractal_Vindicators.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Fractal_Vindicatorsd41d.png?" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Fractal_Vindicators.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Fractal_Vindicatorsd41d.png?"
+                         compress="0" class="original-size"></td>
+<td style="text-align:center">碎层捍卫者</td>
+<td style="text-align:left">碎层复仇者被替换成更强大的碎层捍卫者。</td>
+</tr>
+<tr>
+<td style="text-align:center"><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Frailty.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Frailtyd41d.png?" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Frailty.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Frailtyd41d.png?"
+                         compress="0" class="original-size"></td>
+<td style="text-align:center">脆弱</td>
+<td style="text-align:left">玩家变小，生命值减少30%，移动速度增加25%。</td>
+</tr>
+<tr>
+<td style="text-align:center"><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Hamstrung.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Hamstrungd41d.png?" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Hamstrung.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Hamstrungd41d.png?"
+                         compress="0" class="original-size"></td>
+<td style="text-align:center">挑筋断骨</td>
+<td style="text-align:left">你的生命值越低，移动速度就越慢。耐力回复速度提升33%。</td>
+</tr>
+<tr>
+<td style="text-align:center"><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Last_Laugh.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Last_Laughd41d.png?" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Last_Laugh.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Last_Laughd41d.png?"
+                         compress="0" class="original-size"></td>
+<td style="text-align:center">两败俱伤</td>
+<td style="text-align:left">没有昏迷的敌人被消灭时将会爆炸。昏迷的敌人对附近盟友施加保护和稳固。</td>
+</tr>
+<tr>
+<td style="text-align:center"><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Mists_Convergence.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Mists_Convergenced41d.png?" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Mists_Convergence.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Mists_Convergenced41d.png?"
+                         compress="0" class="original-size"></td>
+<td style="text-align:center">迷雾混流</td>
+<td style="text-align:left">迷雾碎层已经混杂到一起了......</td>
+</tr>
+<tr>
+<td style="text-align:center"><img src="../../images/loadimg.jpg"
+                         data-original="http://doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_No_Pain,_No_Gain.png?" 
+                         origin="http://doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_No_Pain,_No_Gain.png?"
+                         compress="0" class="original-size"></td>
+<td style="text-align:center">福祸难料</td>
+<td style="text-align:left">敌人被击中时获得增益。剥夺敌人的增益也会汲取敌人的生命值。（冷却时间：20秒）</td>
+</tr>
+<tr>
+<td style="text-align:center"><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Outflanked.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Outflankedd41d.png?" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Outflanked.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Outflankedd41d.png?"
+                         compress="0" class="original-size"></td>
+<td style="text-align:center">腹背受敌</td>
+<td style="text-align:left">300距离内的敌人从背后攻击时伤害增加300%，但是从正面攻击时只能造成75%的伤害。</td>
+</tr>
+<tr>
+<td style="text-align:center"><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Social_Awkwardness.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Social_Awkwardnessd41d.png?" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Social_Awkwardness.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Social_Awkwardnessd41d.png?"
+                         compress="0" class="original-size"></td>
+<td style="text-align:center">社交障碍</td>
+<td style="text-align:left">玩家们被推散。</td>
+</tr>
+<tr>
+<td style="text-align:center"><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Stick_Together.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Stick_Togetherd41d.png?" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Stick_Together.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Stick_Togetherd41d.png?"
+                         compress="0" class="original-size"></td>
+<td style="text-align:center">团结一心</td>
+<td style="text-align:left">与盟友距离超过300时，受到的伤害增加60%。与盟友的距离在300以内时，受到的伤害减少20%。</td>
+</tr>
+<tr>
+<td style="text-align:center"><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Sugar_Rush.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Sugar_Rushd41d.png?" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Sugar_Rush.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Sugar_Rushd41d.png?"
+                         compress="0" class="original-size"></td>
+<td style="text-align:center">糖分冲击</td>
+<td style="text-align:left">移动和攻击速度增加15%。对于精英和更低等级的敌人，移动和攻击速度增加35%。</td>
+</tr>
+<tr>
+<td style="text-align:center"><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Toxic_Trail.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Toxic_Traild41d.png?" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Toxic_Trail.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Toxic_Traild41d.png?"
+                         compress="0" class="original-size"></td>
+<td style="text-align:center">剧毒尾迹</td>
+<td style="text-align:left">敌人在身后留下有毒的轨迹。格挡剧毒轨迹攻击可以吸收毒素，净化症状。</td>
+</tr>
+<tr>
+<td style="text-align:center"><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Vengeance.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Vengeanced41d.png?" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_Vengeance.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_Vengeanced41d.png?"
+                         compress="0" class="original-size"></td>
+<td style="text-align:center">复仇</td>
+<td style="text-align:left">敌人死后，附近敌人获得多个增益（范围80）；对精英敌人无效。剥夺敌人的增益后给他们施加虚弱。</td>
+</tr>
+<tr>
+<td style="text-align:center"><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_We_Bleed_Fire.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_We_Bleed_Fired41d.png?" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/Mistlock_Instability_We_Bleed_Fire.png_%3b%20filename_%3dutf-8%27%27Mistlock_Instability_We_Bleed_Fired41d.png?"
+                         compress="0" class="original-size"></td>
+<td style="text-align:center">火焰之血</td>
+<td style="text-align:left">敌人受到伤害时制造烈焰飞弹。受到的症状伤害减少20%。（冷却时间：2秒）</td>
+</tr>
+</tbody>
+</table>
+                                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div id="content-5" class="tab-pane build-info-content article-content " aria-expanded="false">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card m-b-20">
+                                    <div class="card-body">
+                                        <h2 id="-">碎层列表</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:right">#</th>
+<th style="text-align:center">地图</th>
+<th style="text-align:left">描述</th>
+<th style="text-align:left">怪物种类</th>
+<th style="text-align:center">昼夜</th>
+<th style="text-align:left">层级</th>
+<th style="text-align:center">上线日期</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">1</td>
+<td style="text-align:center">火山</td>
+<td style="text-align:left">消灭一个住在火山内部的穴居人群落。</td>
+<td style="text-align:left">穴居人、少量恶魔、少量元素</td>
+<td style="text-align:center">夜晚</td>
+<td style="text-align:left">1，19，28，52，72，92</td>
+<td style="text-align:center">2012年11月15日</td>
+</tr>
+<tr>
+<td style="text-align:right">2</td>
+<td style="text-align:center">未识别</td>
+<td style="text-align:left">攀登上一个未知的阿苏拉建筑物。</td>
+<td style="text-align:left">审讯团、鹰身女妖、少量强盗、少量烈焰军团</td>
+<td style="text-align:center">白天</td>
+<td style="text-align:left">2，36，44，62，79，91</td>
+<td style="text-align:center">2012年11月15日</td>
+</tr>
+<tr>
+<td style="text-align:right">3</td>
+<td style="text-align:center">雪盲</td>
+<td style="text-align:left">在一片寒冷的森林中击败斯瓦尼亚之子。</td>
+<td style="text-align:left">元素、斯瓦尼亚之子</td>
+<td style="text-align:center">夜晚</td>
+<td style="text-align:left">3，27，51，68，86，93</td>
+<td style="text-align:center">2012年11月15日</td>
+</tr>
+<tr>
+<td style="text-align:right">4</td>
+<td style="text-align:center">城市战场</td>
+<td style="text-align:left">和烈焰军团共同进攻一座阿斯卡隆城市。</td>
+<td style="text-align:left">人类</td>
+<td style="text-align:center">白天</td>
+<td style="text-align:left">4，31，57，66，85</td>
+<td style="text-align:center">2012年11月15日</td>
+</tr>
+<tr>
+<td style="text-align:right">5</td>
+<td style="text-align:center">沼泽</td>
+<td style="text-align:left">在一个危险的沼泽中驱逐邪恶的幽灵。</td>
+<td style="text-align:left">诺恩、植物</td>
+<td style="text-align:center">夜晚</td>
+<td style="text-align:left">5、21、32、56、77、89</td>
+<td style="text-align:center">2012年11月15日</td>
+</tr>
+<tr>
+<td style="text-align:right">6</td>
+<td style="text-align:center">崖壁</td>
+<td style="text-align:left">在一个未知的地点调查一场奇怪的祭祀仪式。</td>
+<td style="text-align:left">强盗</td>
+<td style="text-align:center">白天</td>
+<td style="text-align:left">6，22，47，69，82，94</td>
+<td style="text-align:center">2012年11月15日</td>
+</tr>
+<tr>
+<td style="text-align:right">7</td>
+<td style="text-align:center">水域残迹</td>
+<td style="text-align:left">探索一处水下的远古废墟。</td>
+<td style="text-align:left">蛇妖、鱼类</td>
+<td style="text-align:center">白天</td>
+<td style="text-align:left">7，26，61，76</td>
+<td style="text-align:center">2012年11月15日</td>
+</tr>
+<tr>
+<td style="text-align:right">8</td>
+<td style="text-align:center">地下设施</td>
+<td style="text-align:left">挖掘一个身处地下的掘洞人设施。</td>
+<td style="text-align:left">掘洞人、元素</td>
+<td style="text-align:center">夜晚</td>
+<td style="text-align:left">8、17、29、43、53、81</td>
+<td style="text-align:center">2013年11月26日</td>
+</tr>
+<tr>
+<td style="text-align:right">9</td>
+<td style="text-align:center">熔火熔炉</td>
+<td style="text-align:left">在罗克斯和伯拉罕的帮助下，对熔火联盟武器设施发起进攻。</td>
+<td style="text-align:left">绯红军队、少量元素</td>
+<td style="text-align:center">白天</td>
+<td style="text-align:left">9、23、39、58、83</td>
+<td style="text-align:center">2013年11月26日</td>
+</tr>
+<tr>
+<td style="text-align:right">10</td>
+<td style="text-align:center">熔火头目</td>
+<td style="text-align:left">击败熔火联盟武器中心的孪生首领。</td>
+<td style="text-align:left">绯红军队</td>
+<td style="text-align:center">白天</td>
+<td style="text-align:left">10、40、70、90</td>
+<td style="text-align:center">2013年11月26日</td>
+</tr>
+<tr>
+<td style="text-align:right">11</td>
+<td style="text-align:center">深石坑</td>
+<td style="text-align:left">帮助两个潜行者大师进入深石坑中的失落矮人城市。</td>
+<td style="text-align:left">元素</td>
+<td style="text-align:center">白天</td>
+<td style="text-align:left">11，33，67，84</td>
+<td style="text-align:center">2018年6月26日</td>
+</tr>
+<tr>
+<td style="text-align:right">12</td>
+<td style="text-align:center">海妖暗礁</td>
+<td style="text-align:left">逃离被诅咒的岛屿。</td>
+<td style="text-align:left">鬼魂</td>
+<td style="text-align:center">白天</td>
+<td style="text-align:left">12、37、54、78</td>
+<td style="text-align:center">2019年1月8日</td>
+</tr>
+<tr>
+<td style="text-align:right">13</td>
+<td style="text-align:center">混沌</td>
+<td style="text-align:left">调查迷雾不稳定的原因。</td>
+<td style="text-align:left">少量元素</td>
+<td style="text-align:center">白天</td>
+<td style="text-align:left">13、30、38、63、88、98</td>
+<td style="text-align:center">2016年7月26日</td>
+</tr>
+<tr>
+<td style="text-align:right">14</td>
+<td style="text-align:center">以太之刃</td>
+<td style="text-align:left">在巡查员爱伦·齐尔的帮助下潜入隐藏的以太之刃基地。</td>
+<td style="text-align:left">绯红军队</td>
+<td style="text-align:center">白天</td>
+<td style="text-align:left">14，46，65，71，96</td>
+<td style="text-align:center">2013年11月26日</td>
+</tr>
+<tr>
+<td style="text-align:right">15</td>
+<td style="text-align:center">奇术新星反应堆</td>
+<td style="text-align:left">调查奇术新星反应堆毁灭的原因。</td>
+<td style="text-align:left">冰巢、审讯团、烈焰军团、噩梦之庭</td>
+<td style="text-align:center">白天</td>
+<td style="text-align:left">15，34，48，55，64，97</td>
+<td style="text-align:center">2013年11月26日</td>
+</tr>
+<tr>
+<td style="text-align:right">16</td>
+<td style="text-align:center">暮光绿洲</td>
+<td style="text-align:left">带头突击绿洲。</td>
+<td style="text-align:left"></td>
+<td style="text-align:center">夜晚</td>
+<td style="text-align:left">16，41，59，87</td>
+<td style="text-align:center">2017年11月28日</td>
+</tr>
+<tr>
+<td style="text-align:right">17</td>
+<td style="text-align:center">美琴船长头目</td>
+<td style="text-align:left">击败以太之刃的首领美琴。</td>
+<td style="text-align:left">绯红军队</td>
+<td style="text-align:center">白天</td>
+<td style="text-align:left">18、42、73、95</td>
+<td style="text-align:center">2013年11月26日</td>
+</tr>
+<tr>
+<td style="text-align:right">18</td>
+<td style="text-align:center">石海</td>
+<td style="text-align:left">探索石海，杀死其中的野兽。</td>
+<td style="text-align:left">元素</td>
+<td style="text-align:center">夜晚</td>
+<td style="text-align:left">20、35、45、60、80</td>
+<td style="text-align:center">2012年11月15日</td>
+</tr>
+<tr>
+<td style="text-align:right">19</td>
+<td style="text-align:center">噩梦</td>
+<td style="text-align:left">战胜盘踞在这虚幻地形里的怪物。</td>
+<td style="text-align:left">绯红军队、蛇妖</td>
+<td style="text-align:center">白天</td>
+<td style="text-align:left">24、49、74、99</td>
+<td style="text-align:center">2016年11月21日</td>
+</tr>
+<tr>
+<td style="text-align:right">20</td>
+<td style="text-align:center">破碎观测台</td>
+<td style="text-align:left">访问被时间潮汐扭曲的熟悉地点。</td>
+<td style="text-align:left">绯红军队（阿克）</td>
+<td style="text-align:center">白天</td>
+<td style="text-align:left">25、50、75、100</td>
+<td style="text-align:center">2017年7月25日</td>
+</tr>
+</tbody>
+</table>
+                                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div id="content-6" class="tab-pane build-info-content article-content " aria-expanded="false">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card m-b-20">
+                                    <div class="card-body">
+                                        <h2 id="-">痛苦</h2>
+<ul>
+<li>玩家在20层碎层会首次遇到 <span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="58"></span><span>痛苦</span>
+                        </span>，<span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="58"></span><span>痛苦</span>
+                        </span> 会减少 70%的 治疗量 和 屏障厚度。</li>
+<li><span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="58"></span><span>痛苦</span>
+                        </span> 每3秒按照角色最大生命值百分比造成一次伤害，并且随着碎层层级提升而进一步增加。</li>
+<li>与 <strong>症状伤害</strong> 不同，在玩家倒地后  <span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="58"></span><span>痛苦</span>
+                        </span> 不会消失，依然会受到伤害。</li>
+<li>部分敌人的攻击也会施加 <span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="58"></span><span>痛苦</span>
+                        </span>，可以依靠闪避、格挡、无敌规避这些攻击。</li>
+<li>部分碎层在与最后的BOSS遭遇前，会进行 <strong>痛苦抗性检查</strong>，此时所有玩家都会受到 <strong>痛苦伤害</strong>。</li>
+<li>下表列出 <strong>痛苦伤害</strong> 与 <strong>痛苦抗性</strong> 的伤害减免关系。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20191115152107796f.png?imageView2/2/w/600/q/100|imageslim" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20191115152107ca70.png?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+                                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div id="content-7" class="tab-pane build-info-content article-content " aria-expanded="false">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card m-b-20">
+                                    <div class="card-body">
+                                        <h2 id="-">痛苦抗性</h2>
+<ul>
+<li>可以通过提升 <strong>痛苦抗性</strong> 将 <strong>痛苦伤害</strong> 降低到最少 1%。</li>
+<li><strong>痛苦抗性</strong> 依靠安插在升华或传奇品质装备上的 <strong>痛苦灌注</strong> 提供，与副本中的 <strong>雾锁奇点</strong> 交流可以暂时提高 <strong>痛苦抗性</strong>。</li>
+<li>通过 <strong>账号强化：痛苦阻抗</strong> 以及 <strong>账号强化：迷雾协调</strong> 每级可以获得 5点 <strong>痛苦抗性</strong>。可以在 <strong>碎层大厅</strong> 找到 <strong>德洛伊尔</strong> 进行账号强化。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20191115151306796f.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20191115151306ca70.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+<ul>
+<li>下表列出了 <strong>碎层设置</strong> 中每层建议的最低抗性值。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20191115150046796f.png?imageView2/2/w/600/q/100|imageslim" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20191115150046ca70.png?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+                                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div id="content-8" class="tab-pane build-info-content article-content " aria-expanded="false">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card m-b-20">
+                                    <div class="card-body">
+                                        <h2 id="-">普通迷雾药剂</h2>
+<ul>
+<li><strong>普通迷雾药剂</strong> 可以通过碎层NPC <strong>黛萨的炼金师</strong> 购买，也可以通过 <strong>日常碎层</strong> 宝箱获得。</li>
+<li><strong>大型迷雾药剂</strong> 可以通过  <strong>日常推荐碎层</strong> 最后宝箱获得。</li>
+<li><p><strong>迷雾药剂</strong> 最多可持续1小时，最多叠加5层效果，大型药剂使用一次可叠满5层。</p>
+</li>
+<li><p><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="71659"></span><span>大型迷雾进攻药剂</span>
+                        </span></p>
+</li>
+<li><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="76150"></span><span>大型迷雾防御药剂</span>
+                        </span></li>
+<li><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="75427"></span><span>大型迷雾移动药剂</span>
+                        </span></li>
+</ul>
+<h2 id="-">无限迷雾药剂</h2>
+<ul>
+<li><p>这些药剂是通过碎层NPC <strong>BLING-9009</strong> 购买，其中 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79722"></span><span>无限迷雾全能药剂</span>
+                        </span>（持续2小时）由三种无限迷雾药剂 和 5个 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="37070"></span><span>升华礼赠</span>
+                        </span> 从 <strong>神秘熔炉</strong> 合成。</p>
+</li>
+<li><p><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79608"></span><span>无限迷雾进攻药剂</span>
+                        </span>，花费：<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79230"></span><span>集成碎层矩阵</span>
+                        </span> × 8、<span class="mini-currencies">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="7"></span><span>碎层古物</span>
+                        </span> × 8000</p>
+</li>
+<li><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79515"></span><span>无限迷雾防御药剂</span>
+                        </span>，花费：<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79230"></span><span>集成碎层矩阵</span>
+                        </span> × 5、<span class="mini-currencies">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="7"></span><span>碎层古物</span>
+                        </span> × 5000</li>
+<li><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79494"></span><span>无限迷雾移动药剂</span>
+                        </span>，花费：<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79230"></span><span>集成碎层矩阵</span>
+                        </span> × 5、<span class="mini-currencies">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="7"></span><span>碎层古物</span>
+                        </span> × 5000</li>
+<li><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79722"></span><span>无限迷雾全能药剂</span>
+                        </span>，使用上述三种无限迷雾药剂 和 5个 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="37070"></span><span>升华礼赠</span>
+                        </span> 从 <strong>神秘熔炉</strong> 合成</li>
+</ul>
+<h2 id="-">属性转化</h2>
+<ul>
+<li>掌握专精 <span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="54"></span><span>碎层协调：痛苦引导</span>
+                        </span>、<span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="54"></span><span>碎层协调：资源递归</span>
+                        </span> 和 <span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="54"></span><span>碎层协调：雾锁奇点</span>
+                        </span> 后，可以根据当前 <strong>痛苦抗性</strong> 提升药剂对应属性。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">专精</th>
+<th style="text-align:left">每层迷雾药剂属性转化率</th>
+<th style="text-align:left">150抗性，5层迷雾药剂提升属性值</th>
+<th style="text-align:left">5层 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79608"></span><span>进攻药剂</span>
+                        </span> 提升暴击率</th>
+<th style="text-align:left">5层 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79494"></span><span>移动药剂</span>
+                        </span> 提升增益持续时间</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="54"></span><span>碎层协调：痛苦引导</span>
+                        </span></td>
+<td style="text-align:left">10 %</td>
+<td style="text-align:left">75</td>
+<td style="text-align:left">3.57 %</td>
+<td style="text-align:left">5 %</td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="54"></span><span>碎层协调：资源递归</span>
+                        </span></td>
+<td style="text-align:left">25 %</td>
+<td style="text-align:left">188</td>
+<td style="text-align:left">8.95 %</td>
+<td style="text-align:left">12.5 %</td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="54"></span><span>碎层协调：雾锁奇点</span>
+                        </span></td>
+<td style="text-align:left">30 %</td>
+<td style="text-align:left">225</td>
+<td style="text-align:left">10.71 %</td>
+<td style="text-align:left">15 %</td>
+</tr>
+</tbody>
+</table>
+                                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div id="content-9" class="tab-pane build-info-content article-content " aria-expanded="false">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card m-b-20">
+                                    <div class="card-body">
+                                        <h2 id="-">碎层强化</h2>
+<ul>
+<li>每个碎层最终宝箱掉落的 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="76033"></span><span>泰瑞亚专精令状</span>
+                        </span> 永久性增加一个。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">名称</th>
+<th style="text-align:left">花费</th>
+<th style="text-align:left">效果（宝箱奖励额外添加）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="86320"></span><span>碎层强化1</span>
+                        </span></td>
+<td style="text-align:left">1<span class="mini-currencies">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="1001"></span><span>金币</span>
+                        </span>，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79230"></span><span>集成碎层矩阵</span>
+                        </span> × 1，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="38022"></span><span>碎层古物</span>
+                        </span> × 250</td>
+<td style="text-align:left">+1 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="76033"></span><span>泰瑞亚专精令状</span>
+                        </span></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="85811"></span><span>碎层强化2</span>
+                        </span></td>
+<td style="text-align:left">5<span class="mini-currencies">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="1001"></span><span>金币</span>
+                        </span>，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79230"></span><span>集成碎层矩阵</span>
+                        </span> × 3，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="38022"></span><span>碎层古物</span>
+                        </span> × 500</td>
+<td style="text-align:left">+1 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="76033"></span><span>泰瑞亚专精令状</span>
+                        </span></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="86033"></span><span>碎层强化3</span>
+                        </span></td>
+<td style="text-align:left">10<span class="mini-currencies">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="1001"></span><span>金币</span>
+                        </span>，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79230"></span><span>集成碎层矩阵</span>
+                        </span> × 5，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="38022"></span><span>碎层古物</span>
+                        </span> × 750</td>
+<td style="text-align:left">+1 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="76033"></span><span>泰瑞亚专精令状</span>
+                        </span></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="85878"></span><span>碎层强化4</span>
+                        </span></td>
+<td style="text-align:left">15<span class="mini-currencies">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="1001"></span><span>金币</span>
+                        </span>，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79230"></span><span>集成碎层矩阵</span>
+                        </span> × 8，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="38022"></span><span>碎层古物</span>
+                        </span> × 1000</td>
+<td style="text-align:left">+1 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="76033"></span><span>泰瑞亚专精令状</span>
+                        </span></td>
+</tr>
+<tr>
+<td style="text-align:center">合计</td>
+<td style="text-align:left">31<span class="mini-currencies">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="1001"></span><span>金币</span>
+                        </span>，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79230"></span><span>集成碎层矩阵</span>
+                        </span> × 17，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="38022"></span><span>碎层古物</span>
+                        </span> × 2500</td>
+<td style="text-align:left">+4 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="76033"></span><span>泰瑞亚专精令状</span>
+                        </span></td>
+</tr>
+</tbody>
+</table>
+<h2 id="-">业力补偿</h2>
+<ul>
+<li>每个碎层最终宝箱提供的业力永久性增加。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">名称</th>
+<th style="text-align:left">花费</th>
+<th style="text-align:left">效果（宝箱奖励额外添加）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="85781"></span><span>业力补偿1</span>
+                        </span></td>
+<td style="text-align:left">1<span class="mini-currencies">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="1001"></span><span>金币</span>
+                        </span>，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79230"></span><span>集成碎层矩阵</span>
+                        </span> × 1，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="38022"></span><span>碎层古物</span>
+                        </span> × 500</td>
+<td style="text-align:left">1 ~ 50层，+1 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="86181"></span><span>小颗液态业力</span>
+                        </span>（500<span class="mini-currencies">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="2"></span><span>业力</span>
+                        </span>） <br>51 ~ 100层，+1 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="36448"></span><span>滴状液态业力</span>
+                        </span>（600<span class="mini-currencies">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="2"></span><span>业力</span>
+                        </span>）</td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="86114"></span><span>业力补偿2</span>
+                        </span></td>
+<td style="text-align:left">5<span class="mini-currencies">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="1001"></span><span>金币</span>
+                        </span>，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79230"></span><span>集成碎层矩阵</span>
+                        </span> × 5，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="38022"></span><span>碎层古物</span>
+                        </span> × 1000</td>
+<td style="text-align:left">1 ~ 50层，+1 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="86181"></span><span>小颗液态业力</span>
+                        </span>（500<span class="mini-currencies">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="2"></span><span>业力</span>
+                        </span>） <br>51 ~ 100层，+1 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="36448"></span><span>滴状液态业力</span>
+                        </span>（600<span class="mini-currencies">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="2"></span><span>业力</span>
+                        </span>）</td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="86191"></span><span>业力补偿3</span>
+                        </span></td>
+<td style="text-align:left">10<span class="mini-currencies">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="1001"></span><span>金币</span>
+                        </span>，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79230"></span><span>集成碎层矩阵</span>
+                        </span> × 10，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="38022"></span><span>碎层古物</span>
+                        </span> × 1500</td>
+<td style="text-align:left">1 ~ 50层，+1 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="86181"></span><span>小颗液态业力</span>
+                        </span>（500<span class="mini-currencies">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="2"></span><span>业力</span>
+                        </span>） <br>51 ~ 100层，+1 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="36448"></span><span>滴状液态业力</span>
+                        </span>（600<span class="mini-currencies">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="2"></span><span>业力</span>
+                        </span>）</td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="86051"></span><span>业力补偿4</span>
+                        </span></td>
+<td style="text-align:left">15<span class="mini-currencies">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="1001"></span><span>金币</span>
+                        </span>，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79230"></span><span>集成碎层矩阵</span>
+                        </span> × 20，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="38022"></span><span>碎层古物</span>
+                        </span> × 2500</td>
+<td style="text-align:left">1 ~ 50层，+1 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="86181"></span><span>小颗液态业力</span>
+                        </span>（500<span class="mini-currencies">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="2"></span><span>业力</span>
+                        </span>） <br>51 ~ 100层，+1 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="36448"></span><span>滴状液态业力</span>
+                        </span>（600<span class="mini-currencies">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="2"></span><span>业力</span>
+                        </span>）</td>
+</tr>
+<tr>
+<td style="text-align:center">合计</td>
+<td style="text-align:left">31<span class="mini-currencies">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="1001"></span><span>金币</span>
+                        </span>，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79230"></span><span>集成碎层矩阵</span>
+                        </span> × 36，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="38022"></span><span>碎层古物</span>
+                        </span> × 5500</td>
+<td style="text-align:left">1 ~ 50层，+4 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="86181"></span><span>小颗液态业力</span>
+                        </span>（2000<span class="mini-currencies">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="2"></span><span>业力</span>
+                        </span>） <br>51 ~ 100层，+4 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="36448"></span><span>滴状液态业力</span>
+                        </span>（2400<span class="mini-currencies">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="2"></span><span>业力</span>
+                        </span>）</td>
+</tr>
+</tbody>
+</table>
+<h2 id="-">痛苦阻抗</h2>
+<ul>
+<li>玩家账号中的每个人物都会永久性地在碎层中获得5痛苦抗性。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">名称</th>
+<th style="text-align:left">花费</th>
+<th style="text-align:left">效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="86267"></span><span>痛苦阻抗1</span>
+                        </span></td>
+<td style="text-align:left"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="49434"></span><span>+11痛苦灌注</span>
+                        </span> × 2，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79230"></span><span>集成碎层矩阵</span>
+                        </span> × 10，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="38022"></span><span>碎层古物</span>
+                        </span> × 1000</td>
+<td style="text-align:left">+5痛苦抗性</td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="85955"></span><span>痛苦阻抗2</span>
+                        </span></td>
+<td style="text-align:left"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="49434"></span><span>+11痛苦灌注</span>
+                        </span> × 4，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79230"></span><span>集成碎层矩阵</span>
+                        </span> × 15，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="38022"></span><span>碎层古物</span>
+                        </span> × 2500</td>
+<td style="text-align:left">+5痛苦抗性</td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="86226"></span><span>痛苦阻抗3</span>
+                        </span></td>
+<td style="text-align:left"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="49434"></span><span>+11痛苦灌注</span>
+                        </span> × 6，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79230"></span><span>集成碎层矩阵</span>
+                        </span> × 22，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="38022"></span><span>碎层古物</span>
+                        </span> × 4500</td>
+<td style="text-align:left">+5痛苦抗性</td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="86175"></span><span>痛苦阻抗4</span>
+                        </span></td>
+<td style="text-align:left"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="49434"></span><span>+11痛苦灌注</span>
+                        </span> × 7，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79230"></span><span>集成碎层矩阵</span>
+                        </span> × 30，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="38022"></span><span>碎层古物</span>
+                        </span> × 7000</td>
+<td style="text-align:left">+5痛苦抗性</td>
+</tr>
+<tr>
+<td style="text-align:center">合计</td>
+<td style="text-align:left"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="49434"></span><span>+11痛苦灌注</span>
+                        </span> × 21，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79230"></span><span>集成碎层矩阵</span>
+                        </span> × 77，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="38022"></span><span>碎层古物</span>
+                        </span> × 15000</td>
+<td style="text-align:left">+20痛苦抗性</td>
+</tr>
+</tbody>
+</table>
+<h2 id="-">迷雾协调</h2>
+<ul>
+<li>获得碎层称号，对于账号下的每个人物，获得痛苦抗性，伤害提高，每秒恢复生命值。每个碎层最终宝箱额外掉落1个 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="75919"></span><span>碎层加密宝箱</span>
+                        </span> 和 1袋碎层古物。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">强化</th>
+<th style="text-align:center">称号</th>
+<th style="text-align:left">花费</th>
+<th style="text-align:left">效果</th>
+<th style="text-align:left">宝箱奖励额外添加</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="86148"></span><span>迷雾协调1</span>
+                        </span></td>
+<td style="text-align:center">碎层学士</td>
+<td style="text-align:left"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="49436"></span><span>+13痛苦灌注</span>
+                        </span>，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79230"></span><span>集成碎层矩阵</span>
+                        </span> × 75，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="38022"></span><span>碎层古物</span>
+                        </span> × 25000，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="75439"></span><span>碎层日记</span>
+                        </span> × 8</td>
+<td style="text-align:left">+5痛苦抗性，<br>伤害提高1%，<br>每秒恢复10点生命值</td>
+<td style="text-align:left">+1 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="75919"></span><span>碎层加密宝箱</span>
+                        </span><br>1 ~ 50层，+1 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="85994"></span><span>许多碎层古物</span>
+                        </span><br>51 ~ 100层，+1<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="85720"></span><span>囊装碎层古物</span>
+                        </span></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="86077"></span><span>迷雾协调2</span>
+                        </span></td>
+<td style="text-align:center">碎层天才</td>
+<td style="text-align:left"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="49437"></span><span>+14痛苦灌注</span>
+                        </span>，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79230"></span><span>集成碎层矩阵</span>
+                        </span> × 150，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="38022"></span><span>碎层古物</span>
+                        </span> × 35000，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="39078"></span><span>原始碎层古物</span>
+                        </span> × 1200</td>
+<td style="text-align:left">+5痛苦抗性，<br>伤害提高1%，<br>每秒恢复15点生命值</td>
+<td style="text-align:left">+1 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="75919"></span><span>碎层加密宝箱</span>
+                        </span><br>1 ~ 50层，+1 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="85994"></span><span>许多碎层古物</span>
+                        </span><br>51 ~ 100层，+1<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="85720"></span><span>囊装碎层古物</span>
+                        </span></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="86281"></span><span>迷雾协调3</span>
+                        </span></td>
+<td style="text-align:center">碎层冠军</td>
+<td style="text-align:left"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="49438"></span><span>+15痛苦灌注</span>
+                        </span>，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79230"></span><span>集成碎层矩阵</span>
+                        </span> × 225，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="38022"></span><span>碎层古物</span>
+                        </span> × 45000，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="75439"></span><span>碎层日记</span>
+                        </span> × 16</td>
+<td style="text-align:left">+5痛苦抗性，<br>伤害提高2%，<br>每秒恢复25点生命值</td>
+<td style="text-align:left">+1 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="75919"></span><span>碎层加密宝箱</span>
+                        </span><br>1 ~ 50层，+1 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="85994"></span><span>许多碎层古物</span>
+                        </span><br>51 ~ 100层，+1<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="85720"></span><span>囊装碎层古物</span>
+                        </span></td>
+</tr>
+<tr>
+<td style="text-align:center"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="85743"></span><span>迷雾协调4</span>
+                        </span></td>
+<td style="text-align:center">碎层神明</td>
+<td style="text-align:left"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="49439"></span><span>+16痛苦灌注</span>
+                        </span>，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79230"></span><span>集成碎层矩阵</span>
+                        </span> × 300，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="38022"></span><span>碎层古物</span>
+                        </span> × 55000，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="39078"></span><span>原始碎层古物</span>
+                        </span> × 2000</td>
+<td style="text-align:left">+10痛苦抗性，<br>伤害提高3%，<br>每秒恢复50点生命值</td>
+<td style="text-align:left">+1 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="75919"></span><span>碎层加密宝箱</span>
+                        </span><br>1 ~ 50层，+1 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="85994"></span><span>许多碎层古物</span>
+                        </span><br>51 ~ 100层，+1<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="85720"></span><span>囊装碎层古物</span>
+                        </span></td>
+</tr>
+<tr>
+<td style="text-align:center">合计</td>
+<td style="text-align:center">-</td>
+<td style="text-align:left"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="49436"></span><span>+13痛苦灌注</span>
+                        </span>，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="49437"></span><span>+14痛苦灌注</span>
+                        </span>，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="49438"></span><span>+15痛苦灌注</span>
+                        </span>，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="49439"></span><span>+16痛苦灌注</span>
+                        </span>，<br><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79230"></span><span>集成碎层矩阵</span>
+                        </span> × 750，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="38022"></span><span>碎层古物</span>
+                        </span> × 160000，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="39078"></span><span>原始碎层古物</span>
+                        </span> × 3200，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="75439"></span><span>碎层日记</span>
+                        </span> × 24</td>
+<td style="text-align:left">+25痛苦抗性，<br>伤害提高7%，<br>每秒恢复100点生命值</td>
+<td style="text-align:left">+4 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="75919"></span><span>碎层加密宝箱</span>
+                        </span><br>1 ~ 50层，+4 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="85994"></span><span>许多碎层古物</span>
+                        </span><br>51 ~ 100层，+4<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="85720"></span><span>囊装碎层古物</span>
+                        </span></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>每日推荐碎层共计可以获得 6个 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="39078"></span><span>原始碎层古物</span>
+                        </span>（含3个爵位宝箱），4级碎层共计可以获得 12个 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="39078"></span><span>原始碎层古物</span>
+                        </span>，99+100双挑战可以获得 4个 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="39078"></span><span>原始碎层古物</span>
+                        </span>。</li>
+<li>每日推荐碎层共计可以获得 3个 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="73834"></span><span>碎层研究单页</span>
+                        </span>，99+100双挑战可以获得 2个 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="73834"></span><span>碎层研究单页</span>
+                        </span>。28个 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="73834"></span><span>碎层研究单页</span>
+                        </span> 可以双击合成一本 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="75439"></span><span>碎层日记</span>
+                        </span>。</li>
+</ul>
+                                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div id="content-10" class="tab-pane build-info-content article-content " aria-expanded="false">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card m-b-20">
+                                    <div class="card-body">
+                                        <h2 id="-">蔑视道具概述</h2>
+<ul>
+<li>迷雾碎层特殊关卡的蔑视量：</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">碎层</th>
+<th style="text-align:left">碎层怪物</th>
+<th style="text-align:left">蔑视值</th>
+<th style="text-align:left">蔑视连带特殊技能</th>
+<th>破掉蔑视后效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">沼泽</td>
+<td style="text-align:left">橡树之心</td>
+<td style="text-align:left">1000</td>
+<td style="text-align:left">砸地攻击</td>
+<td>造成 5秒 <span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="28"></span><span>晕眩</span>
+                        </span>，并且受到的伤害增加 50%</td>
+</tr>
+<tr>
+<td style="text-align:left">噩梦（挑战）</td>
+<td style="text-align:left">红色静力突击骑士</td>
+<td style="text-align:left">800</td>
+<td style="text-align:left">无</td>
+<td>造成 5秒 <span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="28"></span><span>晕眩</span>
+                        </span>，并且受到的伤害增加 50%</td>
+</tr>
+<tr>
+<td style="text-align:left">噩梦（挑战）</td>
+<td style="text-align:left">蓝色动力突击骑士</td>
+<td style="text-align:left">800</td>
+<td style="text-align:left">无</td>
+<td>造成 5秒 <span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="28"></span><span>晕眩</span>
+                        </span>，并且受到的伤害增加 50%</td>
+</tr>
+<tr>
+<td style="text-align:left">噩梦（挑战）</td>
+<td style="text-align:left">绿色协同突击骑士</td>
+<td style="text-align:left">800</td>
+<td style="text-align:left">无</td>
+<td>造成 5秒 <span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="28"></span><span>晕眩</span>
+                        </span>，并且受到的伤害增加 50%</td>
+</tr>
+<tr>
+<td style="text-align:left">噩梦（挑战）</td>
+<td style="text-align:left">1号 BOSS 多形态动力火炮</td>
+<td style="text-align:left">1800</td>
+<td style="text-align:left">旋转攻击</td>
+<td>造成 5秒 <span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="28"></span><span>晕眩</span>
+                        </span>，并且受到的伤害增加 50%</td>
+</tr>
+<tr>
+<td style="text-align:left">噩梦（挑战）</td>
+<td style="text-align:left">2号 BOSS 腐化的西亚克斯</td>
+<td style="text-align:left">2000</td>
+<td style="text-align:left">引导腐蚀性的爆炸</td>
+<td>造成 5秒 <span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="28"></span><span>晕眩</span>
+                        </span>，并且受到的伤害增加 50%</td>
+</tr>
+<tr>
+<td style="text-align:left">噩梦（挑战）</td>
+<td style="text-align:left">3号 BOSS 无尽折磨者恩索利斯</td>
+<td style="text-align:left">2000</td>
+<td style="text-align:left">无</td>
+<td>造成 5秒 <span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="28"></span><span>晕眩</span>
+                        </span>，并且受到的伤害增加 50%</td>
+</tr>
+<tr>
+<td style="text-align:left">破碎观测台（挑战）</td>
+<td style="text-align:left">1号 BOSS 碎裂的斯科瓦德</td>
+<td style="text-align:left">2200</td>
+<td style="text-align:left">出现时不进行特殊攻击</td>
+<td>造成 5秒 <span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="28"></span><span>晕眩</span>
+                        </span>，并且受到的伤害增加 50%</td>
+</tr>
+<tr>
+<td style="text-align:left">破碎观测台（挑战）</td>
+<td style="text-align:left">2号 BOSS 亚特萨里弗</td>
+<td style="text-align:left">2100</td>
+<td style="text-align:left">将蓝球弹回给BOSS后出现</td>
+<td>造成 5秒 <span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="28"></span><span>晕眩</span>
+                        </span>，并且受到的伤害增加 50%</td>
+</tr>
+<tr>
+<td style="text-align:left">破碎观测台（挑战）</td>
+<td style="text-align:left">3号 BOSS 阿克</td>
+<td style="text-align:left">1800</td>
+<td style="text-align:left">引导一颗会爆炸的红色能量球</td>
+<td>造成 5秒 <span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="28"></span><span>晕眩</span>
+                        </span>，并且受到的伤害增加 50%</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>99 和 100碎层挑战模式下，BOSS 的蔑视值通常有 2000点左右，提前准备蔑视小道具可以极大的提升容错。</li>
+<li>小道具的破蔑视量，有特殊算法，不能用常规技能的破蔑视量去衡量。</li>
+<li>这些小道具都是 <strong>灵魂绑定</strong> 的，你需要用打碎层的角色去买。</li>
+<li>这些小道具可以在 <strong>迷雾碎层</strong> 和 <strong>五人地下城</strong> 中使用，但不能在 <strong>大型地下城</strong> 和 <strong>世界之战</strong> 中使用。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">小道具</th>
+<th style="text-align:left">蔑视技能</th>
+<th style="text-align:left">范围</th>
+<th style="text-align:left">读条/秒</th>
+<th style="text-align:left">冷却/秒</th>
+<th style="text-align:left">蔑视伤害</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8783"></span><span>白蚁铲</span>
+                        </span></td>
+<td style="text-align:left">2技能 击碎</td>
+<td style="text-align:left">180</td>
+<td style="text-align:left">½</td>
+<td style="text-align:left">8</td>
+<td style="text-align:left">500</td>
+<td style="text-align:left">用铲子猛击目标。3秒 <span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="31"></span><span>击倒</span>
+                        </span>。有30%的几率会损坏。</td>
+</tr>
+<tr>
+<td style="text-align:left"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8664"></span><span>金属棒</span>
+                        </span></td>
+<td style="text-align:left">2技能 昏迷打击</td>
+<td style="text-align:left">110</td>
+<td style="text-align:left">¾</td>
+<td style="text-align:left">20</td>
+<td style="text-align:left">500</td>
+<td style="text-align:left">使用金属棒猛击敌人头部，致其 <span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="35"></span><span>昏迷</span>
+                        </span>。金属棒将折断。</td>
+</tr>
+<tr>
+<td style="text-align:left"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8663"></span><span>木板</span>
+                        </span>（非 <span class="mini-professions_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="professions_icon" gw2-ids="2"></span><span>战士</span>
+                        </span> 使用）</td>
+<td style="text-align:left">2技能 木板碎击</td>
+<td style="text-align:left">180</td>
+<td style="text-align:left">½</td>
+<td style="text-align:left">4</td>
+<td style="text-align:left">300</td>
+<td style="text-align:left"><span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="32"></span><span>击飞</span>
+                        </span> 敌人，击碎木板。</td>
+</tr>
+<tr>
+<td style="text-align:left"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8474"></span><span>哨兵步枪</span>
+                        </span></td>
+<td style="text-align:left">2技能 枪托撞击</td>
+<td style="text-align:left">110</td>
+<td style="text-align:left">¼</td>
+<td style="text-align:left">3</td>
+<td style="text-align:left">300</td>
+<td style="text-align:left">用枪托将敌人击退（实际为 <span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="28"></span><span>晕眩</span>
+                        </span>）。使用后不会被消耗掉。</td>
+</tr>
+<tr>
+<td style="text-align:left"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8710"></span><span>竞技训练用剑</span>
+                        </span></td>
+<td style="text-align:left">2技能 回旋剑</td>
+<td style="text-align:left">180</td>
+<td style="text-align:left">½</td>
+<td style="text-align:left">10</td>
+<td style="text-align:left">200</td>
+<td style="text-align:left">旋转攻击，击开一名敌人。有10%的几率损坏。</td>
+</tr>
+<tr>
+<td style="text-align:left"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8710"></span><span>竞技训练用剑</span>
+                        </span></td>
+<td style="text-align:left">3技能 长剑重击</td>
+<td style="text-align:left">180</td>
+<td style="text-align:left">1¼</td>
+<td style="text-align:left">8</td>
+<td style="text-align:left">300</td>
+<td style="text-align:left">击倒一个敌人。有 50%的几率会损坏。</td>
+</tr>
+<tr>
+<td style="text-align:left"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8732"></span><span>能量矩阵</span>
+                        </span></td>
+<td style="text-align:left">1技能 引爆</td>
+<td style="text-align:left">240</td>
+<td style="text-align:left">1</td>
+<td style="text-align:left">无</td>
+<td style="text-align:left">200</td>
+<td style="text-align:left">引导能量矩阵来造成一场电荷脉冲，使附近的敌人受到伤害并晕眩。<br>范围型群控技能，小怪比较多时可以考虑使用。</td>
+</tr>
+<tr>
+<td style="text-align:left"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8678"></span><span>岩石</span>
+                        </span></td>
+<td style="text-align:left">1技能 投掷岩石</td>
+<td style="text-align:left">900</td>
+<td style="text-align:left">1</td>
+<td style="text-align:left">无</td>
+<td style="text-align:left">200</td>
+<td style="text-align:left">投掷一块石头，<span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="31"></span><span>击倒</span>
+                        </span> 你的敌人 1秒。<br>属于弹道型技能，会被面前的敌人阻挡投掷弹道。</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><span class="mini-professions_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="professions_icon" gw2-ids="2"></span><span>战士</span>
+                        </span> 使用 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8663"></span><span>木板</span>
+                        </span> 时，会获得额外的技能：</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">小道具</th>
+<th style="text-align:left">蔑视技能</th>
+<th style="text-align:left">范围</th>
+<th style="text-align:left">读条/秒</th>
+<th style="text-align:left">冷却/秒</th>
+<th style="text-align:left">蔑视伤害</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8663"></span><span>木板</span>
+                        </span></td>
+<td style="text-align:left">1技能 木板粉碎</td>
+<td style="text-align:left">180</td>
+<td style="text-align:left">1¼</td>
+<td style="text-align:left">8</td>
+<td style="text-align:left">450</td>
+<td style="text-align:left"><span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="31"></span><span>击倒</span>
+                        </span> 一个敌人。有 50%的几率会损坏。</td>
+</tr>
+<tr>
+<td style="text-align:left"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8663"></span><span>木板</span>
+                        </span></td>
+<td style="text-align:left">2技能 木板旋转</td>
+<td style="text-align:left">180</td>
+<td style="text-align:left">½</td>
+<td style="text-align:left">10</td>
+<td style="text-align:left">150</td>
+<td style="text-align:left">旋转攻击，击开一名敌人。有 50%的几率会损坏。</td>
+</tr>
+<tr>
+<td style="text-align:left"><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8663"></span><span>木板</span>
+                        </span></td>
+<td style="text-align:left">3技能 木板碎击</td>
+<td style="text-align:left">180</td>
+<td style="text-align:left">½</td>
+<td style="text-align:left">4</td>
+<td style="text-align:left">300</td>
+<td style="text-align:left"><span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="32"></span><span>击飞</span>
+                        </span> 敌人，击碎木板。</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>最常被用到的小道具是 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8783"></span><span>白蚁铲</span>
+                        </span>、<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8664"></span><span>金属棒</span>
+                        </span>、<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8663"></span><span>木板</span>
+                        </span>、<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8474"></span><span>哨兵步枪</span>
+                        </span>、<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8678"></span><span>岩石</span>
+                        </span></li>
+<li><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8678"></span><span>岩石</span>
+                        </span> 具有远程破蔑视能力，但破蔑视值较低，通常只会用来破 100挑战 破碎观测台 2号 BOSS 亚特萨里弗 分身的蔑视条。</li>
+<li><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="24639"></span><span>超级瘫痪法印</span>
+                        </span> 可以提升 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8664"></span><span>金属棒</span>
+                        </span> 的破蔑视能力至 650。</li>
+</ul>
+<h2 id="-">蔑视道具的获取</h2>
+<ul>
+<li><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8783"></span><span>白蚁铲</span>
+                        </span>（16 <span class="mini-currencies">
+                                <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="1003"></span></span>）</li>
+<li><strong>卡勒顿之森 - 拾穗者峡谷传送点</strong> [&amp;BDcBAAA=]</li>
+<li>找到 NPC <strong>收割者卡拉</strong>，对话触发并完成事件 <strong>在收集刺果时保护他们</strong>，即可从 <strong>收割者卡拉</strong> 处购买。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200112180419796f.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200112180419ca70.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+<hr>
+<ul>
+<li><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8664"></span><span>金属棒</span>
+                        </span>（80 <span class="mini-currencies">
+                                <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="1003"></span></span>） 和 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8663"></span><span>木板</span>
+                        </span>（80 <span class="mini-currencies">
+                                <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="1003"></span></span>）</li>
+<li><strong>掘洞悬崖 - 哈斯达伦聚地传送点</strong> [&amp;BF0CAAA=]</li>
+<li>先去 <strong>李氏坡</strong> [&amp;BDECAAA=] 与营地的 <strong>学者丹妮</strong> 对话触发事件。</li>
+<li>完成事件 <strong>从斯克鼠手中获得封印水晶，把它还给学者丹妮</strong> 和 <strong>在学者丹妮关闭传送门时保护她</strong>，随后前往 <strong>李氏坡</strong> 营地，从 <strong>学者丹妮</strong> 处购买。</li>
+<li>购买动作要快，只有大约 3分钟的时间供购买。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200117095044796f.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200117095044ca70.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+<hr>
+<ul>
+<li><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8474"></span><span>哨兵步枪</span>
+                        </span>（8 <span class="mini-currencies">
+                                <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="1003"></span></span>）</li>
+<li><strong>钢铁平原 - 毒蛇溪谷传送点</strong> [&amp;BOoBAAA=]</li>
+<li>完成事件 <strong>保护修理塔楼的哨兵工程师。</strong>，随后从 <strong>哨兵灾鞘</strong> 处购买。</li>
+<li>注意，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8474"></span><span>哨兵步枪</span>
+                        </span> 2技能 枪托撞击 在使用后不会将步枪消耗掉（切换武器可以回收进包内），但 1技能 一发子弹 在使用后会导致无法回收。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200117095510796f.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200117095510ca70.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+<hr>
+<ul>
+<li><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8710"></span><span>竞技训练用剑</span>
+                        </span>（80 <span class="mini-currencies">
+                                <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="1003"></span></span>）</li>
+<li><strong>裂脊草原 - 最后的威士忌酒吧传送点</strong> [&amp;BPkBAAA=]</li>
+<li>找到 <strong>竞技管理员&quot;雷夫&quot;</strong>，触发并在限定时间内 <strong>完成竞技管理员&quot;雷夫&quot; 提供的挑战。</strong></li>
+<li>完成事件后，从竞技场的台阶上找到 <strong>卡扎赫·闪刃</strong> 购买。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200117101809796f.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200117101809ca70.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+<hr>
+<ul>
+<li><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8732"></span><span>能量矩阵</span>
+                        </span>（1 <span class="mini-currencies">
+                                <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="1002"></span></span> 28 <span class="mini-currencies">
+                                <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="1003"></span></span>）</li>
+<li><strong>马尔科之跃 - 荒芜凹地传送点</strong> [&amp;BKgCAAA=]</li>
+<li>传送点附近的 <strong>探员瓦布</strong> 出售。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200125084742796f.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200125084742ca70.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+<hr>
+<ul>
+<li><span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8678"></span><span>岩石</span>
+                        </span>（40 <span class="mini-currencies">
+                                <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="1003"></span></span>）</li>
+<li><strong>布里斯班野地 - 隧道传送点</strong> [&amp;BF4AAAA=]</li>
+<li>完成斯克鼠城周围的三个事件，进入斯克鼠城，找斯克鼠商人 <strong>克拉寇恩克</strong> 购买。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200117094444796f.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200117094444ca70.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+<h2 id="-">机动型道具</h2>
+<p>1、<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="78978"></span><span>白斗篷传送门仪器</span>
+                        </span></p>
+<ul>
+<li><strong>大型地下城：信仰要塞</strong> 内的 <strong>学者格里娜</strong> 处 或 使用 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="80672"></span><span>便携式磁铁碎片兑换器</span>
+                        </span> 购买，花费 1000 <span class="mini-currencies">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="28"></span><span>磁铁碎块</span>
+                        </span></li>
+<li>在两地间开启一扇传送门，供玩家在两点之间穿梭。</li>
+<li>放置 <strong>传送门入口</strong> 后，需要在60秒内放置 <strong>传送门出口</strong>。</li>
+<li>放置 <strong>传送门入口</strong> 后，被怪物攻击，会立即切换至武器技能，但不会导致 <strong>传送门入口</strong> 消失，双击重新使用 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="78978"></span><span>白斗篷传送门仪器</span>
+                        </span> 即可放置 <strong>传送门出口</strong>。</li>
+<li>使用后有30分钟冷却时间，与 <strong>雾锁奇点</strong> 交流 和 每次使用 <strong>激素菇</strong> 可以减少20分钟冷却。</li>
+<li>队伍中的全部玩家阵亡后，<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="78978"></span><span>白斗篷传送门仪器</span>
+                        </span> 可以直接刷新冷却。</li>
+</ul>
+<hr>
+<p>2、<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="85244"></span><span>无尽丘牙兽彩罐合剂</span>
+                        </span></p>
+<ul>
+<li><strong>水晶绿洲 - 安努传送点</strong> [&amp;BLsKAAA=]，<strong>赌场闪电战奖励收银员</strong> 处购买，花费 1000 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="83886"></span><span>赌场代币</span>
+                        </span>。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200122074756796f.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200122074756ca70.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+<ul>
+<li>变身后使用 2技能 <strong>出发</strong> 可以获得极快的移动速度，拥有 <span class="mini-skills_icon">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills_icon" gw2-ids="2"></span><span>急速</span>
+                        </span> 可以使移动速度更快。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200213142956796f.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200213142956ca70.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+<ul>
+<li>在一些被强制变身的碎层中（如：暮光绿洲），无法使用变装。</li>
+<li>变装后进入战斗，将无法使用变装技能。</li>
+</ul>
+<h2 id="-">召唤道具</h2>
+<p>1、<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8702"></span><span>火焰元素粉</span>
+                        </span>（1 <span class="mini-currencies">
+                                <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="1002"></span></span> 4 <span class="mini-currencies">
+                                <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="1003"></span></span>）</p>
+<ul>
+<li><strong>炎心高地 - 萨提传送点</strong> [&amp;BBYCAAA=]</li>
+<li>先从下图位置处（水下）完成事件 <strong>保护布拉克恩和贾哈利斯修理机器，保证军团补给线的畅通</strong>。如果没有事件，看看是不是被人开了或者已经做完。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200125092730796f.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200125092730ca70.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+<ul>
+<li>然后从下图位置处完成事件 <strong>击败巨型焦油元素</strong>。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200125093155796f.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200125093155ca70.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+<ul>
+<li>最后前往爱心南边从 <strong>贾哈利斯·煤握</strong> 处购买 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8702"></span><span>火焰元素粉</span>
+                        </span>。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200125093358796f.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200125093358ca70.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""> <img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200125093413796f.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200125093413ca70.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+<ul>
+<li>该道具使用后可以召唤一个 <strong>余烬</strong> 与你协同作战，持续时间两分钟。</li>
+<li>该道具不可被用于 WvW 和 大型地下城。</li>
+<li>该道具有 30分钟的冷却时间（BUFF图标位置会出现一个倒计时），<strong>余烬</strong> 消失时该物品不会立即重置冷却。</li>
+<li>被召唤的 <strong>余烬</strong> 等级与当前地图等级有关，切换地图不会重置 <strong>余烬</strong> 的有效等级。</li>
+<li>与所有的 <strong>余烬</strong> 相同，该召唤物会施放 3个 <span class="mini-skills">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="skills" gw2-ids="5548"></span><span>熔岩喷泉</span>
+                        </span>，并且都算作 <strong>火焰区域</strong>。</li>
+<li>该物品的冷却时间，以及召唤物存在的状态，不受个别召唤道具影响（如 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8698"></span><span>食人魔宠物口哨</span>
+                        </span>）。</li>
+<li><strong>余烬</strong> 在水下可以被召唤，看似没有战斗力，但确实可以伤害敌人。</li>
+<li>极个别的情况下会出现使用了该道具，并进入冷却中，但没有召唤出 <strong>余烬</strong>。</li>
+<li>该道具与 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="79424"></span><span>袖珍翠玉护甲</span>
+                        </span> 和 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="86247"></span><span>烈阳之矛典范援兵</span>
+                        </span> 共享冷却。</li>
+</ul>
+<hr>
+<p>2、<span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8698"></span><span>食人魔宠物口哨</span>
+                        </span>（1 <span class="mini-currencies">
+                                <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="1002"></span></span> 4 <span class="mini-currencies">
+                                <span class="gw2-tooltip gw2-info no-border" gw2-type="currencies" gw2-ids="1003"></span></span>）</p>
+<ul>
+<li><strong>钢铁平原 - 格罗斯托栅栏传送点</strong> [&amp;BO8BAAA=]</li>
+<li>先从下图位置处完成事件 <strong>帮助格罗斯托栅栏的食人魔抵抗入侵的烙印怪</strong>。如果没有事件，看看是不是被人开了或者已经做完。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200117095555796f.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200117095555ca70.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+<ul>
+<li>然后完成护送事件 <strong>护送戈索的远征队前往铜沼渡口</strong>，之后 NPC 会在护送目的地建立营地，需要你完成一个防守事件 <strong>帮助食人魔打败烈焰军团，保卫铜沼渡口</strong>。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200125095352796f.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200125095352ca70.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+<ul>
+<li>全部完成后即可从营地内的 <strong>戈索·玛里科之子</strong> 处购买 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8698"></span><span>食人魔宠物口哨</span>
+                        </span>。</li>
+</ul>
+<p><img src="../../images/loadimg.jpg"
+                         data-original="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200125095521796f.jpg?imageView2/2/w/600/q/100|imageslim" 
+                         origin="../../../doc.gw2.voids.cn/media/document/walkthrough/fractal/guide/20200125095521ca70.jpg?imageMogr2/blur/1x0/quality/100|watermark/2/text/5r-A5oiYMiDms7DnkZ7kuprmjqLpmanlrrbljY_kvJo=/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/I0ZGRkZGRg==/dissolve/77/gravity/SouthEast/dx/13/dy/13|imageslim"
+                         compress="1" alt=""></p>
+<ul>
+<li>该道具会随机召唤以下宠物协助你战斗：黑熊、黑色肉食鸟、深红色陆行鸟、鹰眼狮鹫、鬣狗、梅兰朵的追踪者、岩犬、鞭尾噬蝎。宠物持续时间两分钟。</li>
+<li>该道具不可被用于 WvW。</li>
+<li>该道具有 30分钟的冷却时间（BUFF图标位置会出现一个倒计时），<strong>食人魔宠物</strong> 消失时该物品不会立即重置冷却。</li>
+<li>被召唤的 <strong>食人魔宠物</strong> 等级与当前地图等级有关，切换地图不会重置 <strong>食人魔宠物</strong> 的有效等级。</li>
+<li>该物品的冷却时间，以及召唤物存在的状态，不受其他召唤道具影响（如 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="8702"></span><span>火焰元素粉</span>
+                        </span>）。</li>
+</ul>
+                                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div id="content-11" class="tab-pane build-info-content article-content " aria-expanded="false">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card m-b-20">
+                                    <div class="card-body">
+                                        <table>
+<thead>
+<tr>
+<th style="text-align:left">术语</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">GG</td>
+<td style="text-align:left">即从聊天框中输入快速自杀命令：<strong>/gg</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">推荐三连</td>
+<td style="text-align:left">即日常推荐碎层</td>
+</tr>
+<tr>
+<td style="text-align:left">4J5Y</td>
+<td style="text-align:left">即4级5药，四级日常碎层 + 使用 三种迷雾药剂、食物、通用效果</td>
+</tr>
+<tr>
+<td style="text-align:left">门票</td>
+<td style="text-align:left">即 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="81743"></span><span>不稳定宇宙精华</span>
+                        </span> 持有数量，通过 100碎层挑战获得</td>
+</tr>
+<tr>
+<td style="text-align:left">4+2，200+</td>
+<td style="text-align:left">即完成 4级日常碎层 和 99、100碎层挑战，并且 <span class="mini-items">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="items" gw2-ids="81743"></span><span>不稳定宇宙精华</span>
+                        </span> 持有 200个</td>
+</tr>
+<tr>
+<td style="text-align:left">绝不放弃（称号）</td>
+<td style="text-align:left">100碎层挑战，全员无阵亡、无GG 的情况下通关后完成隐藏成就 <span class="mini-achievements">
+                            <span class="gw2-tooltip gw2-info no-border" gw2-type="achievements" gw2-ids="3535"></span><span>动力十足</span>
+                        </span> 即可获得</td>
+</tr>
+</tbody>
+</table>
+                                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+$(document).ready(function() {
+    var length = $('table img.original-size').length;
+    for( i = 0 ; i <= length - 1 ; i++ ){
+        $('table img.original-size').eq(i).attr('src', $('table img.original-size').eq(i).attr('data-original'));
+    }
+
+    $("#content-1 img").lazyload({
+      	placeholder : "http://gw2.voids.cn/images/loadimg.jpg", //用图片提前占位
+      	effect: "fadeIn"
+    });
+    $("#content-1").attr("lazyload-data","true");
+
+    $("#article-content .nav li.nav-item a").click(function(){
+        content_id = $(this).attr("href");
+
+        if( $(content_id).attr("lazyload-data") != "true" ){
+            $(content_id + " img").lazyload({
+                placeholder : "http://gw2.voids.cn/images/loadimg.jpg", //用图片提前占位
+                effect: "fadeIn"
+            });
+            $(content_id).attr("lazyload-data","true");
+        }
+    });
+
+    var viewer = new Viewer(document.getElementById('article-content'), {
+		url: 'origin',
+        title: false,
+        navbar: false
+	});
+});
+</script>
+                    
+                </div>
+            </div>
+
+	        <!-- ============================================================== -->
+	        <!-- End Container fluid  -->
+	        <!-- ============================================================== -->
+
+	        <!-- ============================================================== -->
+	        <!-- footer -->
+	        <!-- ============================================================== -->
+	        <footer class="footer">
+    <div class="footer-anet-logo"><a href="https://www.arena.net/" target="_blank" rel="nofollow noopener noreferrer">&nbsp;</a></div>
+    <p>本站所使用的 ArenaNet, NCsoft, Guild Wars, Guild Wars 2, Heart of Thorns, Guild Wars 2:Path of Fire 相关商标及设计均属于 NCsoft 公司商标或注册商标。所有其他商标均是各自所有者的财产。</p>
+    <p class="copyright">© 2017-2020 <a href="../../index.html">gw2data.cn</a> 版权所有 &nbsp;&nbsp; <a href="www.beian.miit.gov.html" target="_blank">京ICP备17000791号- 3</a></p>
+</footer>
+	        <!-- ============================================================== -->
+	        <!-- End footer -->
+        <!-- ============================================================== -->
+	    </div>
+	    <!-- ============================================================== -->
+	    <!-- End Page wrapper -->
+    <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <a href="#" id="turn-link" style="display: none;"></a>
+    <div class="tooltip-info" id="tooltip-info">
+        <div id="app-info"></div>
+    </div>
+    <!-- Bootstrap tether Core JavaScript -->
+<!-- <script src="https://cdn.bootcss.com/popper.js/1.8.1/popper.min.js"></script> -->
+<script src="../../static/material-pro/assets/plugins/bootstrap/js/popper.min.js"></script>
+<!-- <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
+<script src="../../static/material-pro/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- slimscrollbar scrollbar JavaScript -->
+<script src="../../static/material-pro/material-frontend/js/jquery.slimscroll.js"></script>
+<!--Wave Effects -->
+<script src="../../static/material-pro/material-frontend/js/waves.js"></script>
+<!--Menu sidebar -->
+<script src="../../static/material-pro/material-frontend/js/sidebarmenu.js"></script>
+<script src="../../js/sidebarmenuitem.js"></script>
+<!--stickey kit -->
+<script src="../../static/material-pro/assets/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
+
+<!-- <script src="https://cdn.bootcss.com/jquery-sparklines/2.1.2/jquery.sparkline.min.js"></script> -->
+<script src="../../static/material-pro/assets/plugins/sparkline/jquery.sparkline.min.js"></script>
+
+<!--Custom JavaScript -->
+<script src="../../static/material-pro/material-frontend/js/custom.js"></script>
+<!-- <script src="/js/custom.js"></script> -->
+<!-- ============================================================== -->
+<!-- Sweet-Alert  -->
+<script src="../../static/material-pro/assets/plugins/sweetalert/sweetalert.min.js"></script>
+<script src="../../static/material-pro/assets/plugins/sweetalert/jquery.sweet-alert.custom.js"></script>
+
+<script src="../../static/material-pro/assets/plugins/datatables/jquery.dataTables.min.js"></script>
+
+<!-- Tooltip -->
+<script src="../../js/jquery.gw2tooltip.min3860.js?v=1"></script>
+<script src="../../js/jquery.gw2info.minf183.js?v=2020.05.10"></script>
+
+<!-- chartist chart -->
+<!-- <script src="/static/material-pro/assets/plugins/chartist-js/dist/chartist.min.js"></script> -->
+<!-- <script src="/static/material-pro/assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js"></script> -->
+
+<!-- Chart JS -->
+<!-- <script src="/static/material-pro/material-frontend/js/dashboard1.js"></script> -->
+<!-- ============================================================== -->
+<!-- Style switcher -->
+<!-- ============================================================== -->
+<script src="../../static/material-pro/assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+
+<!-- lazyload -->
+<script src="../../js/jquery.lazyload.min.js"></script>
+
+<!-- viewer -->
+<script src="../../static/Viewer/viewer.min.js"></script>
+
+<!-- clipboard -->
+<script src="../../js/clipboard.min.js"></script>
+
+<!-- Layer 3.1.1 Alert-->
+<script src="../../static/Layer-3.1.1/layer.js"></script>
+
+<!-- Swiper 5.3.8 -->
+<script src="../../static/swiper-5.3.8/package/js/swiper.min.js"></script>
+
+<!-- isotope -->
+<script src="../../js/isotope.pkgd.min.js"></script>
+
+<!-- pjax -->
+<!-- <script src="https://cdn.bootcss.com/jquery.pjax/2.0.1/jquery.pjax.min.js"></script> -->
+<script src="../../js/jquery.pjax.min.js"></script>
+<script>
+$(document).ready(function() {
+    //dropdown-menu
+    $('.mega-dropdown-menu a').click(function(){
+        $('.mega-dropdown').removeClass('show');
+        $('.dropdown-menu').removeClass('show');
+    });
+
+    //pjax
+    $(document).pjax('a.pjax-link', '#container-fluid', {fragment:'#container-fluid', timeout:3000});
+
+    $(document).on('pjax:start', function() {
+        //other
+        window.scrollTo(0, 0); 
+        $('body').addClass('stop-scrolling');
+        $('#page-wrapper .preloader').show();
+    });
+    
+    $(document).on('pjax:end', function() { 
+        $('body').removeClass('stop-scrolling');
+        $('#page-wrapper .preloader').fadeOut(500);
+
+        //重新引导左侧菜单
+        $("#sidebarnav a:not(a[class='has-arrow waves-effect waves-dark'],a[class='has-arrow'])").click(function(){
+            
+            $("#sidebarnav>li.active").removeClass('active');
+            $("#sidebarnav a.active:not(a[class='has-arrow waves-effect waves-dark'],a[class='has-arrow'])").removeClass('active');
+            $(this).addClass('active');
+            $(this).parents('li').addClass('active');
+        });
+    });
+
+    //重新引导左侧菜单
+    $("#sidebarnav a:not(a[class='has-arrow waves-effect waves-dark'],a[class='has-arrow'])").click(function(){
+        
+        $("#sidebarnav>li.active").removeClass('active');
+        $("#sidebarnav a.active:not(a[class='has-arrow waves-effect waves-dark'],a[class='has-arrow'])").removeClass('active');
+        $(this).addClass('active');
+        $(this).parents('li').addClass('active');
+    });
+
+    //console.log("%c朋友，泰瑞亚需要我们继续守护，如果有兴趣一起搞点事情，欢迎加入【泰瑞亚探险家协会】官方QQ群：，暗号：GW2 Console","color:red;");
+})
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168154605-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-168154605-1');
+</script>
+</body>
+
+
+<!-- Mirrored from gw2.voids.cn/doc/fractal/guide by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Jul 2020 00:24:50 GMT -->
+</html>

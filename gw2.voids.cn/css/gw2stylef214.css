@@ -1,0 +1,1664 @@
+.gw2-info{
+    height: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.gw2-info-box {
+    padding: 5px 7px 5px;
+    border-top: 1px solid #151718;
+    border-left: 1px solid #151718;
+    border-radius: 2px;
+    -webkit-box-shadow: 1px 1px 2px #151718; 
+    box-shadow: 1px 1px 2px #151718;
+    background-color: #151818;
+    background-size: 630px 647px;
+    background-clip: padding-box;
+/*     background-image: url(/images/ui/gw2-info-box-bg.png); */
+    
+    color: #aaa;
+    font-size: 14px;
+    margin: 0 5px 5px 0;
+    float: left;
+}
+
+
+.gw2-info-icon a{
+	  width: 100%;
+	  height: 100%;
+	  display: inline-block;
+}
+.gw2-info-icon a:after{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    content: "" !important;
+    font-family: 'Material Design Icons';
+    font-size: 14px;
+    color: #555;
+}
+@media (max-width: 576px){
+  .gw2-info-icon a{
+      display: none;
+  }
+}
+
+
+.gw2-info-box .gw2-info-Junk {
+    color: #aaa;
+}
+.gw2-info-box .gw2-info-Basic {
+    color: #ddd;
+}
+.gw2-info-box .gw2-info-Fine {
+    color: #62a4da;
+}
+.gw2-info-box .gw2-info-Masterwork {
+    color: #2dc50e;
+}
+.gw2-info-box .gw2-info-Rare {
+    color: #fcd00b;
+}
+.gw2-info-box .gw2-info-Exotic {
+    color: #ffa405;
+}
+.gw2-info-box .gw2-info-Ascended {
+    color: #fb3e8d;
+}
+.gw2-info-box .gw2-info-Legendary {
+    color: #CC33FF;
+}
+
+
+.items-image{
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+.color-Legendary{
+	color: #CC33FF !important;
+}
+.items-border-Legendary{
+    border: 1px solid #CC33FF;
+}
+
+.color-Ascended{
+	color: #fb3ea9 !important;
+}
+.items-border-Ascended{
+    border: 1px solid #fb3ea9;
+}
+
+.color-Exotic{
+	color: #fda500 !important;
+}
+.items-border-Exotic{
+    border: 1px solid #fda500;
+}
+
+.color-Rare{
+	color: #ffe51f !important;
+}
+.items-border-Rare{
+    border: 1px solid #ffe51f;
+}
+
+.color-Masterwork{
+	color: #2dc50e !important;
+}
+.items-border-Masterwork{
+    border: 1px solid #2dc50e;
+}
+
+.color-Fine{
+	color: #71a3d8 !important;
+}
+.items-border-Fine{
+    border: 1px solid #71a3d8;
+}
+
+.color-Basic{
+	color: #ccc !important;
+}
+.items-border-Basic{
+    border: 1px solid #aaa;
+}
+
+.color-Junk{
+	color: #aaa !important;
+}
+.items-border-Junk{
+    border: 1px solid #aaa;
+}
+
+.color-description{
+  color: #9ee1e7;
+}
+
+
+.gw2-info-icon{
+  width: 100%;
+  height: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	float: left;
+}
+
+.black-border .gw2-info-icon{
+  border: 1px solid #151718;
+}
+.no-border .gw2-info-icon{
+  border: none;
+}
+.gw2-empty-lock{
+	background-image: url('../images/ui/icon/empty-lock.png');
+	background-color: #171717;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	float: left;
+}
+
+
+/* Items */
+
+.gw2-info-box .gw2-info-box-items-title {
+	width: 300px;
+    height: 40px;
+    float: none;
+}
+.gw2-info-box .gw2-info-box-items-title .gw2-info-box-items-icon {
+    width: 32px;
+	height: 32px;
+	border-radius: 1px;
+    border-left: 1px solid #9d9e9f;
+    border-top: 1px solid #9d9e9f;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+    float: left;
+    margin-top: 3px;
+    margin-right: 7px;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.gw2-info-box .gw2-info-box-items-title .gw2-info-box-items-name {
+	height: 40px;
+	display: table-cell;
+    vertical-align: middle;
+    box-sizing: content-box;
+    font-size: 16px;
+}
+.gw2-info-box-items-name {
+  color: #E6BA5A;
+}
+.gw2-info-box-items-content{
+  max-width: 250px;
+  position: relative;
+  display: inline-block;
+}
+.gw2-info-box-items-rows{
+  padding-bottom: 15px;
+  color: #eeeeee;
+}
+.gw2-info-box-items-content .gw2-info-box-items-rows:last-child{
+  padding-bottom: 0;
+}
+
+.gw2-info-box-items-row{
+  width: 100%;
+  font-size: 13px;
+  color: #eee;
+  padding-bottom: 1px;
+  position: relative;
+  overflow: hidden;
+}
+.gw2-info-box-items-row-icon{
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: cover no-repeat center center;
+  float: left;
+}
+.gw2-info-box-items-row-description{
+  display: table-cell;
+  height: 32px;
+  padding-left: 3px;
+  font-size: 13px;
+  vertical-align: middle;
+}
+.gw2-info-box-items-price{
+  display: inline-block;
+    vertical-align: middle;
+    height: 20px;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 0 16px 0 2px;
+}
+.price-gold {
+    color: #dab71e;
+    background: url('../images/ui/icon/price-gold.png') no-repeat center right;
+}
+.price-silver {
+    color: #999;
+    background: url('../images/ui/icon/price-silver.png') no-repeat center right;
+}
+.price-copper {
+    color: #a65718;
+    background: url('../images/ui/icon/price-copper.png') no-repeat center right;
+}
+
+.gw2-info-box-items-infusion{
+  padding-left: 25px;
+  background: url('../images/ui/icon/infusion.png') no-repeat center left;
+}
+.gw2-info-box-items-enrichment{
+  padding-left: 25px;
+  background: url('../images/ui/icon/enrichment.png') no-repeat center left;
+}
+.gw2-info-box-items-suffix-icon{
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  background-size: cover;
+  position: relative;
+  top: 2px;
+}
+
+/* Skills */
+.gw2-info-box-skills-content{
+  width: 300px;
+  position: relative;
+}
+.gw2-info-box-skills-name {
+  margin-bottom: 0;
+  line-height: 30px;
+  font-size: 16px;
+  color: #E6BA5A;
+}
+.gw2-info-box-skills-description{
+  margin-bottom: 0;
+  line-height: 20px;
+  font-size: 13px;
+  color: #eee;
+}
+.gw2-info-box-skills-facts{
+  padding-top: 7px;
+}
+.gw2-info-box-skills-fact{
+  width: 100%;
+  padding-bottom: 3px;
+  position: relative;
+}
+.skills-fact-image{
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  margin-right: 2px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  float: left;
+}
+.skills-fact-word{
+  display: table-cell;
+  max-width: 300px;
+  height: 32px;
+  font-size: 13px;
+  color: #aaa;
+  vertical-align: middle;
+}
+
+.skills-fact-apply-count{
+  width: 18px;
+  font-size: 12px;
+  text-align: right;
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  color: #eee;
+  text-shadow: 1px 0 2px #000,-1px 0 2px #000,0 -1px 2px #000,0 1px 2px #000; 
+}
+.skills-fact-Recharge{
+  width: auto;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  overflow: hidden;
+}
+.skills-fact-recharge-image{
+  width: 20px;
+  height: 20px;
+  margin-top: 3px;
+  margin-left: 2px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  float: right;
+}
+.skills-fact-recharge-word{
+  line-height: 26px;
+  color: #eee;
+  float: right;
+}
+.gw2-skills{
+  background: url('../images/ui/skill_bg.jpg') no-repeat top left;
+}
+
+
+
+
+/* Specializations */
+.gw2-info.gw2-specializations{
+    width: 640px;
+    height: 140px;
+    margin: 0 auto 10px;
+    display: block;
+}
+.gw2-info-specializations-bg{
+	position: absolute;
+	width: 640px;
+	height: 140px;
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	float: left;
+	background-size: auto;
+	top: 0;
+	left: 0;
+}
+.gw2-info-specializations-bg-layer{
+	position: relative;
+	width: 640px;
+	height: 140px;
+	top: 0;
+	left: 0;
+	background-image: url('../images/ui/gw2-info-specializations-bg.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index: 5;
+}
+
+
+.gw2-info-specializations {
+  position: absolute;
+  width: 100px;
+  height: 58px;
+  background-position: -73px -158px;
+  -webkit-box-shadow: 0 0 30px #000000, inset 0 0 30px #ffffff;
+          box-shadow: 0 0 30px #000000, inset 0 0 30px #ffffff;
+  border-left: solid 2px rgba(21, 23, 24, 0.5);
+  border-right: solid 2px rgba(21, 23, 24, 0.5);
+  background-color: #9d9e9f;
+  background-size: auto;
+  left: 70px;
+  top: 40px;
+  z-index: 10;
+}
+.gw2-info-specializations:after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 96px;
+  height: 55px;
+  z-index: 10;
+  background: inherit;
+}
+.gw2-info-specializations-top,
+.gw2-info-specializations-bottom {
+  position: absolute;
+  z-index: 10;
+  width: 71px;
+  height: 71px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.6) rotate(-45deg);
+      -ms-transform: scaleY(0.6) rotate(-45deg);
+          transform: scaleY(0.6) rotate(-45deg);
+  background: inherit;
+  left: 12px;
+  -webkit-box-shadow: 0 0 30px #000000, inset 0 0 30px #ffffff;
+          box-shadow: 0 0 30px #000000, inset 0 0 30px #ffffff;
+}
+.gw2-info-specializations-top:after,
+.gw2-info-specializations-bottom:after {
+  content: "";
+  position: absolute;
+  width: 98px;
+  height: 54px;
+  -webkit-transform: rotate(45deg) scaleY(1.8) translateY(-27px);
+      -ms-transform: rotate(45deg) scaleY(1.8) translateY(-27px);
+          transform: rotate(45deg) scaleY(1.8) translateY(-27px);
+  -webkit-transform-origin: 0 0;
+      -ms-transform-origin: 0 0;
+          transform-origin: 0 0;
+  background: inherit;
+}
+.gw2-info-specializations-top {
+  top: -35.5px;
+  border-top: solid 2px;
+  border-right: solid 2px;
+  border-image: url('../images/ui/gw2-info-specializations-border-bg.png');
+}
+.gw2-info-specializations-top:after {
+  background-position: -72px -130px;
+}
+.gw2-info-specializations-bottom {
+  bottom: -35.5px;
+  border-bottom: solid 2px;
+  border-left: solid 2px;
+  border-image: url('../images/ui/gw2-info-specializations-border-bg.png');
+}
+.gw2-info-specializations-bottom:after {
+  background-position: -72px -185px;
+}
+
+
+
+
+/* Trait */
+.gw2-info-trait-Minor{
+	position: absolute;
+	width: 40px;
+    height: 40px;
+    opacity: 1;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    border: 1px solid #151718;
+    background-image: -webkit-radial-gradient(circle,#606468,#333);
+    background-image: -o-radial-gradient(circle,#606468,#333);
+    background-image: radial-gradient(circle,#606468,#333);
+    z-index: 10;
+    -webkit-clip-path: polygon(50% 0,93% 25%,93% 75%,50% 100%,7% 75%,7% 25%);
+    clip-path: polygon(50% 0,93% 25%,93% 75%,50% 100%,7% 75%,7% 25%);
+    -moz-transition: opacity 0.5s; /* Firefox 4 */
+	-webkit-transition: opacity 0.5s; /* Safari and Chrome */
+	-o-transition: opacity 0.5s; /* Opera */
+	transition: opacity 0.5s;
+}
+
+.gw2-info-trait-Minor-order-0{
+	top: 50px;
+}
+.gw2-info-trait-Minor-tier-0{
+	top: 90px;
+	left: 125px;
+}
+.gw2-info-trait-Minor-tier-1{
+	left: 205px;
+}
+.gw2-info-trait-Minor-tier-2{
+	left: 345px;
+}
+.gw2-info-trait-Minor-tier-3{
+	left: 487px;
+}
+
+.gw2-info-trait-Major{
+	position: absolute;
+	width: 38px;
+    height: 38px;
+    opacity: .1;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    border: 1px solid #151718;
+    background-image: -webkit-radial-gradient(circle,#606468,#333);
+    background-image: -o-radial-gradient(circle,#606468,#333);
+    background-image: radial-gradient(circle,#606468,#333);
+    background-size: 110%;
+    z-index: 10;
+    -moz-transition: opacity 0.5s; /* Firefox 4 */
+	-webkit-transition: opacity 0.5s; /* Safari and Chrome */
+	-o-transition: opacity 0.5s; /* Opera */
+	transition: opacity 0.5s;
+	backface-visibility: hidden;
+}
+.gw2-info-trait-Major:hover{
+	opacity: 1;
+	-moz-transition: opacity 0.5s; /* Firefox 4 */
+	-webkit-transition: opacity 0.5s; /* Safari and Chrome */
+	-o-transition: opacity 0.5s; /* Opera */
+	transition: opacity 0.5s;
+	backface-visibility: hidden;
+}
+
+.gw2-info-trait-Major-order-0{
+	top: 8px;
+}
+.gw2-info-trait-Major-order-1{
+	top: 50px;
+}
+.gw2-info-trait-Major-order-2{
+	top: 92px;
+}
+.gw2-info-trait-Major-tier-1{
+	left: 275px;
+}
+.gw2-info-trait-Major-tier-2{
+	left: 418px;
+}
+.gw2-info-trait-Major-tier-3{
+	left: 560px;
+}
+
+
+.gw2-info-box-achievement-tier-points-row{
+	width: 100%;
+    height: 39px;
+    padding: 10px 0 0 0;
+    font-size: 14px;
+    color: #ccc;
+}
+.gw2-info-box-achievement-tier-points-row span{
+	width: auto;
+    height: 39px;
+    line-height: 40px;
+    color: #ecbd6f;
+    float: left;
+}
+.gw2-info-box-achievement-tier-points-icon{
+	width: 39px;
+    height: 39px;
+    background-image: url(../../images.gw2.voids.cn/Retired_Achievements.png_%3b%20filename_%3dutf-8%27%27Retired_Achievements.png);
+    background-position: center center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    float: left;
+}
+.gw2-info-box-achievements-rows{
+	width: 100%;
+	height: 7px;
+}
+
+.onmouse-trait{
+	opacity: .1 !important;
+}
+.onmouse-highlight-trait{
+	opacity: 1 !important;
+	box-shadow: 0px 0px 15px #fff;
+}
+
+
+.specializations-box{
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+.build-skills-box{
+    height: 60px;
+}
+
+.build-skill-icon .gw2-info .gw2-info-icon{
+    background-size: 120%;
+}
+
+.build-info-box{
+    width: 100%;
+    min-height: 60px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    overflow: hidden;
+}
+.build-icon{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    float: left;
+}
+.build-icon .gw2-info{
+    width: 56px;
+    height: 56px;
+}
+.build-icon .gw2-info .gw2-info-icon{
+    width: 54px;
+    height: 54px;
+}
+
+.build-info-right{
+    margin-left: 4px;
+    display: inline-block;
+    float: left;
+}
+.build-info-title{
+    margin-top: 3px;
+    margin-bottom: 4px;
+}
+.build-info-title span{
+    color: #95a5a6;
+}
+.build-sm-icon{
+    width: 22px;
+    height: 22px;
+    margin-right: 2px;
+    display: inline-block;
+    float: left;
+}
+.build-sm-icon .gw2-info{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #151718;
+}
+.build-sm-icon .gw2-info .gw2-info-icon{
+    width: 18px;
+    height: 18px;
+}
+.build-info-suffix-title{
+    margin-right: 8px;
+    display: inline-block;
+    float: left;
+    font-size: .8rem;
+    line-height: 22px;
+    color: #c3c3c3;
+}
+
+.build-info-content{
+}
+.build-info-content hr{
+    margin-top: 0.7rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(19,19,19,.33);
+    border-bottom: 1px solid rgba(236,236,236,.11);
+}
+.article-content a{
+    color: #c4b998;
+}
+.article-content a:hover{
+    color: #e74c3c;
+}
+.article-content a:after {
+    padding-left: 5px;
+    padding-right: 5px;
+    content: "\F339";
+    font-family: 'Material Design Icons';
+    font-size: 14px;
+    color: #555;
+}
+.build-info-content p{
+    font-size: 1rem;
+    line-height: 30px;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+.build-info-content p:last-child{
+  margin-bottom: 0;
+}
+.build-info-content a{
+  color: #c4b998;
+}
+.build-info-content a:hover{
+  color: #e74c3c;
+}
+.build-info-content h1, .build-info-content h2, .build-info-content h3, .build-info-content h4{
+    color: #ccc;
+    margin-bottom: 5px;
+}
+
+.build-info-content span, .build-info-content li{
+    font-size: 1rem;
+}
+.build-info-content ul, .build-info-content ol{
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+.build-info-content ul:last-child, .build-info-content ol:last-child{
+    margin-bottom: 0;
+}
+.build-info-content ul li{
+    padding-left: 0px;
+    margin-bottom: 7px;
+    color: #ddd;
+    vertical-align: middle;
+    background-image: url(../images/bd-li-bg.png);
+    background-position: 2px 11px;
+    background-repeat: no-repeat;
+    padding: 2px 7px 2px 22px;
+    font-size: 1rem;
+    line-height: 30px;
+    text-align: justify;
+}
+.build-info-content ol li {
+  margin: 0 0 0 24px;
+  padding: 0 5px 0 8px;
+  list-style-type: decimal;
+  font-size: 1rem;
+  line-height: 34px;
+  color: #c3c3c3;
+  vertical-align: middle;
+  background-color: rgba(10,10,10,0.2);
+}
+.build-info-content ol li:nth-child(odd) {
+  background-color: rgba(10,10,10,0.4);
+}
+
+.build-info-content table{
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+  border-top: 2px solid #303030;
+}
+.build-info-content th {
+padding: 10px 10px;
+  vertical-align: baseline;
+  border-right: 2px solid #303030;
+  border-bottom: 2px solid #303030;
+  background-color: rgba(10,10,10,0.4);
+  font-size: .95rem;
+  color: #c3c3c3;
+  text-align: left;
+}
+
+.build-info-content td {
+  padding: 5px 10px;
+  border-right: 2px solid #303030;
+  border-bottom: 2px solid #303030;
+  background-color: rgba(10,10,10,0.4);
+  line-height: 30px;
+  font-size: .95rem;
+  color: #ccc;
+  vertical-align: middle;
+  text-align: left;
+}
+.build-info-content tr:nth-child(odd) td{
+  background-color: rgba(10,10,10,0.2);
+}
+.build-info-content tr th:last-child, .build-info-content tr td:last-child{
+  border-right: none;
+}
+
+.build-info-content-weaver table tr td:first-child{
+  width: 80px;
+}
+.build-info-content-tempest table tr td:first-child{
+  width: 110px;
+}
+.build-info-content table td ul li{
+  margin: 0 0 0 19px;
+  padding: 0;
+  list-style-type: disc;
+  background-image: none;
+  font-size: .95rem;
+}
+
+
+
+.mini-skills .gw2-info, 
+.mini-traits .gw2-info, 
+
+.mini-items .gw2-info, 
+.mini-skins .gw2-info, 
+.mini-weapons .gw2-info, 
+.mini-armors .gw2-info, 
+.mini-trinkets .gw2-info, 
+.mini-runes .gw2-info, 
+.mini-sigils .gw2-info, 
+.mini-gems .gw2-info, 
+.mini-infusions .gw2-info,
+.mini-food .gw2-info,
+.mini-utility .gw2-info,
+
+.mini-currencies .gw2-info, 
+.mini-pvp_amulets .gw2-info, 
+.mini-pvp_sigils .gw2-info, 
+.mini-pvp_runes .gw2-info, 
+.mini-professions_icon .gw2-info, 
+.mini-skills_icon .gw2-info,
+.mini-achievements .gw2-info{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+  position: relative;
+  top: 4px;
+  background-repeat: no-repeat;
+}
+.mini-traits span, 
+.mini-currencies span {
+  color: #ec986f;
+}
+.mini-pvp_amulets span, 
+.mini-pvp_sigils span, 
+.mini-pvp_runes span, 
+.mini-professions_icon span, 
+.mini-skills_icon span{
+  color: #ceb895;
+}
+.mini-skills span.color-default,
+.mini-pets span,
+.mini-items span, 
+.mini-weapons span, 
+.mini-armors span, 
+.mini-trinkets span, 
+.mini-runes span, 
+.mini-sigils span, 
+.mini-gems span, 
+.mini-infusions span,
+.mini-food span,
+.mini-utility span,
+.mini-achievements span
+{
+  color: #ecbd6f;
+}
+
+.gw2-achievements-icon{
+  background-image: url(../../images.gw2.voids.cn/Retired_Achievements.png_%3b%20filename_%3dutf-8%27%27Retired_Achievements.png);
+}
+.mini-skills .gw2-info-icon{
+background-size: 110%;
+}
+.mini-pets {
+  display: inline-block;
+  height: 20px;
+}
+.mini-pets .gw2-info {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 20px;
+}
+.mini-pets.mini-big-icon {
+  display: inline-block;
+  height: 50px;
+}
+.mini-pets.mini-big-icon .gw2-info {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+}
+
+
+
+/* raid boss */
+.build-overview-wrap{
+  padding-right: 30px;
+}
+@media(max-width: 991px){
+  .col-lg-8.build-overview-wrap{
+    padding: 0 20px 20px;
+  }
+  .col-lg-4.build-raid-boss-wrap{
+    padding: 30px 20px 0;
+  }
+}
+
+.build-raid-wing{
+  width: 240px;
+  float: left;
+}
+.build-raid-boss{
+	width: 48px;
+  height: 48px;
+  position: relative;
+  margin: 0 5px 10px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+  overflow: hidden;
+}
+
+.raid-boss-score-S{
+  border: 4px solid #c0392b;
+  color: #c0392b;
+}
+.raid-boss-score-S .icon-raid-boss-cover{
+  background-color: #c0392b;
+}
+.raid-boss-score-A{
+  border: 4px solid #eb4d4b;
+  color: #eb4d4b;
+}
+.raid-boss-score-A .icon-raid-boss-cover{
+  background-color: #eb4d4b;
+}
+.raid-boss-score-B{
+  border: 4px solid #fa8231;
+  color: #fa8231;
+}
+.raid-boss-score-B .icon-raid-boss-cover{
+  background-color: #fa8231;
+}
+.raid-boss-score-C{
+  border: 4px solid #8ea53a;
+  color: #8ea53a;
+}
+.raid-boss-score-C .icon-raid-boss-cover{
+  background-color: #8ea53a;
+}
+.raid-boss-score-D{
+  border: 4px solid #3498db;
+  color: #3498db;
+}
+.raid-boss-score-D .icon-raid-boss-cover{
+  background-color: #3498db;
+}
+
+.icon-raid-boss-cover{
+  position: absolute;
+  right: -27px;
+  bottom: -10px;
+  width: 50px;
+  height: 30px;
+  -ms-transform:rotate(-45deg); 	/* IE 9 */
+  -moz-transform:rotate(-45deg); 	/* Firefox */
+  -webkit-transform:rotate(-45deg); /* Safari 和 Chrome */
+  -o-transform:rotate(-45deg); 	/* Opera */
+}
+.icon-raid-boss-score{
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  color: #fff;
+  font: 400 13px Arial;
+}
+
+
+
+.icon-raid-boss{
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+}
+.icon-raid-boss-01{
+  background-image: url(../../images.gw2.voids.cn/40px-Mini_Vale_Guardian.jpg_%3b%20filename_%3dutf-8%27%2740px-Mini_Vale_Guardian.jpg);
+}
+.icon-raid-boss-02{
+  background-image: url(../../images.gw2.voids.cn/40px-Mini_Gorseval_the_Multifarious.jpg_%3b%20filename_%3dutf-8%27%2740px-Mini_Gorseval_the_Multifarious.jpg);
+}
+.icon-raid-boss-03{
+  background-image: url(../../images.gw2.voids.cn/40px-Mini_Sabetha.jpg_%3b%20filename_%3dutf-8%27%2740px-Mini_Sabetha.jpg);
+}
+
+.icon-raid-boss-04{
+  background-image: url(../../images.gw2.voids.cn/40px-Mini_Slothasor.jpg_%3b%20filename_%3dutf-8%27%2740px-Mini_Slothasor.jpg);
+}
+.icon-raid-boss-05{
+  background-image: url(../../images.gw2.voids.cn/40px-Mini_Berg.jpg_%3b%20filename_%3dutf-8%27%2740px-Mini_Berg.jpg);
+}
+.icon-raid-boss-06{
+  background-image: url(../../images.gw2.voids.cn/40px-Mini_Matthias_Abomination.jpg_%3b%20filename_%3dutf-8%27%2740px-Mini_Matthias_Abomination.jpg);
+}
+
+.icon-raid-boss-07{
+  background-image: url(../../images.gw2.voids.cn/40px-Mini_McLeod_the_Silent.jpg_%3b%20filename_%3dutf-8%27%2740px-Mini_McLeod_the_Silent.jpg);
+}
+.icon-raid-boss-08{
+  background-image: url(../../images.gw2.voids.cn/40px-Mini_Keep_Construct.jpg_%3b%20filename_%3dutf-8%27%2740px-Mini_Keep_Construct.jpg);
+}
+.icon-raid-boss-09{
+  background-image: url(../../images.gw2.voids.cn/40px-Mini_Xera.jpg_%3b%20filename_%3dutf-8%27%2740px-Mini_Xera.jpg);
+}
+
+.icon-raid-boss-10{
+  background-image: url(../../images.gw2.voids.cn/40px-Mini_Cairn_the_Indomitable.jpg_%3b%20filename_%3dutf-8%27%2740px-Mini_Cairn_the_Indomitable.jpg);
+}
+.icon-raid-boss-11{
+  background-image: url(../../images.gw2.voids.cn/40px-Mini_Mursaat_Overseer.jpg_%3b%20filename_%3dutf-8%27%2740px-Mini_Mursaat_Overseer.jpg);
+}
+.icon-raid-boss-12{
+  background-image: url(../../images.gw2.voids.cn/40px-Mini_Samarog.jpg_%3b%20filename_%3dutf-8%27%2740px-Mini_Samarog.jpg);
+}
+.icon-raid-boss-13{
+  background-image: url(../../images.gw2.voids.cn/40px-Mini_Ragged_White_Mantle_Figurehead.jpg_%3b%20filename_%3dutf-8%27%2740px-Mini_Ragged_White_Mantle_Figurehead.jpg);
+}
+
+.icon-raid-boss-14{
+  background-image: url(../../images.gw2.voids.cn/40px-Mini_Desmina.jpg_%3b%20filename_%3dutf-8%27%2740px-Mini_Desmina.jpg);
+}
+.icon-raid-boss-15{
+  background-image: url(../../images.gw2.voids.cn/40px-Silver_River_of_Souls_Trophy.jpg_%3b%20filename_%3dutf-8%27%2740px-Silver_River_of_Souls_Trophy.jpg);
+}
+.icon-raid-boss-16{
+  background-image: url(../../images.gw2.voids.cn/40px-Bronze_Statue_of_Grenth_Trophy.jpg_%3b%20filename_%3dutf-8%27%2740px-Bronze_Statue_of_Grenth_Trophy.jpg);
+}
+.icon-raid-boss-17{
+  background-image: url(../../images.gw2.voids.cn/40px-Mini_Dhuum.jpg_%3b%20filename_%3dutf-8%27%2740px-Mini_Dhuum.jpg);
+}
+
+.icon-raid-boss-18{
+  background-image: url(../../images.gw2.voids.cn/40px-Gold_Conjured_Amalgamate_Trophy.jpg_%3b%20filename_%3dutf-8%27%2740px-Gold_Conjured_Amalgamate_Trophy.jpg);
+}
+.icon-raid-boss-19{
+  background-image: url(../../images.gw2.voids.cn/40px-Mini_Nikare.jpg_%3b%20filename_%3dutf-8%27%2740px-Mini_Nikare.jpg);
+}
+.icon-raid-boss-20{
+  background-image: url(../../images.gw2.voids.cn/40px-Mini_Qadim.jpg_%3b%20filename_%3dutf-8%27%2740px-Mini_Qadim.jpg);
+}
+
+.icon-raid-boss-21{
+  background-image: url(../../images.gw2.voids.cn/40px-Mini_Air_Djinn.jpg_%3b%20filename_%3dutf-8%27%2740px-Mini_Air_Djinn.jpg);
+}
+.icon-raid-boss-22{
+  background-image: url(../../images.gw2.voids.cn/40px-Mini_Earth_Djinn.jpg_%3b%20filename_%3dutf-8%27%2740px-Mini_Earth_Djinn.jpg);
+}
+.icon-raid-boss-23{
+  background-image: url(../../images.gw2.voids.cn/40px-Mini_Qadim_the_Peerless.jpg_%3b%20filename_%3dutf-8%27%2740px-Mini_Qadim_the_Peerless.jpg);
+}
+
+.icon-coin{
+  display: inline-block;
+  position: relative;
+  bottom: -2px;
+  width: 18px;
+  height: 16px;
+  margin-left: 2px;
+  margin-right: 5px;
+  background-size: 100%;
+}
+.icon-gold{
+  background-image: url(../../images.gw2.voids.cn/Gold_coin.png_%3b%20filename_%3dutf-8%27%27Gold_coin.png);
+}
+.icon-silver{
+  background-image: url(../../images.gw2.voids.cn/Silver_coin.png_%3b%20filename_%3dutf-8%27%27Silver_coin.png);
+}
+.icon-copper{
+  background-image: url(../../images.gw2.voids.cn/Copper_coin.png_%3b%20filename_%3dutf-8%27%27Copper_coin.png);
+}
+.icon-karma{
+  background-image: url(../../static.gw2data.cn/file/94953FA23D3E0D23559624015DFEA4CFAA07F0E5/155026.png);
+}
+
+
+
+
+
+/* profession */
+.icon-profession{
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+
+
+.icon-Elementalist{
+	background-image: url('../../images.gw2.voids.cn/Elementalist_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Elementalist_tango_icon_200px.png');
+}
+.icon-white-Elementalist{
+	background-image: url('../images/ui/white_icon/elementalist-white.png');
+}
+.icon-Tempest{
+	background-image: url('../../images.gw2.voids.cn/Tempest_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Tempest_tango_icon_200px.png');
+}
+.icon-white-Tempest{
+	background-image: url('../images/ui/white_icon/tempest-white.png');
+}
+.icon-Weaver{
+	background-image: url('../../images.gw2.voids.cn/Weaver_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Weaver_tango_icon_200px.png');
+	background-size: 114%; 
+}
+.icon-white-Weaver{
+	background-image: url('../images/ui/white_icon/weaver-white.png');
+}
+.icon-Warrior{
+	background-image: url('../../images.gw2.voids.cn/Warrior_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Warrior_tango_icon_200px.png'); 
+}
+.icon-white-Warrior{
+	background-image: url('../images/ui/white_icon/warrior-white.png');
+}
+.icon-Berserker{
+	background-image: url('../../images.gw2.voids.cn/Berserker_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Berserker_tango_icon_200px.png'); 
+}
+.icon-white-Berserker{
+	background-image: url('../images/ui/white_icon/berserker-white.png');
+}
+.icon-Spellbreaker{
+	background-image: url('../../images.gw2.voids.cn/Spellbreaker_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Spellbreaker_tango_icon_200px.png');
+}
+.icon-white-Spellbreaker{
+	background-image: url('../images/ui/white_icon/spellbreaker-white.png');
+}
+.icon-Ranger{
+	background-image: url('../../images.gw2.voids.cn/Ranger_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Ranger_tango_icon_200px.png'); 
+}
+.icon-white-Ranger{
+	background-image: url('../images/ui/white_icon/ranger-white.png');
+}
+.icon-Druid{
+	background-image: url('../../images.gw2.voids.cn/Druid_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Druid_tango_icon_200px.png'); 
+}
+.icon-white-Druid{
+	background-image: url('../images/ui/white_icon/druid-white.png');
+}
+.icon-Soulbeast{
+	background-image: url('../../images.gw2.voids.cn/Soulbeast_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Soulbeast_tango_icon_200px.png'); 
+}
+.icon-white-Soulbeast{
+	background-image: url('../images/ui/white_icon/soulbeast-white.png');
+}
+.icon-Necromancer{
+	background-image: url('../../images.gw2.voids.cn/Necromancer_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Necromancer_tango_icon_200px.png'); 
+}
+.icon-white-Necromancer{
+	background-image: url('../images/ui/white_icon/necromancer-white.png');
+}
+.icon-Reaper{
+	background-image: url('../../images.gw2.voids.cn/Reaper_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Reaper_tango_icon_200px.png'); 
+}
+.icon-white-Reaper{
+	background-image: url('../images/ui/white_icon/reaper-white.png');
+}
+.icon-Scourge{
+	background-image: url('../../images.gw2.voids.cn/Scourge_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Scourge_tango_icon_200px.png'); 
+}
+.icon-white-Scourge{
+	background-image: url('../images/ui/white_icon/scourge-white.png');
+}
+.icon-Thief{
+	background-image: url('../../images.gw2.voids.cn/Thief_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Thief_tango_icon_200px.png'); 
+}
+.icon-white-Thief{
+	background-image: url('../images/ui/white_icon/thief-white.png');
+}
+.icon-Daredevil{
+	background-image: url('../../images.gw2.voids.cn/Daredevil_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Daredevil_tango_icon_200px.png'); 
+}
+.icon-white-Daredevil{
+	background-image: url('../images/ui/white_icon/daredevil-white.png');
+}
+.icon-Deadeye{
+	background-image: url('../../images.gw2.voids.cn/Deadeye_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Deadeye_tango_icon_200px.png'); 
+}
+.icon-white-Deadeye{
+	background-image: url('../images/ui/white_icon/deadeye-white.png');
+}
+.icon-Guardian{
+	background-image: url('../../images.gw2.voids.cn/Guardian_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Guardian_tango_icon_200px.png'); 
+}
+.icon-white-Guardian{
+	background-image: url('../images/ui/white_icon/guardian-white.png');
+}
+.icon-Dragonhunter{
+	background-image: url('../../images.gw2.voids.cn/Dragonhunter_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Dragonhunter_tango_icon_200px.png'); 
+}
+.icon-white-Dragonhunter{
+	background-image: url('../images/ui/white_icon/dragonhunter-white.png');
+}
+.icon-Firebrand{
+	background-image: url('../../images.gw2.voids.cn/Firebrand_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Firebrand_tango_icon_200px.png'); 
+}
+.icon-white-Firebrand{
+	background-image: url('../images/ui/white_icon/firebrand-white.png');
+}
+.icon-Engineer{
+	background-image: url('../../images.gw2.voids.cn/Engineer_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Engineer_tango_icon_200px.png'); 
+}
+.icon-white-Engineer{
+	background-image: url('../images/ui/white_icon/engineer-white.png');
+}
+.icon-Scrapper{
+	background-image: url('../../images.gw2.voids.cn/Scrapper_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Scrapper_tango_icon_200px.png'); 
+}
+.icon-white-Scrapper{
+	background-image: url('../images/ui/white_icon/scrapper-white.png');
+}
+.icon-Holosmith{
+	background-image: url('../../images.gw2.voids.cn/Holosmith_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Holosmith_tango_icon_200px.png');
+}
+.icon-white-Holosmith{
+	background-image: url('../images/ui/white_icon/holosmith-white.png');
+}
+.icon-Mesmer{
+	background-image: url('../../images.gw2.voids.cn/Mesmer_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Mesmer_tango_icon_200px.png'); 
+}
+.icon-white-Mesmer{
+	background-image: url('../images/ui/white_icon/mesmer-white.png');
+}
+.icon-Chronomancer{
+	background-image: url('../../images.gw2.voids.cn/Chronomancer_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Chronomancer_tango_icon_200px.png'); 
+}
+.icon-white-Chronomancer{
+	background-image: url('../images/ui/white_icon/chronomancer-white.png');
+}
+.icon-Mirage{
+	background-image: url('../../images.gw2.voids.cn/Mirage_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Mirage_tango_icon_200px.png');
+}
+.icon-white-Mirage{
+	background-image: url('../images/ui/white_icon/mirage-white.png');
+}
+.icon-Revenant{
+	background-image: url('../../images.gw2.voids.cn/Revenant_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Revenant_tango_icon_200px.png'); 
+}
+.icon-white-Revenant{
+	background-image: url('../images/ui/white_icon/revenant-white.png');
+}
+.icon-Herald{
+	background-image: url('../../images.gw2.voids.cn/Herald_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Herald_tango_icon_200px.png'); 
+}
+.icon-white-Herald{
+	background-image: url('../images/ui/white_icon/herald-white.png');
+}
+.icon-Renegade{
+	background-image: url('../../images.gw2.voids.cn/Renegade_tango_icon_200px.png_%3b%20filename_%3dutf-8%27%27Renegade_tango_icon_200px.png');
+}
+.icon-white-Renegade{
+	background-image: url('../images/ui/white_icon/renegade-white.png');
+}
+
+
+.profession-icon-bg{
+	background-size: cover;
+}
+.profession-icon-bg-Elementalist{
+	background-image: url('../../images.gw2.voids.cn/elementalist_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27elementalist_icon_bg.jpg');
+}
+.profession-icon-bg-Tempest{
+	background-image: url('../../images.gw2.voids.cn/tempest_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27tempest_icon_bg.jpg');
+}
+.profession-icon-bg-Weaver{
+	background-image: url('../../images.gw2.voids.cn/weaver_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27weaver_icon_bg.jpg');
+}
+.profession-icon-bg-Warrior{
+	background-image: url('../../images.gw2.voids.cn/warrior_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27warrior_icon_bg.jpg');
+}
+.profession-icon-bg-Berserker{
+	background-image: url('../../images.gw2.voids.cn/berserker_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27berserker_icon_bg.jpg');
+}
+.profession-icon-bg-Spellbreaker{
+	background-image: url('../../images.gw2.voids.cn/spellbreaker_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27spellbreaker_icon_bg.jpg');
+}
+.profession-icon-bg-Ranger{
+	background-image: url('../../images.gw2.voids.cn/ranger_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27ranger_icon_bg.jpg');
+}
+.profession-icon-bg-Druid{
+	background-image: url('../../images.gw2.voids.cn/druid_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27druid_icon_bg.jpg');
+}
+.profession-icon-bg-Soulbeast{
+	background-image: url('../../images.gw2.voids.cn/soulbeast_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27soulbeast_icon_bg.jpg');
+}
+.profession-icon-bg-Necromancer{
+	background-image: url('../../images.gw2.voids.cn/necromancer_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27necromancer_icon_bg.jpg');
+}
+.profession-icon-bg-Reaper{
+	background-image: url('../../images.gw2.voids.cn/reaper_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27reaper_icon_bg.jpg');
+}
+.profession-icon-bg-Scourge{
+	background-image: url('../../images.gw2.voids.cn/scourge_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27scourge_icon_bg.jpg');
+}
+.profession-icon-bg-Thief{
+	background-image: url('../../images.gw2.voids.cn/thief_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27thief_icon_bg.jpg');
+}
+.profession-icon-bg-Daredevil{
+	background-image: url('../../images.gw2.voids.cn/daredevil_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27daredevil_icon_bg.jpg');
+}
+.profession-icon-bg-Deadeye{
+	background-image: url('../../images.gw2.voids.cn/deadeye_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27deadeye_icon_bg.jpg');
+}
+.profession-icon-bg-Guardian{
+	background-image: url('../../images.gw2.voids.cn/guardian_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27guardian_icon_bg.jpg');
+}
+.profession-icon-bg-Dragonhunter{
+	background-image: url('../../images.gw2.voids.cn/dragonhunter_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27dragonhunter_icon_bg.jpg');
+}
+.profession-icon-bg-Firebrand{
+	background-image: url('../../images.gw2.voids.cn/firebrand_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27firebrand_icon_bg.jpg');
+}
+.profession-icon-bg-Engineer{
+	background-image: url('../../images.gw2.voids.cn/engineer_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27engineer_icon_bg.jpg');
+}
+.profession-icon-bg-Scrapper{
+	background-image: url('../../images.gw2.voids.cn/scrapper_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27scrapper_icon_bg.jpg');
+}
+.profession-icon-bg-Holosmith{
+	background-image: url('../../images.gw2.voids.cn/holosmith_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27holosmith_icon_bg.jpg');
+}
+.profession-icon-bg-Mesmer{
+	background-image: url('../../images.gw2.voids.cn/mesmer_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27mesmer_icon_bg.jpg');
+}
+.profession-icon-bg-Chronomancer{
+	background-image: url('../../images.gw2.voids.cn/chronomancer_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27chronomancer_icon_bg.jpg');
+}
+.profession-icon-bg-Mirage{
+	background-image: url('../../images.gw2.voids.cn/mirage_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27mirage_icon_bg.jpg');
+}
+.profession-icon-bg-Revenant{
+	background-image: url('../../images.gw2.voids.cn/revenant_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27revenant_icon_bg.jpg');
+}
+.profession-icon-bg-Herald{
+	background-image: url('../../images.gw2.voids.cn/herald_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27herald_icon_bg.jpg');
+}
+.profession-icon-bg-Renegade{
+	background-image: url('../../images.gw2.voids.cn/renegade_icon_bg.jpg_%3b%20filename_%3dutf-8%27%27renegade_icon_bg.jpg');
+}
+
+
+
+
+.color-Elementalist{
+	color: #c54838;
+}
+.color-Warrior{
+	color: #bc8d16;
+}
+.color-Ranger{
+	color: #adc35d;
+}
+.color-Necromancer{
+	color: #6bb098;
+}
+.color-Guardian{
+	color: #71c1d6;
+}
+.color-Thief{
+	color: #b28a8f;
+}
+.color-Engineer{
+	color: #ce7f4b;
+}
+.color-Mesmer{
+	color: #e697f9;
+}
+.color-Revenant{
+	color: #ae6678;
+}
+
+
+.bg-color-profession{
+	color: #fff;
+}
+.bg-color-profession:hover{
+	color: #fff;
+}
+.bg-color-Elementalist{
+	/* background-color: #f34e5c !important; */
+	background-color: #c0392b !important;
+}
+.bg-color-Warrior{
+	background-color: #bc8d16 !important;
+}
+.bg-color-Ranger{
+	background-color: #8ea53a !important;
+}
+.bg-color-Necromancer{
+	background-color: #3f5847 !important;
+}
+.bg-color-Guardian{
+	background-color: #2980b9 !important;
+}
+.bg-color-Thief{
+	background-color: #623a3f !important;
+}
+.bg-color-Engineer{
+	background-color: #98692c !important;
+}
+.bg-color-Mesmer{
+	background-color: #724192 !important;
+}
+.bg-color-Revenant{
+	background-color: #572435 !important;
+}
+
+
+.nav-link.nav-link-Elementalist.active{
+	background-color: #c0392b;
+}
+.nav-link.nav-link-Warrior.active{
+	background-color: #bc8d16;
+}
+.nav-link.nav-link-Ranger.active{
+	background-color: #8ea53a;
+}
+.nav-link.nav-link-Necromancer.active{
+	background-color: #3f5847;
+}
+.nav-link.nav-link-Guardian.active{
+	background-color: #2980b9;
+}
+.nav-link.nav-link-Thief.active{
+	background-color: #623a3f;
+}
+.nav-link.nav-link-Engineer.active{
+	background-color: #98692c;
+}
+.nav-link.nav-link-Mesmer.active{
+	background-color: #724192;
+}
+.nav-link.nav-link-Revenant.active{
+	background-color: #572435;
+}
+
+
+.score-SSS{
+	color: #c0392b;
+}
+.score-S{
+	color: #eb4d4b;
+}
+.score-A{
+	color: #fa8231;
+}
+.score-B{
+	color: #8ea53a;
+}
+.score-C{
+	color: #3498db;
+}
+
+
+
+/* mounts */
+.icon-mount{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.icon-raptor{
+	background-image: url('../../images.gw2.voids.cn/raptor_icon.png_%3b%20filename_%3dutf-8%27%27raptor_icon.png');
+	background-size: 150% !important;
+}
+.icon-springer{
+	background-image: url('../../images.gw2.voids.cn/springer_icon.png_%3b%20filename_%3dutf-8%27%27springer_icon.png');
+}
+.icon-skimmer{
+	background-image: url('../../images.gw2.voids.cn/skimmer_icon.png_%3b%20filename_%3dutf-8%27%27skimmer_icon.png');
+}
+.icon-jackal{
+	background-image: url('../../images.gw2.voids.cn/jackal_icon.png_%3b%20filename_%3dutf-8%27%27jackal_icon.png');
+}
+.icon-griffon{
+	background-image: url('../../images.gw2.voids.cn/griffon_icon.png_%3b%20filename_%3dutf-8%27%27griffon_icon.png');
+	background-size: 150% !important;
+}
+.icon-roller-beetle{
+	background-image: url('../../images.gw2.voids.cn/roller_beetle_icon.png_%3b%20filename_%3dutf-8%27%27roller_beetle_icon.png');
+	background-size: 120% !important;
+}
+.icon-warclaw{
+	background-image: url('../../images.gw2.voids.cn/warclaw_icon.png_%3b%20filename_%3dutf-8%27%27warclaw_icon.png');
+	background-size: 130% !important;
+}
+.icon-skyscale{
+	background-image: url('../../images.gw2.voids.cn/skyscale_icon.png_%3b%20filename_%3dutf-8%27%27skyscale_icon.png');
+	background-size: 120% !important;
+}
+
+
+
+/* crafting */
+.icon-crafting{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.icon-armorsmith{
+	background-image: url('../../images.gw2.voids.cn/Armorsmith_tango_icon_20px.png_%3b%20filename_%3dutf-8%27%27Armorsmith_tango_icon_20px.png');
+}
+.icon-artificer{
+	background-image: url('../../images.gw2.voids.cn/Artificer_tango_icon_20px.png_%3b%20filename_%3dutf-8%27%27Artificer_tango_icon_20px.png');
+}
+.icon-chef{
+	background-image: url('../../images.gw2.voids.cn/Chef_tango_icon_20px.png_%3b%20filename_%3dutf-8%27%27Chef_tango_icon_20px.png');
+}
+.icon-huntsman{
+	background-image: url('../../images.gw2.voids.cn/Huntsman_tango_icon_20px.png_%3b%20filename_%3dutf-8%27%27Huntsman_tango_icon_20px.png');
+}
+.icon-jeweler{
+	background-image: url('../../images.gw2.voids.cn/Jeweler_tango_icon_20px.png_%3b%20filename_%3dutf-8%27%27Jeweler_tango_icon_20px.png');
+}
+.icon-leatherworker{
+	background-image: url('../../images.gw2.voids.cn/Leatherworker_tango_icon_20px.png_%3b%20filename_%3dutf-8%27%27Leatherworker_tango_icon_20px.png');
+}
+.icon-scribe{
+	background-image: url('../../images.gw2.voids.cn/Scribe_tango_icon_20px.png_%3b%20filename_%3dutf-8%27%27Scribe_tango_icon_20px.png');
+}
+.icon-tailor{
+	background-image: url('../../images.gw2.voids.cn/Tailor_tango_icon_20px.png_%3b%20filename_%3dutf-8%27%27Tailor_tango_icon_20px.png');
+}
+.icon-weaponsmith{
+	background-image: url('../../images.gw2.voids.cn/Weaponsmith_tango_icon_20px.png_%3b%20filename_%3dutf-8%27%27Weaponsmith_tango_icon_20px.png');
+}
+
+
+/* guild_mission */
+.icon-guild-bounty{
+  background-image: url('../../images.gw2.voids.cn/20px-Guild_Bounty_icon.png_%3b%20filename_%3dutf-8%27%2720px-Guild_Bounty_icon.png');
+}
+.icon-guild-trek{
+  background-image: url('../../images.gw2.voids.cn/20px-Guild_Trek_icon.png_%3b%20filename_%3dutf-8%27%2720px-Guild_Trek_icon.png');
+}
+.icon-guild-challenge{
+  background-image: url('../../images.gw2.voids.cn/20px-Guild_Challenge_icon.png_%3b%20filename_%3dutf-8%27%2720px-Guild_Challenge_icon.png');
+}
+.icon-guild-race{
+  background-image: url('../../images.gw2.voids.cn/20px-Guild_Race_icon.png_%3b%20filename_%3dutf-8%27%2720px-Guild_Race_icon.png');
+}
+.icon-guild-puzzle{
+  background-image: url('../../images.gw2.voids.cn/20px-Guild_Puzzle.png_%3b%20filename_%3dutf-8%27%2720px-Guild_Puzzle.png');
+}
+
+
+
+/* fractal */
+.bg-color-fractal{
+  background-color: #40739e !important;
+}
+.color-fractal{
+  color: #40739e !important;
+}
+.content-fractal{
+  background-image: url('../../doc.gw2.voids.cn/SpringQ2Update_HomeBanner.jpg_%3b%20filename_%3dutf-8%27%27SpringQ2Update_HomeBanner.jpg');
+  background-position: right center;
+  background-size: cover;
+}
+
+/* raid */
+.bg-color-raid{
+  background-color: #948968 !important;
+}
+.color-raid{
+  color: #b4a988 !important;
+}
+
+/* strike_mission */
+.bg-color-strike_mission{
+  background-color: #454b58 !important;
+}
+.color-strike_mission{
+  color: #7f8fa6 !important;
+}
+
+
+
+/* legendary_equipment */
+.button-color-legendary_equipment.active{
+  background-color: #8e44ad !important;
+}
+.color-legendary_equipment{
+  color: #9b59b6 !important;
+}
+.btn-color-legendary_equipment{
+  background-color: #8e44ad !important;
+  color: #fff;
+}
+
+
+/* collection */
+.button-color-collection.active{
+  background-color: #c0392b !important;
+}
+.color-collection{
+  color: #c5433b !important;
+}
+.btn-color-collection{
+  background-color: #c0392b !important;
+  color: #fff;
+}
+
+
+/* achievement */
+.icon-achievement{
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-position: center center;
+}
+.icon-jumping-puzzle{
+  background-image: url('../../images.gw2.voids.cn/Jumping_Puzzles.png_%3b%20filename_%3dutf-8%27%27Jumping_Puzzles.png');
+}
+.icon-explorer{
+  background-image: url('../../images.gw2.voids.cn/Explorer.png_%3b%20filename_%3dutf-8%27%27Explorer.png');
+}
+
+
+.button-color-jumping-puzzles.active{
+  background-color: #16a085 !important;
+}
+.color-jumping-puzzles{
+  color: #16a085 !important;
+}
+.btn-color-jumping-puzzles{
+  background-color: #069075 !important;
+  color: #fff;
+}
+
+.achievement-item{
+  position: relative;
+  width: 100%;
+  background-color: #373737;
+  padding: 15px 0 15px 15px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.achievement-item > .thumb{
+  width: 160px;
+  height: 90px;
+  margin-right: 15px;
+  background-size: cover;
+  float: left;
+  overflow: hidden;
+}
+.achievement-item .content-right{
+  float: left;
+}
+.achievement-item > .content-right > .title{
+  font-size: 16px;
+  color: #eee;
+}
+.achievement-item > .content-right > .map{
+  color: #999;
+  font-size: 12px;
+}
+.achievement-map{
+  display: inline-block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.achievement-search{
+  width: 100%;
+  height: 40px;
+  padding: 6px 10px;
+  font-size: 16px;
+  line-height: 40px;
+  color: #000;
+  background-color: #ccc;
+  background-image: none;
+  border: 1px solid #aaa;
+  outline: none;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 0 7px #000;
+  box-shadow: inset 0 0 7px #000;
+}
+
